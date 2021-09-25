@@ -1,0 +1,6 @@
+{
+    "nameSpace": "commons",
+    "name": "employee",
+    "type": "EXTENDED",
+    "extendsType": "commons.person"
+}

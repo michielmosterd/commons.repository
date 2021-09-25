@@ -1,0 +1,6 @@
+{
+    "name": "dossier",
+    "nameSpace": "commons",
+    "type": "ABSTRACT",
+    "extendsType": "commons.all"
+}

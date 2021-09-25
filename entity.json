@@ -1,0 +1,6 @@
+{
+    "name": "entity",
+    "nameSpace": "commons",
+    "type": "ABSTRACT",
+    "extendsType": "commons.all"
+}

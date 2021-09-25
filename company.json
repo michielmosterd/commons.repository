@@ -1,0 +1,13 @@
+{
+    "nameSpace": "commons",
+    "name": "company",
+    "type": "BASIC",
+    "nameValueType": "name",
+    "extendsType": "commons.entity",
+    "valueTypes": [
+        { "name": "name", "dataType": "TEXT"}
+    ],
+    "activeValueTypes": [
+        { "name": "name", "required": true}
+    ]
+}

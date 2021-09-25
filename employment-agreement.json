@@ -1,0 +1,22 @@
+{
+    "nameSpace": "commons",
+    "name": "employment-agreement",
+    "type": "BASIC",
+    "extendsType": "commons.agreement",
+    "valueTypes": [
+        { "name": "job-title", "dataType": "TEXT"}
+    ],
+    "activeValueTypes": [
+        { "name": "job-title", "required": true}
+    ],
+    "formulas": [
+        { 
+            "valueType": "description",
+            "formula": "{{job-title}}"
+        }
+    ],
+    "relations": [
+        { "type": "commons.company", "required": true, "multiple": false},
+        { "type": "commons.employee", "required": true, "multiple": false}
+    ]
+}

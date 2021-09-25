@@ -1,0 +1,16 @@
+{
+    "name": "agreement",
+    "nameSpace": "commons",
+    "type": "ABSTRACT",
+    "extendsType": "commons.dossier",
+    "nameValueType": "description",
+    "valueTypes": [
+        { "name": "description", "dataType": "TEXT"},
+        { "name": "active-date", "dataType": "DATE"},
+        { "name": "inactive-date", "dataType": "DATE"}
+    ],
+    "activeValueTypes": [
+        { "name": "description"},
+        { "name": "active-date"},
+        { "name": "inactive-date"}    ]
+}
