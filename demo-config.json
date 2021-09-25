@@ -1,0 +1,7 @@
+{
+    "imports": [
+        "commons.company",
+        "commons.person",
+        "commons.employment-agreement"
+    ]
+}
