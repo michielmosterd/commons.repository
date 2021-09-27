@@ -1,7 +1,5 @@
 {
     "imports": [
-        "commons.company",
-        "commons.person",
-        "commons.employment-agreement"
+        { "name": "commons.employment-agreement" }
     ]
 }
