@@ -1,0 +1,27 @@
+{
+    "name": "region",
+    "nameSpace": "northwindModel",
+    "nameValueType": "regionDescription",
+    "valueTypes": [
+        {
+            "name": "regionID",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "regionDescription",
+            "dataType": "TEXT"
+        }
+    ],
+    "activeValueTypes": [
+        {
+            "name": "regionID",
+            "required": true
+        },
+        {
+            "name": "regionDescription",
+            "required": true
+        }
+    ],
+    "relations": [],
+    "type": "BASIC"
+}

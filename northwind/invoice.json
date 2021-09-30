@@ -1,0 +1,219 @@
+{
+    "name": "invoice",
+    "nameSpace": "northwindModel",
+    "nameValueType": "orderID",
+    "valueTypes": [
+        {
+            "name": "shipName",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shipAddress",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shipCity",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shipRegion",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shipPostalCode",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shipCountry",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "customerID",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "customerName",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "address",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "city",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "region",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "postalCode",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "country",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "salesperson",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "orderID",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "orderDate",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "requiredDate",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shippedDate",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shipperName",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "productID",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "productName",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "unitPrice",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "quantity",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "discount",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "extendedPrice",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "freight",
+            "dataType": "TEXT"
+        }
+    ],
+    "activeValueTypes": [
+        {
+            "name": "shipName",
+            "required": false
+        },
+        {
+            "name": "shipAddress",
+            "required": false
+        },
+        {
+            "name": "shipCity",
+            "required": false
+        },
+        {
+            "name": "shipRegion",
+            "required": false
+        },
+        {
+            "name": "shipPostalCode",
+            "required": false
+        },
+        {
+            "name": "shipCountry",
+            "required": false
+        },
+        {
+            "name": "customerID",
+            "required": false
+        },
+        {
+            "name": "customerName",
+            "required": true
+        },
+        {
+            "name": "address",
+            "required": false
+        },
+        {
+            "name": "city",
+            "required": false
+        },
+        {
+            "name": "region",
+            "required": false
+        },
+        {
+            "name": "postalCode",
+            "required": false
+        },
+        {
+            "name": "country",
+            "required": false
+        },
+        {
+            "name": "salesperson",
+            "required": true
+        },
+        {
+            "name": "orderID",
+            "required": true
+        },
+        {
+            "name": "orderDate",
+            "required": false
+        },
+        {
+            "name": "requiredDate",
+            "required": false
+        },
+        {
+            "name": "shippedDate",
+            "required": false
+        },
+        {
+            "name": "shipperName",
+            "required": true
+        },
+        {
+            "name": "productID",
+            "required": true
+        },
+        {
+            "name": "productName",
+            "required": true
+        },
+        {
+            "name": "unitPrice",
+            "required": true
+        },
+        {
+            "name": "quantity",
+            "required": true
+        },
+        {
+            "name": "discount",
+            "required": true
+        },
+        {
+            "name": "extendedPrice",
+            "required": false
+        },
+        {
+            "name": "freight",
+            "required": false
+        }
+    ],
+    "relations": [],
+    "type": "BASIC"
+}

@@ -1,0 +1,33 @@
+{
+    "name": "territory",
+    "nameSpace": "northwindModel",
+    "nameValueType": "territoryDescription",
+    "valueTypes": [
+        {
+            "name": "territoryID",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "territoryDescription",
+            "dataType": "TEXT"
+        }
+    ],
+    "activeValueTypes": [
+        {
+            "name": "territoryID",
+            "required": true
+        },
+        {
+            "name": "territoryDescription",
+            "required": true
+        }
+    ],
+    "relations": [
+        {
+            "type": "northwindModel.region",
+            "required": true,
+            "multiple": false
+        }
+    ],
+    "type": "BASIC"
+}

@@ -1,0 +1,35 @@
+{
+    "name": "shipper",
+    "nameSpace": "northwindModel",
+    "nameValueType": "companyName",
+    "valueTypes": [
+        {
+            "name": "shipperID",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "companyName",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "phone",
+            "dataType": "TEXT"
+        }
+    ],
+    "activeValueTypes": [
+        {
+            "name": "shipperID",
+            "required": true
+        },
+        {
+            "name": "companyName",
+            "required": true
+        },
+        {
+            "name": "phone",
+            "required": false
+        }
+    ],
+    "relations": [],
+    "type": "BASIC"
+}

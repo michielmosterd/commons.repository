@@ -1,0 +1,15 @@
+{
+    "imports": [
+        { "name": "northwindModel.category" },
+        { "name": "northwindModel.employee" },
+        { "name": "northwindModel.region" },
+        { "name": "northwindModel.orderDetail" },
+        { "name": "northwindModel.supplier" },
+        { "name": "northwindModel.customer" },
+        { "name": "northwindModel.invoice" },
+        { "name": "northwindModel.order" },
+        { "name": "northwindModel.product" },
+        { "name": "northwindModel.shipper" },
+        { "name": "northwindModel.territory" }
+    ]
+}

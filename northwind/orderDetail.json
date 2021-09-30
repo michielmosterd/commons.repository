@@ -1,0 +1,46 @@
+{
+    "name": "orderDetail",
+    "nameSpace": "northwindModel",
+    "nameValueType": "quantity",
+    "valueTypes": [
+        {
+            "name": "unitPrice",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "quantity",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "discount",
+            "dataType": "TEXT"
+        }
+    ],
+    "activeValueTypes": [
+        {
+            "name": "unitPrice",
+            "required": true
+        },
+        {
+            "name": "quantity",
+            "required": true
+        },
+        {
+            "name": "discount",
+            "required": true
+        }
+    ],
+    "relations": [
+        {
+            "type": "northwindModel.order",
+            "required": true,
+            "multiple": false
+        },
+        {
+            "type": "northwindModel.product",
+            "required": true,
+            "multiple": false
+        }
+    ],
+    "type": "BASIC"
+}

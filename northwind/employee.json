@@ -1,0 +1,171 @@
+{
+    "name": "employee",
+    "nameSpace": "northwindModel",
+    "nameValueType": "name",
+    "valueTypes": [
+        {
+            "name": "name",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "employeeID",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "lastName",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "firstName",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "title",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "titleOfCourtesy",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "birthDate",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "hireDate",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "address",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "city",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "region",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "postalCode",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "country",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "homePhone",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "extension",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "photo",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "notes",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "reportsTo",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "photoPath",
+            "dataType": "TEXT"
+        }
+    ],
+    "activeValueTypes": [
+        {
+            "name": "employeeID",
+            "required": true
+        },
+        {
+            "name": "lastName",
+            "required": true
+        },
+        {
+            "name": "firstName",
+            "required": true
+        },
+        {
+            "name": "title",
+            "required": false
+        },
+        {
+            "name": "titleOfCourtesy",
+            "required": false
+        },
+        {
+            "name": "birthDate",
+            "required": false
+        },
+        {
+            "name": "hireDate",
+            "required": false
+        },
+        {
+            "name": "address",
+            "required": false
+        },
+        {
+            "name": "city",
+            "required": false
+        },
+        {
+            "name": "region",
+            "required": false
+        },
+        {
+            "name": "postalCode",
+            "required": false
+        },
+        {
+            "name": "country",
+            "required": false
+        },
+        {
+            "name": "homePhone",
+            "required": false
+        },
+        {
+            "name": "extension",
+            "required": false
+        },
+        {
+            "name": "photo",
+            "required": false
+        },
+        {
+            "name": "notes",
+            "required": false
+        },
+        {
+            "name": "reportsTo",
+            "required": false
+        },
+        {
+            "name": "photoPath",
+            "required": false
+        }
+    ],
+    "formulas": [
+        { 
+            "valueType": "name",
+            "formula": "{{firstName}} {{lastName}}"
+        }
+    ],
+    "relations": [
+        {
+            "type": "northwindModel.territory",
+            "required": false,
+            "multiple": true
+        }
+    ],
+    "type": "BASIC"
+}

@@ -1,0 +1,99 @@
+{
+    "name": "customer",
+    "nameSpace": "northwindModel",
+    "nameValueType": "companyName",
+    "valueTypes": [
+        {
+            "name": "customerID",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "companyName",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "contactName",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "contactTitle",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "address",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "city",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "region",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "postalCode",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "country",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "phone",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "fax",
+            "dataType": "TEXT"
+        }
+    ],
+    "activeValueTypes": [
+        {
+            "name": "customerID",
+            "required": true
+        },
+        {
+            "name": "companyName",
+            "required": true
+        },
+        {
+            "name": "contactName",
+            "required": false
+        },
+        {
+            "name": "contactTitle",
+            "required": false
+        },
+        {
+            "name": "address",
+            "required": false
+        },
+        {
+            "name": "city",
+            "required": false
+        },
+        {
+            "name": "region",
+            "required": false
+        },
+        {
+            "name": "postalCode",
+            "required": false
+        },
+        {
+            "name": "country",
+            "required": false
+        },
+        {
+            "name": "phone",
+            "required": false
+        },
+        {
+            "name": "fax",
+            "required": false
+        }
+    ],
+    "relations": [],
+    "type": "BASIC"
+}

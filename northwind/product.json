@@ -1,0 +1,86 @@
+{
+    "name": "product",
+    "nameSpace": "northwindModel",
+    "nameValueType": "productID",
+    "valueTypes": [
+        {
+            "name": "productID",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "productName",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "quantityPerUnit",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "unitPrice",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "unitsInStock",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "unitsOnOrder",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "reorderLevel",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "discontinued",
+            "dataType": "TEXT"
+        }
+    ],
+    "activeValueTypes": [
+        {
+            "name": "productID",
+            "required": true
+        },
+        {
+            "name": "productName",
+            "required": true
+        },
+        {
+            "name": "quantityPerUnit",
+            "required": false
+        },
+        {
+            "name": "unitPrice",
+            "required": false
+        },
+        {
+            "name": "unitsInStock",
+            "required": false
+        },
+        {
+            "name": "unitsOnOrder",
+            "required": false
+        },
+        {
+            "name": "reorderLevel",
+            "required": false
+        },
+        {
+            "name": "discontinued",
+            "required": true
+        }
+    ],
+    "relations": [
+        {
+            "type": "northwindModel.category",
+            "required": false,
+            "multiple": false
+        },
+        {
+            "type": "northwindModel.supplier",
+            "required": false,
+            "multiple": false
+        }
+    ],
+    "type": "BASIC"
+}

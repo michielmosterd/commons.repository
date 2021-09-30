@@ -1,0 +1,43 @@
+{
+    "name": "category",
+    "nameSpace": "northwindModel",
+    "nameValueType": "categoryName",
+    "valueTypes": [
+        {
+            "name": "categoryID",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "categoryName",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "description",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "picture",
+            "dataType": "TEXT"
+        }
+    ],
+    "activeValueTypes": [
+        {
+            "name": "categoryID",
+            "required": true
+        },
+        {
+            "name": "categoryName",
+            "required": true
+        },
+        {
+            "name": "description",
+            "required": false
+        },
+        {
+            "name": "picture",
+            "required": false
+        }
+    ],
+    "relations": [],
+    "type": "BASIC"
+}

@@ -1,0 +1,115 @@
+{
+    "name": "order",
+    "nameSpace": "northwindModel",
+    "nameValueType": "orderID",
+    "valueTypes": [
+        {
+            "name": "orderID",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "orderDate",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "requiredDate",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shippedDate",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "freight",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shipName",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shipAddress",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shipCity",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shipRegion",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shipPostalCode",
+            "dataType": "TEXT"
+        },
+        {
+            "name": "shipCountry",
+            "dataType": "TEXT"
+        }
+    ],
+    "activeValueTypes": [
+        {
+            "name": "orderID",
+            "required": true
+        },
+        {
+            "name": "orderDate",
+            "required": false
+        },
+        {
+            "name": "requiredDate",
+            "required": false
+        },
+        {
+            "name": "shippedDate",
+            "required": false
+        },
+        {
+            "name": "freight",
+            "required": false
+        },
+        {
+            "name": "shipName",
+            "required": false
+        },
+        {
+            "name": "shipAddress",
+            "required": false
+        },
+        {
+            "name": "shipCity",
+            "required": false
+        },
+        {
+            "name": "shipRegion",
+            "required": false
+        },
+        {
+            "name": "shipPostalCode",
+            "required": false
+        },
+        {
+            "name": "shipCountry",
+            "required": false
+        }
+    ],
+    "relations": [
+        {
+            "type": "northwindModel.customer",
+            "required": false,
+            "multiple": false
+        },
+        {
+            "type": "northwindModel.employee",
+            "required": false,
+            "multiple": false
+        },
+        {
+            "type": "northwindModel.shipper",
+            "required": false,
+            "multiple": false
+        }
+    ],
+    "type": "BASIC"
+}
