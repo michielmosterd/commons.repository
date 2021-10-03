@@ -64,10 +64,6 @@
             "dataType": "TEXT"
         },
         {
-            "name": "photo",
-            "dataType": "TEXT"
-        },
-        {
             "name": "notes",
             "dataType": "TEXT"
         },
