@@ -6,7 +6,6 @@
         { "name": "northwindModel.orderDetail" },
         { "name": "northwindModel.supplier" },
         { "name": "northwindModel.customer" },
-        { "name": "northwindModel.invoice" },
         { "name": "northwindModel.order" },
         { "name": "northwindModel.product" },
         { "name": "northwindModel.shipper" },

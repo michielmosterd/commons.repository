@@ -5,7 +5,7 @@
     "valueTypes": [
         {
             "name": "supplierID",
-            "dataType": "TEXT"
+            "dataType": "INTEGER"
         },
         {
             "name": "companyName",

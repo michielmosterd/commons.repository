@@ -5,23 +5,23 @@
     "valueTypes": [
         {
             "name": "orderID",
-            "dataType": "TEXT"
+            "dataType": "INTEGER"
         },
         {
             "name": "orderDate",
-            "dataType": "TEXT"
+            "dataType": "DATE"
         },
         {
             "name": "requiredDate",
-            "dataType": "TEXT"
+            "dataType": "DATE"
         },
         {
             "name": "shippedDate",
-            "dataType": "TEXT"
+            "dataType": "DATE"
         },
         {
             "name": "freight",
-            "dataType": "TEXT"
+            "dataType": "DECIMAL"
         },
         {
             "name": "shipName",

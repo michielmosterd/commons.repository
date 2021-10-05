@@ -4,11 +4,11 @@
     "nameValueType": "name",
     "valueTypes": [
         {
-            "name": "name",
-            "dataType": "TEXT"
+            "name": "employeeID",
+            "dataType": "INTEGER"
         },
         {
-            "name": "employeeID",
+            "name": "name",
             "dataType": "TEXT"
         },
         {
@@ -29,11 +29,11 @@
         },
         {
             "name": "birthDate",
-            "dataType": "TEXT"
+            "dataType": "DATE"
         },
         {
             "name": "hireDate",
-            "dataType": "TEXT"
+            "dataType": "DATE"
         },
         {
             "name": "address",
@@ -65,10 +65,6 @@
         },
         {
             "name": "notes",
-            "dataType": "TEXT"
-        },
-        {
-            "name": "reportsTo",
             "dataType": "TEXT"
         },
         {
@@ -78,6 +74,10 @@
     ],
     "activeValueTypes": [
         {
+            "name": "name",
+            "required": true
+        },
+        {
             "name": "employeeID",
             "required": true
         },
@@ -134,15 +134,7 @@
             "required": false
         },
         {
-            "name": "photo",
-            "required": false
-        },
-        {
             "name": "notes",
-            "required": false
-        },
-        {
-            "name": "reportsTo",
             "required": false
         },
         {
@@ -157,6 +149,11 @@
         }
     ],
     "relations": [
+        {
+            "type": "northwindModel.employee",
+            "required": false,
+            "multiple": false
+        },
         {
             "type": "northwindModel.territory",
             "required": false,

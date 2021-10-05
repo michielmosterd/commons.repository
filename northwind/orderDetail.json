@@ -1,19 +1,19 @@
 {
     "name": "orderDetail",
     "nameSpace": "northwindModel",
-    "nameValueType": "quantity",
+    "nameValueType": "orderID",
     "valueTypes": [
         {
             "name": "unitPrice",
-            "dataType": "TEXT"
+            "dataType": "DECIMAL"
         },
         {
             "name": "quantity",
-            "dataType": "TEXT"
+            "dataType": "INTEGER"
         },
         {
             "name": "discount",
-            "dataType": "TEXT"
+            "dataType": "INTEGER"
         }
     ],
     "activeValueTypes": [

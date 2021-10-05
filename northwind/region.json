@@ -5,7 +5,7 @@
     "valueTypes": [
         {
             "name": "regionID",
-            "dataType": "TEXT"
+            "dataType": "INTEGER"
         },
         {
             "name": "regionDescription",
