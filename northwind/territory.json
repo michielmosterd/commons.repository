@@ -1,6 +1,6 @@
 {
     "name": "territory",
-    "nameSpace": "northwindModel",
+    "namespace": "northwindModel",
     "nameValueType": "territoryDescription",
     "valueTypes": [
         {

@@ -1,6 +1,6 @@
 {
     "name": "order",
-    "nameSpace": "northwindModel",
+    "namespace": "northwindModel",
     "nameValueType": "orderID",
     "valueTypes": [
         {

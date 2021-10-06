@@ -1,6 +1,6 @@
 {
     "name": "entity",
-    "nameSpace": "commons",
+    "namespace": "commons",
     "type": "ABSTRACT",
     "extendsType": "commons.all"
 }

@@ -1,6 +1,6 @@
 {
     "name": "category",
-    "nameSpace": "northwindModel",
+    "namespace": "northwindModel",
     "nameValueType": "categoryName",
     "valueTypes": [
         {

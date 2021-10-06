@@ -1,6 +1,6 @@
 {
     "name": "shipper",
-    "nameSpace": "northwindModel",
+    "namespace": "northwindModel",
     "nameValueType": "companyName",
     "valueTypes": [
         {

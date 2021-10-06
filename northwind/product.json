@@ -1,6 +1,6 @@
 {
     "name": "product",
-    "nameSpace": "northwindModel",
+    "namespace": "northwindModel",
     "nameValueType": "productName",
     "valueTypes": [
         {

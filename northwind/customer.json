@@ -1,6 +1,6 @@
 {
     "name": "customer",
-    "nameSpace": "northwindModel",
+    "namespace": "northwindModel",
     "nameValueType": "companyName",
     "valueTypes": [
         {

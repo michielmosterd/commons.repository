@@ -1,6 +1,6 @@
 {
     "name": "region",
-    "nameSpace": "northwindModel",
+    "namespace": "northwindModel",
     "nameValueType": "regionDescription",
     "valueTypes": [
         {

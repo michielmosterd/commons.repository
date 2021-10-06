@@ -1,6 +1,6 @@
 {
     "name": "agreement",
-    "nameSpace": "commons",
+    "namespace": "commons",
     "type": "ABSTRACT",
     "extendsType": "commons.dossier",
     "nameValueType": "description",

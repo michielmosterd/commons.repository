@@ -1,6 +1,6 @@
 {
     "name": "employee",
-    "nameSpace": "northwindModel",
+    "namespace": "northwindModel",
     "nameValueType": "name",
     "valueTypes": [
         {

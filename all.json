@@ -1,6 +1,6 @@
 {
     "name": "all",
     "type": "ABSTRACT",
-    "nameSpace": "commons",
+    "namespace": "commons",
     "extendsType": null
 }
