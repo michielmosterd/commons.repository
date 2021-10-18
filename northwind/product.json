@@ -1,7 +1,7 @@
 {
     "name": "product",
     "namespace": "northwindModel",
-    "nameValueType": "productName",
+    "extendsType": "commons.item",
     "valueTypes": [
         {
             "name": "productID",
@@ -80,6 +80,12 @@
             "type": "northwindModel.supplier",
             "required": false,
             "multiple": false
+        }
+    ],
+    "formulas": [
+        { 
+            "valueType": "name",
+            "formula": "{{productName}}"
         }
     ],
     "type": "BASIC"

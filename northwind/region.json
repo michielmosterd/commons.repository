@@ -1,7 +1,7 @@
 {
     "name": "region",
     "namespace": "northwindModel",
-    "nameValueType": "regionDescription",
+    "extendsType": "commons.item",
     "valueTypes": [
         {
             "name": "regionID",
@@ -20,6 +20,12 @@
         {
             "name": "regionDescription",
             "required": true
+        }
+    ],
+    "formulas": [
+        { 
+            "valueType": "name",
+            "formula": "{{regionDescription}}"
         }
     ],
     "relations": [],

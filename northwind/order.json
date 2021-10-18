@@ -1,7 +1,7 @@
 {
     "name": "order",
     "namespace": "northwindModel",
-    "nameValueType": "orderID",
+    "extendsType": "commons.item",
     "valueTypes": [
         {
             "name": "orderID",
@@ -92,6 +92,12 @@
         {
             "name": "shipCountry",
             "required": false
+        }
+    ],
+    "formulas": [
+        { 
+            "valueType": "name",
+            "formula": "{{orderID}}"
         }
     ],
     "relations": [

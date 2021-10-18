@@ -1,7 +1,7 @@
 {
     "name": "shipper",
     "namespace": "northwindModel",
-    "nameValueType": "companyName",
+    "extendsType": "commons.item",
     "valueTypes": [
         {
             "name": "shipperID",
@@ -28,6 +28,12 @@
         {
             "name": "phone",
             "required": false
+        }
+    ],
+    "formulas": [
+        { 
+            "valueType": "name",
+            "formula": "{{companyName}}"
         }
     ],
     "relations": [],

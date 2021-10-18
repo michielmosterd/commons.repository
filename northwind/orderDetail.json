@@ -1,7 +1,7 @@
 {
     "name": "orderDetail",
     "namespace": "northwindModel",
-    "nameValueType": "orderID",
+    "extendsType": "commons.item",
     "valueTypes": [
         {
             "name": "unitPrice",
@@ -28,6 +28,12 @@
         {
             "name": "discount",
             "required": true
+        }
+    ],
+    "formulas": [
+        { 
+            "valueType": "name",
+            "formula": "{{orderID}}"
         }
     ],
     "relations": [

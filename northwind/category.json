@@ -1,7 +1,7 @@
 {
     "name": "category",
     "namespace": "northwindModel",
-    "nameValueType": "categoryName",
+    "extendsType": "commons.item",
     "valueTypes": [
         {
             "name": "categoryID",
@@ -28,6 +28,12 @@
         {
             "name": "description",
             "required": false
+        }
+    ],
+    "formulas": [
+        { 
+            "valueType": "name",
+            "formula": "{{categoryName}}"
         }
     ],
     "relations": [],

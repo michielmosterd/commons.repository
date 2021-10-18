@@ -1,7 +1,7 @@
 {
     "name": "territory",
     "namespace": "northwindModel",
-    "nameValueType": "territoryDescription",
+    "extendsType": "commons.item",
     "valueTypes": [
         {
             "name": "territoryID",
@@ -27,6 +27,12 @@
             "type": "northwindModel.region",
             "required": true,
             "multiple": false
+        }
+    ],
+    "formulas": [
+        { 
+            "valueType": "name",
+            "formula": "{{territoryDescription}}"
         }
     ],
     "type": "BASIC"

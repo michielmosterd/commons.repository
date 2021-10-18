@@ -1,15 +1,11 @@
 {
     "name": "employee",
     "namespace": "northwindModel",
-    "nameValueType": "name",
+    "extendsType": "commons.item",
     "valueTypes": [
         {
             "name": "employeeID",
             "dataType": "INTEGER"
-        },
-        {
-            "name": "name",
-            "dataType": "TEXT"
         },
         {
             "name": "lastName",
@@ -73,10 +69,6 @@
         }
     ],
     "activeValueTypes": [
-        {
-            "name": "name",
-            "required": true
-        },
         {
             "name": "employeeID",
             "required": true
