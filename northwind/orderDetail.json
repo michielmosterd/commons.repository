@@ -55,8 +55,8 @@
         "defaultView": true,
         "defaultSort": "product,order",
         "values": [
-            "product",
-            "order",
+            "northwindModel.product",
+            "northwindModel.order",
             "unitPrice",
             "quantity",
             "discount"

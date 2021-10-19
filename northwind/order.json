@@ -124,7 +124,7 @@
         "defaultView": true,
         "defaultSort": "orderId",
         "values": [
-            "customer",
+            "northwindModel.customer",
             "orderId",
             "orderDate"
         ]
