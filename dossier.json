@@ -1,6 +1,0 @@
-{
-    "name": "dossier",
-    "namespace": "commons",
-    "type": "ABSTRACT",
-    "extendsType": "commons.all"
-}

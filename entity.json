@@ -1,6 +1,0 @@
-{
-    "name": "entity",
-    "namespace": "commons",
-    "type": "ABSTRACT",
-    "extendsType": "commons.all"
-}
