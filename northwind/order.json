@@ -117,5 +117,17 @@
             "multiple": false
         }
     ],
-    "type": "BASIC"
+    "type": "BASIC",
+    "views": [
+      {
+        "name": "Overview",
+        "defaultView": true,
+        "defaultSort": "orderId",
+        "values": [
+            "customer",
+            "orderId",
+            "orderDate"
+        ]
+      }
+    ]
 }

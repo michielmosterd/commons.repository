@@ -48,5 +48,19 @@
             "multiple": false
         }
     ],
-    "type": "BASIC"
+    "type": "BASIC",
+    "views": [
+      {
+        "name": "Overview",
+        "defaultView": true,
+        "defaultSort": "product,order",
+        "values": [
+            "product",
+            "order",
+            "unitPrice",
+            "quantity",
+            "discount"
+        ]
+      }
+    ]
 }
