@@ -8,6 +8,10 @@
             "dataType": "DECIMAL"
         },
         {
+            "name": "total",
+            "dataType": "DECIMAL"
+        },
+        {
             "name": "quantity",
             "dataType": "INTEGER"
         },
@@ -17,6 +21,10 @@
         }
     ],
     "activeValueTypes": [
+        {
+            "name": "total",
+            "required": false
+        },
         {
             "name": "unitPrice",
             "required": true
@@ -31,9 +39,13 @@
         }
     ],
     "formulas": [
-        { 
+        {
             "valueType": "name",
             "formula": "{{orderID}}"
+        },
+        {
+            "valueType": "total",
+            "formula": "{{quantity}} * {{unitPrice}} * (1 - {{discount}})"
         }
     ],
     "relations": [
@@ -50,17 +62,17 @@
     ],
     "type": "BASIC",
     "views": [
-      {
-        "name": "Overview",
-        "defaultView": true,
-        "defaultSort": "product,order",
-        "values": [
-            "northwindModel.product",
-            "northwindModel.order",
-            "unitPrice",
-            "quantity",
-            "discount"
-        ]
-      }
+        {
+            "name": "Overview",
+            "defaultView": true,
+            "defaultSort": "product,order",
+            "values": [
+                "northwindModel.product",
+                "northwindModel.order",
+                "unitPrice",
+                "quantity",
+                "discount"
+            ]
+        }
     ]
 }
