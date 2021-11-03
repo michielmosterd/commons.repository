@@ -5,11 +5,13 @@
     "valueTypes": [
         {
             "name": "productID",
-            "dataType": "INTEGER"
+            "dataType": "INTEGER",
+            "required": true
         },
         {
             "name": "productName",
-            "dataType": "TEXT"
+            "dataType": "TEXT",
+            "required": true
         },
         {
             "name": "quantityPerUnit",
@@ -33,53 +35,8 @@
         },
         {
             "name": "discontinued",
-            "dataType": "BOOLEAN"
-        }
-    ],
-    "activeValueTypes": [
-        {
-            "name": "productID",
+            "dataType": "BOOLEAN",
             "required": true
-        },
-        {
-            "name": "productName",
-            "required": true
-        },
-        {
-            "name": "quantityPerUnit",
-            "required": false
-        },
-        {
-            "name": "unitPrice",
-            "required": false
-        },
-        {
-            "name": "unitsInStock",
-            "required": false
-        },
-        {
-            "name": "unitsOnOrder",
-            "required": false
-        },
-        {
-            "name": "reorderLevel",
-            "required": false
-        },
-        {
-            "name": "discontinued",
-            "required": true
-        }
-    ],
-    "relations": [
-        {
-            "type": "northwindModel.category",
-            "required": false,
-            "multiple": false
-        },
-        {
-            "type": "northwindModel.supplier",
-            "required": false,
-            "multiple": false
         }
     ],
     "formulas": [

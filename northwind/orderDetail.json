@@ -5,7 +5,8 @@
     "valueTypes": [
         {
             "name": "unitPrice",
-            "dataType": "DECIMAL"
+            "dataType": "DECIMAL",
+            "required": true
         },
         {
             "name": "total",
@@ -13,28 +14,12 @@
         },
         {
             "name": "quantity",
-            "dataType": "INTEGER"
-        },
-        {
-            "name": "discount",
-            "dataType": "DECIMAL"
-        }
-    ],
-    "activeValueTypes": [
-        {
-            "name": "total",
-            "required": false
-        },
-        {
-            "name": "unitPrice",
-            "required": true
-        },
-        {
-            "name": "quantity",
+            "dataType": "INTEGER",
             "required": true
         },
         {
             "name": "discount",
+            "dataType": "DECIMAL",
             "required": true
         }
     ],

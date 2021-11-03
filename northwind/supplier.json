@@ -5,11 +5,13 @@
     "valueTypes": [
         {
             "name": "supplierID",
-            "dataType": "INTEGER"
+            "dataType": "INTEGER",
+            "required": true
         },
         {
             "name": "companyName",
-            "dataType": "TEXT"
+            "dataType": "TEXT",
+            "required": true
         },
         {
             "name": "contactName",
@@ -50,56 +52,6 @@
         {
             "name": "homePage",
             "dataType": "TEXT"
-        }
-    ],
-    "activeValueTypes": [
-        {
-            "name": "supplierID",
-            "required": true
-        },
-        {
-            "name": "companyName",
-            "required": true
-        },
-        {
-            "name": "contactName",
-            "required": false
-        },
-        {
-            "name": "contactTitle",
-            "required": false
-        },
-        {
-            "name": "address",
-            "required": false
-        },
-        {
-            "name": "city",
-            "required": false
-        },
-        {
-            "name": "region",
-            "required": false
-        },
-        {
-            "name": "postalCode",
-            "required": false
-        },
-        {
-            "name": "country",
-            "required": false
-        },
-        {
-            "name": "phone",
-            "required": false
-        },
-        {
-            "name": "fax",
-            "required": false
-        },
-        {
-            "name": "homePage",
-            "required": false
         }
     ],
     "formulas": [

@@ -5,29 +5,17 @@
     "valueTypes": [
         {
             "name": "shipperID",
-            "dataType": "INTEGER"
-        },
-        {
-            "name": "companyName",
-            "dataType": "TEXT"
-        },
-        {
-            "name": "phone",
-            "dataType": "TEXT"
-        }
-    ],
-    "activeValueTypes": [
-        {
-            "name": "shipperID",
+            "dataType": "INTEGER",
             "required": true
         },
         {
             "name": "companyName",
+            "dataType": "TEXT",
             "required": true
         },
         {
             "name": "phone",
-            "required": false
+            "dataType": "TEXT"
         }
     ],
     "formulas": [

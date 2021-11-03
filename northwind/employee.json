@@ -5,15 +5,18 @@
     "valueTypes": [
         {
             "name": "employeeID",
-            "dataType": "INTEGER"
+            "dataType": "INTEGER",
+            "required": true
         },
         {
             "name": "lastName",
-            "dataType": "TEXT"
+            "dataType": "TEXT",
+            "required": true
         },
         {
             "name": "firstName",
-            "dataType": "TEXT"
+            "dataType": "TEXT",
+            "required": true
         },
         {
             "name": "title",
@@ -66,72 +69,6 @@
         {
             "name": "photoPath",
             "dataType": "TEXT"
-        }
-    ],
-    "activeValueTypes": [
-        {
-            "name": "employeeID",
-            "required": true
-        },
-        {
-            "name": "lastName",
-            "required": true
-        },
-        {
-            "name": "firstName",
-            "required": true
-        },
-        {
-            "name": "title",
-            "required": false
-        },
-        {
-            "name": "titleOfCourtesy",
-            "required": false
-        },
-        {
-            "name": "birthDate",
-            "required": false
-        },
-        {
-            "name": "hireDate",
-            "required": false
-        },
-        {
-            "name": "address",
-            "required": false
-        },
-        {
-            "name": "city",
-            "required": false
-        },
-        {
-            "name": "region",
-            "required": false
-        },
-        {
-            "name": "postalCode",
-            "required": false
-        },
-        {
-            "name": "country",
-            "required": false
-        },
-        {
-            "name": "homePhone",
-            "required": false
-        },
-        {
-            "name": "extension",
-            "required": false
-        },
-        {
-            "name": "notes",
-            "required": false
-        },
-        {
-            "name": "photoPath",
-            "required": false
         }
     ],
     "formulas": [

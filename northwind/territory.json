@@ -5,20 +5,12 @@
     "valueTypes": [
         {
             "name": "territoryID",
-            "dataType": "TEXT"
-        },
-        {
-            "name": "territoryDescription",
-            "dataType": "TEXT"
-        }
-    ],
-    "activeValueTypes": [
-        {
-            "name": "territoryID",
+            "dataType": "TEXT",
             "required": true
         },
         {
             "name": "territoryDescription",
+            "dataType": "TEXT",
             "required": true
         }
     ],

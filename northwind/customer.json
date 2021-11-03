@@ -5,11 +5,13 @@
     "valueTypes": [
         {
             "name": "customerID",
-            "dataType": "TEXT"
+            "dataType": "TEXT",
+            "required": true
         },
         {
             "name": "companyName",
-            "dataType": "TEXT"
+            "dataType": "TEXT",
+            "required": true
         },
         {
             "name": "contactName",
@@ -46,52 +48,6 @@
         {
             "name": "fax",
             "dataType": "TEXT"
-        }
-    ],
-    "activeValueTypes": [
-        {
-            "name": "customerID",
-            "required": true
-        },
-        {
-            "name": "companyName",
-            "required": true
-        },
-        {
-            "name": "contactName",
-            "required": false
-        },
-        {
-            "name": "contactTitle",
-            "required": false
-        },
-        {
-            "name": "address",
-            "required": false
-        },
-        {
-            "name": "city",
-            "required": false
-        },
-        {
-            "name": "region",
-            "required": false
-        },
-        {
-            "name": "postalCode",
-            "required": false
-        },
-        {
-            "name": "country",
-            "required": false
-        },
-        {
-            "name": "phone",
-            "required": false
-        },
-        {
-            "name": "fax",
-            "required": false
         }
     ],
     "formulas": [

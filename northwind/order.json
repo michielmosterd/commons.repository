@@ -5,7 +5,8 @@
     "valueTypes": [
         {
             "name": "orderID",
-            "dataType": "INTEGER"
+            "dataType": "INTEGER",
+            "required": true
         },
         {
             "name": "orderDate",
@@ -46,52 +47,6 @@
         {
             "name": "shipCountry",
             "dataType": "TEXT"
-        }
-    ],
-    "activeValueTypes": [
-        {
-            "name": "orderID",
-            "required": true
-        },
-        {
-            "name": "orderDate",
-            "required": false
-        },
-        {
-            "name": "requiredDate",
-            "required": false
-        },
-        {
-            "name": "shippedDate",
-            "required": false
-        },
-        {
-            "name": "freight",
-            "required": false
-        },
-        {
-            "name": "shipName",
-            "required": false
-        },
-        {
-            "name": "shipAddress",
-            "required": false
-        },
-        {
-            "name": "shipCity",
-            "required": false
-        },
-        {
-            "name": "shipRegion",
-            "required": false
-        },
-        {
-            "name": "shipPostalCode",
-            "required": false
-        },
-        {
-            "name": "shipCountry",
-            "required": false
         }
     ],
     "formulas": [

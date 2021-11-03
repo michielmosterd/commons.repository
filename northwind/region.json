@@ -5,20 +5,12 @@
     "valueTypes": [
         {
             "name": "regionID",
-            "dataType": "INTEGER"
-        },
-        {
-            "name": "regionDescription",
-            "dataType": "TEXT"
-        }
-    ],
-    "activeValueTypes": [
-        {
-            "name": "regionID",
+            "dataType": "INTEGER",
             "required": true
         },
         {
             "name": "regionDescription",
+            "dataType": "TEXT",
             "required": true
         }
     ],
