@@ -140,17 +140,23 @@
             "formula": "{{firstName}} {{lastName}}"
         }
     ],
-    "relations": [
-        {
-            "type": "northwindModel.employee",
-            "required": false,
-            "multiple": false
-        },
-        {
+    "relations": [{
             "type": "northwindModel.territory",
             "required": false,
             "multiple": true
         }
+    ],
+    "views": [
+      {
+        "name": "Overview",
+        "defaultView": true,
+        "defaultSort": "name",
+        "values": [
+            "name",
+            "title",
+            "northwindModel.territory"
+        ]
+      }
     ],
     "type": "BASIC"
 }
