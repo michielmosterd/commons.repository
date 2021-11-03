@@ -88,5 +88,17 @@
             "formula": "{{productName}}"
         }
     ],
+    "views": [
+      {
+        "name": "Overview",
+        "defaultView": true,
+        "defaultSort": "name",
+        "values": [
+            "name",
+            "northwindModel.category",
+            "northwindModel.supplier"
+        ]
+      }
+    ],
     "type": "BASIC"
 }
