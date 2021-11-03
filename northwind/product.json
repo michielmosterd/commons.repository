@@ -45,6 +45,18 @@
             "formula": "{{productName}}"
         }
     ],
+    "relations": [
+        {
+            "type": "northwindModel.category",
+            "required": false,
+            "multiple": false
+        },
+        {
+            "type": "northwindModel.supplier",
+            "required": false,
+            "multiple": false
+        }
+    ],
     "views": [
       {
         "name": "Overview",
