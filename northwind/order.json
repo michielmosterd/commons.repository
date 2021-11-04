@@ -52,7 +52,7 @@
     "formulas": [
         { 
             "valueType": "name",
-            "formula": "{{orderID}}"
+            "formula": "Order #{{orderID}}"
         }
     ],
     "relations": [
