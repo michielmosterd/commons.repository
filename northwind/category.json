@@ -16,6 +16,11 @@
         {
             "name": "description",
             "dataType": "TEXT"
+        },
+        {
+            "name": "picture",
+            "dataType": "IMAGE",
+            "required": true
         }
     ],
     "formulas": [
