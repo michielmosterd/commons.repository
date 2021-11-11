@@ -37,6 +37,11 @@
             "name": "discontinued",
             "dataType": "BOOLEAN",
             "required": true
+        },
+        {
+            "name": "picture",
+            "dataType": "IMAGE",
+            "required": true
         }
     ],
     "formulas": [
