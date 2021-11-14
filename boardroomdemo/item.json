@@ -1,0 +1,86 @@
+{
+    "imports": [
+        {
+            "name": "boardroom.company"
+        },
+        {
+            "name": "boardroom.person"
+        },
+        {
+            "name": "boardroom.annex"
+        },
+        {
+            "name": "boardroom.document"
+        },
+        {
+            "name": "boardroom.agendaItem"
+        },
+        {
+            "name": "boardroom.minutesAndOrResolution"
+        },
+        {
+            "name": "boardroom.committee"
+        },
+        {
+            "name": "boardroom.committeeMember"
+        },
+        {
+            "name": "boardroom.secretary"
+        },
+        {
+            "name": "boardroom.invitee"
+        },
+        {
+            "name": "boardroom.report"
+        },
+        {
+            "name": "boardroom.actions"
+        },
+        {
+            "name": "boardroom.library"
+        },
+        {
+            "name": "boardroom.conceptMeeting"
+        },
+        {
+            "name": "boardroom.finalisedMeeting"
+        },
+        {
+            "name": "boardroom.workflowTitle"
+        },
+        {
+            "name": "boardroom.archive"
+        },
+        {
+            "name": "boardroom.relationCommittee"
+        },
+        {
+            "name": "boardroom.logo"
+        }
+    ],
+    "name": "item",
+    "namespace": "boardroom",
+    "overridesType": "commons.item",
+    "valueTypes": [
+        {
+            "name": "description",
+            "dataType": "TEXT",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "summary",
+            "dataType": "TEXT",
+            "enabled": true,
+            "required": false
+        }
+    ],
+    "formulas": [
+        { 
+            "valueType": "name",
+            "formula": "{{description}}"
+        }
+    ],
+    "relations": [],
+    "type": "ABSTRACT"
+}

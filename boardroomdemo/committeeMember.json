@@ -1,0 +1,1 @@
+{"name":"committeeMember","namespace":"boardroom","extendsType":"boardroom.activeRole","valueTypes":[{"name":"_description","dataType":"TEXT","enabled":true,"required":false}],"relations":[],"type":"BASIC"}

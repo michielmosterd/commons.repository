@@ -1,0 +1,1 @@
+{"name":"activeRole","namespace":"boardroom","extendsType":"boardroom.roles","valueTypes":[],"relations":[{"type":"boardroom.committee","required":true,"multiple":false}],"type":"ABSTRACT"}

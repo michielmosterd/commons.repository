@@ -1,0 +1,1 @@
+{"name":"document","namespace":"boardroom","extendsType":"boardroom.documents","valueTypes":[],"relations":[{"type":"boardroom.archive","required":false,"multiple":false}],"type":"BASIC"}

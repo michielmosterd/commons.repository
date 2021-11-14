@@ -1,0 +1,87 @@
+{
+    "name": "meeting",
+    "namespace": "boardroom",
+    "extendsType": "boardroom.boardRoom",
+    "valueTypes": [
+        {
+            "name": "meetingsubject",
+            "dataType": "TEXT",
+            "enabled": true,
+            "required": true
+        },
+        {
+            "name": "date1",
+            "dataType": "DATE",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "location",
+            "dataType": "TEXT",
+            "enabled": true,
+            "required": true
+        },
+        {
+            "name": "remarks1",
+            "dataType": "TEXT",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "start",
+            "dataType": "DATETIME",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "end",
+            "dataType": "DATETIME",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "starttimestamp",
+            "dataType": "DATETIME",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "endtimestampd",
+            "dataType": "DATETIME",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "meetingmaxindex",
+            "dataType": "INTEGER",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "meetinginactive",
+            "dataType": "DATE",
+            "enabled": true,
+            "required": true
+        },
+        {
+            "name": "_description",
+            "dataType": "TEXT",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "_summary",
+            "dataType": "TEXT",
+            "enabled": true,
+            "required": false
+        }
+    ],
+    "relations": [
+        {
+            "type": "boardroom.committee",
+            "required": true,
+            "multiple": false
+        }
+    ],
+    "type": "ABSTRACT"
+}

@@ -1,0 +1,1 @@
+{"name":"conceptMeeting","namespace":"boardroom","extendsType":"boardroom.meeting","valueTypes":[{"name":"_description","dataType":"TEXT","enabled":true,"required":false},{"name":"_summary","dataType":"TEXT","enabled":true,"required":false}],"relations":[],"type":"BASIC"}

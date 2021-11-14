@@ -1,0 +1,1 @@
+{"name":"finalisedMeeting","namespace":"boardroom","extendsType":"boardroom.meeting","valueTypes":[{"name":"cat","dataType":"TEXT","enabled":true,"required":false}],"relations":[],"type":"BASIC"}
