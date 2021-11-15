@@ -107,7 +107,7 @@
         "steps": [
             {
                 "source": "PhysicalPerson",
-                "target": "person",
+                "target": "boardroom.person",
                 "fields": [
                     {
                         "source": "lastName",
