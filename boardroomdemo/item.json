@@ -160,6 +160,7 @@
                     }
                 ]
             },
+            
             {
                 "source": "Meeting",
                 "target": "boardroom.meeting",
