@@ -160,10 +160,10 @@
                     }
                 ]
             },
-            
+
             {
-                "source": "Meeting",
-                "target": "boardroom.meeting",
+                "source": "FinalisedMeeting",
+                "target": "boardroom.finalisedMeeting",
                 "fields": [
                     {
                         "source": "meetingSubject",
