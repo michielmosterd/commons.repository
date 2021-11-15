@@ -78,7 +78,7 @@
     ],
     "relations": [
         {
-            "type": "boardroom.committee",
+            "type": "committee",
             "required": true,
             "multiple": false
         }
