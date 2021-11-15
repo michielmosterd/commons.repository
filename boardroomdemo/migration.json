@@ -62,7 +62,7 @@
             },
             {
                 "source": "Committee",
-                "target": "committee",
+                "target": "boardroom.committee",
                 "fields": [
                     {
                         "source": "committeeName",
