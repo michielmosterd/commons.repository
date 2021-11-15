@@ -103,7 +103,7 @@
             },
             {
                 "source": "AgendaItem",
-                "target": "agendaItem",
+                "target": "boardroom.agendaItem",
                 "fields": [
                     {
                         "source": "subject1",
