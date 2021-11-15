@@ -130,7 +130,7 @@
                         "target": "agendaindexformat"
                     },
                     {
-                        "source": "Committee",
+                        "source": "Meeting",
                         "target": "meeting",
                         "type": "RELATION"
                     }
