@@ -177,7 +177,7 @@
                         "target": "remarks1"
                     },
                     {
-                        "source": "Committee[id]",
+                        "source": "Committee",
                         "target": "boardroom.committee",
                         "type": "RELATION"
                     }
