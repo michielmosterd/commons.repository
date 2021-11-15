@@ -49,7 +49,7 @@
     "formulas": [
         {
             "valueType": "name",
-            "formula": "{{firstname_s}} {{prefix}} {{lastname}}"
+            "formula": "{{firstname_s}} {{lastname}}"
         }
     ],
     "relations": [],
