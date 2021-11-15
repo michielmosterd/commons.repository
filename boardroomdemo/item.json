@@ -151,7 +151,7 @@
                         "target": "committeename"
                     },
                     {
-                        "source": "committeesUpcomingMeetings",
+                        "source": "committeesUpcomingmeetings",
                         "target": "committeesupcomingmeetings"
                     },
                     {
