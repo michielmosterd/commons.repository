@@ -56,6 +56,9 @@
         },
         {
             "name": "boardroom.logo"
+        },
+        {
+            "name": "boardroom.migration"
         }
     ],
     "name": "item",
@@ -80,144 +83,5 @@
         }
     ],
     "relations": [],
-    "type": "ABSTRACT",
-    "migration": {
-        "migrationType": "effacts",
-        "parameters": [
-            {
-                "name": "URL",
-                "required": true
-            },
-            {
-                "name": "context",
-                "dataType": "INTEGER",
-                "required": true
-            },
-            {
-                "name": "username",
-                "required": true
-            },
-            {
-                "name": "password",
-                "required": true
-            }
-        ],
-        "steps": [
-            {
-                "source": "PhysicalPerson",
-                "target": "boardroom.person",
-                "fields": [
-                    {
-                        "source": "id",
-                        "target": "importId"
-                    },
-                    {
-                        "source": "lastName",
-                        "target": "lastname"
-                    },
-                    {
-                        "source": "firstName_s",
-                        "target": "firstname_s"
-                    },
-                    {
-                        "source": "email",
-                        "target": "email"
-                    },
-                    {
-                        "source": "gender",
-                        "target": "gender",
-                        "type": "LIST"
-                    },
-                    {
-                        "source": "prefix",
-                        "target": "prefix"
-                    },
-                    {
-                        "source": "initials",
-                        "target": "initials"
-                    },
-                    {
-                        "source": "field_description_44",
-                        "target": "role"
-                    }
-                ]
-            },
-            {
-                "source": "Committee",
-                "target": "committee",
-                "fields": [
-                    {
-                        "source": "committeeName",
-                        "target": "committeename"
-                    },
-                    {
-                        "source": "committeesUpcomingmeetings",
-                        "target": "committeesupcomingmeetings"
-                    },
-                    {
-                        "source": "ownOrgchart",
-                        "target": "ownorgchart"
-                    }
-                ]
-            },
-            {
-                "source": "FinalisedMeeting",
-                "target": "boardroom.finalisedMeeting",
-                "fields": [
-                    {
-                        "source": "meetingSubject",
-                        "target": "meetingsubject"
-                    },
-                    {
-                        "source": "location",
-                        "target": "location"
-                    },
-                    {
-                        "source": "remarks1",
-                        "target": "remarks1"
-                    },
-                    {
-                        "source": "Committee",
-                        "target": "committee",
-                        "type": "RELATION"
-                    }
-                ]
-            },
-            {
-                "source": "AgendaItem",
-                "target": "agendaItem",
-                "fields": [
-                    {
-                        "source": "subject1",
-                        "target": "subject1"
-                    },
-                    {
-                        "source": "responsible1",
-                        "target": "responsible1"
-                    },
-                    {
-                        "source": "moreinfo",
-                        "target": "moreinfo"
-                    },
-                    {
-                        "source": "desc",
-                        "target": "desc"
-                    },
-                    {
-                        "source": "agendaItemindex",
-                        "target": "agendaitemindex"
-                    },
-                    {
-                        "source": "agendaIndexformat",
-                        "target": "agendaindexformat"
-                    },
-                    {
-                        "source": "Committee",
-                        "target": "meeting",
-                        "type": "RELATION"
-                    }
-                ]
-            }
-        ]
-    }
+    "type": "ABSTRACT"
 }
