@@ -75,12 +75,6 @@
             "required": false
         }
     ],
-    "formulas": [
-        {
-            "valueType": "name",
-            "formula": "{{description}}"
-        }
-    ],
     "relations": [],
     "type": "ABSTRACT",
     "migration": {
