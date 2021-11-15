@@ -123,7 +123,8 @@
                     },
                     {
                         "source": "gender",
-                        "target": "gender"
+                        "target": "gender",
+                        "type": "LIST"
                     },
                     {
                         "source": "prefix",
@@ -134,7 +135,7 @@
                         "target": "initials"
                     },
                     {
-                        "source": "initials",
+                        "source": "field_description_44",
                         "target": "role"
                     }
                 ]
