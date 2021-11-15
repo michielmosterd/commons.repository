@@ -63,6 +63,10 @@
     "overridesType": "commons.item",
     "valueTypes": [
         {
+            "name": "importId",
+            "dataType": "INTEGER"
+        },
+        {
             "name": "description",
             "dataType": "TEXT",
             "enabled": true,
@@ -104,6 +108,10 @@
                 "target": "boardroom.person",
                 "fields": [
                     {
+                        "source": "id",
+                        "target": "importId"
+                    },
+                    {
                         "source": "lastName",
                         "target": "lastname"
                     },
@@ -131,6 +139,47 @@
                     {
                         "source": "field_description_44",
                         "target": "role"
+                    }
+                ]
+            },
+            {
+                "source": "Committee",
+                "target": "boardroom.committee",
+                "fields": [
+                    {
+                        "source": "committeeName",
+                        "target": "committeename"
+                    },
+                    {
+                        "source": "committeesUpcomingMeetings",
+                        "target": "committeesupcomingmeetings"
+                    },
+                    {
+                        "source": "ownOrgchart",
+                        "target": "ownorgchart"
+                    }
+                ]
+            },
+            {
+                "source": "Meeting",
+                "target": "boardroom.meeting",
+                "fields": [
+                    {
+                        "source": "meetingSubject",
+                        "target": "meetingsubject"
+                    },
+                    {
+                        "source": "location",
+                        "target": "location"
+                    },
+                    {
+                        "source": "remarks1",
+                        "target": "remarks1"
+                    },
+                    {
+                        "source": "Committee[id]",
+                        "target": "boardroom.committee",
+                        "type": "RELATION"
                     }
                 ]
             }

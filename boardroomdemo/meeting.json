@@ -83,5 +83,11 @@
             "multiple": false
         }
     ],
+    "formulas": [
+        {
+            "valueType": "name",
+            "formula": "{{meetingsubject}}"
+        }
+    ],
     "type": "ABSTRACT"
 }
