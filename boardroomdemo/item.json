@@ -76,11 +76,69 @@
         }
     ],
     "formulas": [
-        { 
+        {
             "valueType": "name",
             "formula": "{{description}}"
         }
     ],
     "relations": [],
-    "type": "ABSTRACT"
+    "type": "ABSTRACT",
+    "migration": {
+        "migrationType": "effacts",
+        "parameters": [
+            {
+                "name": "URL",
+                "required": true
+            },
+            {
+                "name": "context",
+                "dataType": "INTEGER",
+                "required": true
+            },
+            {
+                "name": "username",
+                "required": true
+            },
+            {
+                "name": "password",
+                "required": true
+            }
+        ],
+        "steps": [
+            {
+                "source": "PhysicalPerson",
+                "target": "person",
+                "fields": [
+                    {
+                        "source": "lastName",
+                        "target": "lastname"
+                    },
+                    {
+                        "source": "firstName_s",
+                        "target": "firstname_s"
+                    },
+                    {
+                        "source": "email",
+                        "target": "email"
+                    },
+                    {
+                        "source": "gender",
+                        "target": "gender"
+                    },
+                    {
+                        "source": "prefix",
+                        "target": "prefix"
+                    },
+                    {
+                        "source": "initials",
+                        "target": "initials"
+                    },
+                    {
+                        "source": "initials",
+                        "target": "role"
+                    }
+                ]
+            }
+        ]
+    }
 }
