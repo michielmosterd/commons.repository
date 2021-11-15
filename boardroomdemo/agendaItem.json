@@ -1,1 +1,57 @@
-{"name":"agendaItem","namespace":"boardroom","extendsType":"boardroom.boardRoom","valueTypes":[{"name":"subject1","dataType":"TEXT","enabled":true,"required":false},{"name":"responsible1","dataType":"TEXT","enabled":true,"required":false},{"name":"moreinfo","dataType":"TEXT","enabled":true,"required":false},{"name":"desc","dataType":"TEXT","enabled":true,"required":true},{"name":"agendaitemindex","dataType":"INTEGER","enabled":true,"required":false},{"name":"agendaindexformat","dataType":"TEXT","enabled":true,"required":false},{"name":"_description","dataType":"TEXT","enabled":true,"required":false}],"relations":[{"type":"boardroom.meeting","required":false,"multiple":false},{"type":"boardroom.annex","required":false,"multiple":true}],"type":"BASIC"}
+{
+    "name": "agendaItem",
+    "namespace": "boardroom",
+    "extendsType": "boardroom.boardRoom",
+    "valueTypes": [
+        {
+            "name": "subject1",
+            "dataType": "TEXT",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "responsible1",
+            "dataType": "TEXT",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "moreinfo",
+            "dataType": "TEXT",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "desc",
+            "dataType": "TEXT",
+            "enabled": true,
+            "required": true
+        },
+        {
+            "name": "agendaitemindex",
+            "dataType": "INTEGER",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "agendaindexformat",
+            "dataType": "TEXT",
+            "enabled": true,
+            "required": false
+        },
+        {
+            "name": "_description",
+            "dataType": "TEXT",
+            "enabled": true,
+            "required": false
+        }
+    ],
+    "relations": [
+        {
+            "type": "boardroom.meeting",
+            "required": false,
+            "multiple": false
+        }
+    ],
+    "type": "BASIC"
+}

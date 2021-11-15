@@ -160,7 +160,6 @@
                     }
                 ]
             },
-
             {
                 "source": "FinalisedMeeting",
                 "target": "boardroom.finalisedMeeting",
@@ -179,7 +178,42 @@
                     },
                     {
                         "source": "Committee",
-                        "target": "boardroom.committee",
+                        "target": "committee",
+                        "type": "RELATION"
+                    }
+                ]
+            },
+            {
+                "source": "AgendaItem",
+                "target": "agendaItem",
+                "valueTypes": [
+                    {
+                        "source": "subject1",
+                        "target": "subject1"
+                    },
+                    {
+                        "source": "responsible1",
+                        "target": "responsible1"
+                    },
+                    {
+                        "source": "moreinfo",
+                        "target": "moreinfo"
+                    },
+                    {
+                        "source": "desc",
+                        "target": "desc"
+                    },
+                    {
+                        "source": "agendaItemindex",
+                        "target": "agendaitemindex"
+                    },
+                    {
+                        "source": "agendaIndexformat",
+                        "target": "agendaindexformat"
+                    },
+                    {
+                        "source": "Committee",
+                        "target": "meeting",
                         "type": "RELATION"
                     }
                 ]
