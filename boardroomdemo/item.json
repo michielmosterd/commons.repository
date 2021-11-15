@@ -186,7 +186,7 @@
             {
                 "source": "AgendaItem",
                 "target": "agendaItem",
-                "valueTypes": [
+                "fields": [
                     {
                         "source": "subject1",
                         "target": "subject1"
