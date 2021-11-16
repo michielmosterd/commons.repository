@@ -1,6 +1,6 @@
 {
     "imports": [
         { "name": "commons.demoConfig" },
-        { "name": "ccustomerx.company" }
+        { "name": "customerx.company" }
     ]
 }
