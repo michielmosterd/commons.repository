@@ -2,12 +2,10 @@
     "name": "company",
     "namespace": "customerx",
     "overridesType": "commons.company",
-    "valueTypes": [
-        {
-            "name": "myCompanyNumber",
-            "dataType": "INTEGER"
-        }
-    ],
-    "type": "ABSTRACT"
 
+
+    "valueTypes": [
+        { "name": "myCompanyNumber", "dataType": "INTEGER" },
+        { "name": "city", "dataType": "TEXT" }
+    ]
 }
