@@ -4,6 +4,7 @@
     "valueTypes": [
         { "name": "myCompanyNumber", "dataType": "INTEGER" },
         { "name": "telephone", "dataType": "TEXT" },
-        { "name": "city", "dataType": "TEXT" }
+        { "name": "city", "dataType": "TEXT" },
+        { "name": "registryNumber", "dataType": "TEXT" }
     ]
 }
