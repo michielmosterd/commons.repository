@@ -53,5 +53,11 @@
             "multiple": false
         }
     ],
+    "formulas": [
+        {
+            "valueType": "name",
+            "formula": "{{subject1}}"
+        }
+    ],
     "type": "BASIC"
 }
