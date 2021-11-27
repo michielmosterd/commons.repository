@@ -10,5 +10,8 @@
         { "name": "northwindModel.product" },
         { "name": "northwindModel.shipper" },
         { "name": "northwindModel.territory" }
+    ],
+    "assets": [
+      { "type": "LOGO", "filename": "northwind.png", "contentType": "image/png" }
     ]
 }
