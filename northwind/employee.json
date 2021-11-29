@@ -92,6 +92,7 @@
       {
         "name": "Overview",
         "defaultView": true,
+        "relationView": true,
         "defaultSort": "name",
         "values": [
             "name",

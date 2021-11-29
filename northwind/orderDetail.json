@@ -50,6 +50,7 @@
         {
             "name": "Overview",
             "defaultView": true,
+            "relationView": true,
             "defaultSort": "product,order",
             "values": [
                 "northwindModel.product",
