@@ -1,7 +1,8 @@
 {
-    "name": "order",
-    "namespace": "northwindModel",
-    "extendsType": "commons.item",
+    "class": "northwindModel.order",
+    "inherits": "commons.item",
+    "type": "BASIC",
+    
     "valueTypes": [
         {
             "name": "orderID",
@@ -72,7 +73,6 @@
             "multiple": false
         }
     ],
-    "type": "BASIC",
     "views": [
       {
         "name": "Overview",

@@ -1,5 +1,7 @@
 {
-    "overridesType": "commons.company",
+    "class": "customerx.company",
+    "type": "EXTENSION",
+    "extends": "commons.company",
 
     "valueTypes": [
         { "name": "myCompanyNumber", "dataType": "INTEGER" },

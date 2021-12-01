@@ -1,5 +1,8 @@
 {
+    "class": "customery.index",
+    "type": "NONE",
+
     "imports": [
-        { "name": "commons.demoConfig" }
+        { "class": "commons.demoConfig" }
     ]
 }

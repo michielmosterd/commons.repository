@@ -1,7 +1,8 @@
 {
-    "name": "orderDetail",
-    "namespace": "northwindModel",
-    "extendsType": "commons.item",
+    "class": "northwindModel.orderDetail",
+    "inherits": "commons.item",
+    "type": "BASIC",
+    
     "valueTypes": [
         {
             "name": "unitPrice",
@@ -45,7 +46,6 @@
             "multiple": false
         }
     ],
-    "type": "BASIC",
     "views": [
         {
             "name": "Overview",

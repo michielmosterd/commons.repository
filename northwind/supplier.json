@@ -1,7 +1,8 @@
 {
-    "name": "supplier",
-    "namespace": "northwindModel",
-    "extendsType": "commons.item",
+    "class": "northwindModel.supplier",
+    "inherits": "commons.item",
+    "type": "BASIC",
+    
     "valueTypes": [
         {
             "name": "supplierID",
@@ -60,6 +61,5 @@
             "formula": "{{companyName}}"
         }
     ],
-    "relations": [],
-    "type": "BASIC"
+    "relations": []
 }

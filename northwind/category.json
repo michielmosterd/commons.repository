@@ -1,7 +1,8 @@
 {
-    "name": "category",
-    "namespace": "northwindModel",
-    "extendsType": "commons.item",
+    "class": "northwindModel.category",
+    "inherits": "commons.item",
+    "type": "BASIC",
+
     "valueTypes": [
         {
             "name": "categoryID",
@@ -29,6 +30,5 @@
             "formula": "{{categoryName}}"
         }
     ],
-    "relations": [],
-    "type": "BASIC"
+    "relations": []
 }

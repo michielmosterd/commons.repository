@@ -1,7 +1,8 @@
 {
-    "name": "customer",
-    "namespace": "northwindModel",
-    "extendsType": "commons.item",
+    "class": "northwindModel.customer",
+    "inherits": "commons.item",
+    "type": "BASIC",
+    
     "valueTypes": [
         {
             "name": "customerID",
@@ -56,6 +57,5 @@
             "formula": "{{companyName}}"
         }
     ],
-    "relations": [],
-    "type": "BASIC"
+    "relations": []
 }

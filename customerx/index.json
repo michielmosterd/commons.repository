@@ -1,6 +1,9 @@
 {
+    "class": "customerx.index",
+    "type": "NONE",
+
     "imports": [
-        { "name": "commons.demoConfig" },
-        { "name": "customerx.company" }
+        { "class": "commons.demoConfig" },
+        { "class": "customerx.company" }
     ]
 }

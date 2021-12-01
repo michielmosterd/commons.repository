@@ -1,7 +1,8 @@
 {
-    "name": "shipper",
-    "namespace": "northwindModel",
-    "extendsType": "commons.item",
+    "class": "northwindModel.shipper",
+    "inherits": "commons.item",
+    "type": "BASIC",
+    
     "valueTypes": [
         {
             "name": "shipperID",
@@ -24,6 +25,5 @@
             "formula": "{{companyName}}"
         }
     ],
-    "relations": [],
-    "type": "BASIC"
+    "relations": []
 }

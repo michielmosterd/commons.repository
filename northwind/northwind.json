@@ -1,15 +1,18 @@
 {
+  "class": "northwindModel.northwind",
+  "type": "NONE",
+
     "imports": [
-        { "name": "northwindModel.category" },
-        { "name": "northwindModel.employee" },
-        { "name": "northwindModel.region" },
-        { "name": "northwindModel.orderDetail" },
-        { "name": "northwindModel.supplier" },
-        { "name": "northwindModel.customer" },
-        { "name": "northwindModel.order" },
-        { "name": "northwindModel.product" },
-        { "name": "northwindModel.shipper" },
-        { "name": "northwindModel.territory" }
+        { "class": "northwindModel.category" },
+        { "class": "northwindModel.employee" },
+        { "class": "northwindModel.region" },
+        { "class": "northwindModel.orderDetail" },
+        { "class": "northwindModel.supplier" },
+        { "class": "northwindModel.customer" },
+        { "class": "northwindModel.order" },
+        { "class": "northwindModel.product" },
+        { "class": "northwindModel.shipper" },
+        { "class": "northwindModel.territory" }
     ],
     "assets": [
       { "type": "LOGO", "filename": "northwind.png", "contentType": "image/png" }

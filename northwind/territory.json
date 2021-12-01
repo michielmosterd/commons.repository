@@ -1,7 +1,8 @@
 {
-    "name": "territory",
-    "namespace": "northwindModel",
-    "extendsType": "commons.item",
+    "class": "northwindModel.territory",
+    "inherits": "commons.item",
+    "type": "BASIC",
+    
     "valueTypes": [
         {
             "name": "territoryID",
@@ -26,6 +27,5 @@
             "valueType": "name",
             "formula": "{{territoryDescription}}"
         }
-    ],
-    "type": "BASIC"
+    ]
 }

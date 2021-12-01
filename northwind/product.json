@@ -1,7 +1,8 @@
 {
-    "name": "product",
-    "namespace": "northwindModel",
-    "extendsType": "commons.item",
+    "class": "northwindModel.product",
+    "inherits": "commons.item",
+    "type": "BASIC",
+    
     "valueTypes": [
         {
             "name": "productID",
@@ -69,6 +70,5 @@
             "northwindModel.supplier"
         ]
       }
-    ],
-    "type": "BASIC"
+    ]
 }
