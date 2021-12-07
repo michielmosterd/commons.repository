@@ -1,0 +1,19 @@
+{
+  "class" : "mkbase.makelaar",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "specialisatie",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "huurOfKoop",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ ],
+  "inherits" : "mkbase.intermediair"
+}

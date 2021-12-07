@@ -1,0 +1,12 @@
+{
+  "class" : "mkbase.verkoperIndirect",
+  "type" : "BASIC",
+  "valueTypes" : [ ],
+  "relations" : [ {
+    "type" : "mkbase.intermediair",
+    "required" : false,
+    "multiple" : false,
+    "cascadeDelete" : false
+  } ],
+  "inherits" : "mkbase.verkoper"
+}

@@ -1,0 +1,54 @@
+{
+  "class" : "mkbase.item",
+  "type" : "ABSTRACT",
+  "imports" : [ {
+    "class" : "mkbase.koperDirect"
+  }, {
+    "class" : "mkbase.koperIndirect"
+  }, {
+    "class" : "mkbase.verkoperDirect"
+  }, {
+    "class" : "mkbase.verkoperIndirect"
+  }, {
+    "class" : "mkbase.curator"
+  }, {
+    "class" : "mkbase.ventureCapitalist"
+  }, {
+    "class" : "mkbase.adviseur"
+  }, {
+    "class" : "mkbase.franchisegever"
+  }, {
+    "class" : "mkbase.makelaar"
+  }, {
+    "class" : "mkbase.projectontwikkelaar"
+  }, {
+    "class" : "mkbase.leverancier"
+  }, {
+    "class" : "mkbase.onroerendGoed"
+  }, {
+    "class" : "mkbase.contactpersoon"
+  }, {
+    "class" : "mkbase.memo"
+  }, {
+    "class" : "mkbase.document"
+  }, {
+    "class" : "mkbase.match"
+  }, {
+    "class" : "mkbase.mogelijkeMatch"
+  }, {
+    "class" : "mkbase.teOnderzoekenMatch"
+  }, {
+    "class" : "mkbase.regioSite"
+  }, {
+    "class" : "mkbase.gearchiveerdeMemo"
+  } ],
+  "valueTypes" : [ {
+    "name" : "importId",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ ],
+  "extends" : "commons.item"
+}

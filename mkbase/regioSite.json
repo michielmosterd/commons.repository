@@ -1,0 +1,31 @@
+{
+  "class" : "mkbase.regioSite",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "code",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : true,
+    "list" : null
+  }, {
+    "name" : "regioNl",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : true,
+    "list" : null
+  }, {
+    "name" : "naamFr",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : true,
+    "list" : null
+  }, {
+    "name" : "omschrijving",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ ],
+  "inherits" : "commons.item"
+}

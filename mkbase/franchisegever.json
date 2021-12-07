@@ -1,0 +1,43 @@
+{
+  "class" : "mkbase.franchisegever",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "soortFranchise",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "locatieEisen",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "minimaleVvo",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "maximaleVvo",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "puibreedte",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "eisenAanFranchisenemer",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ ],
+  "inherits" : "mkbase.intermediair"
+}

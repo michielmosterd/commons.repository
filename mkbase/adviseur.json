@@ -1,0 +1,31 @@
+{
+  "class" : "mkbase.adviseur",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "geslaagdeTransacties",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "soortAdviseur",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "aantalVestigingen",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "samenvatting",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ ],
+  "inherits" : "mkbase.intermediair"
+}

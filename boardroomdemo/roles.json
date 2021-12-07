@@ -1,1 +1,0 @@
-{"name":"roles","namespace":"boardroom","extendsType":"boardroom.boardRoom","valueTypes":[{"name":"rolestart","dataType":"DATE","enabled":true,"required":true},{"name":"roleend","dataType":"DATE","enabled":true,"required":false}],"relations":[{"type":"boardroom.person","required":true,"multiple":false}],"type":"ABSTRACT"}

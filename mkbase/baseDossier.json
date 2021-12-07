@@ -1,0 +1,19 @@
+{
+  "class" : "mkbase.baseDossier",
+  "type" : "ABSTRACT",
+  "valueTypes" : [ {
+    "name" : "start",
+    "dataType" : "DATE",
+    "enabled" : true,
+    "required" : true,
+    "list" : null
+  }, {
+    "name" : "gesloten",
+    "dataType" : "DATE",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ ],
+  "inherits" : "commons.item"
+}

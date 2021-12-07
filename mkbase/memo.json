@@ -1,0 +1,24 @@
+{
+  "class" : "mkbase.memo",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "followUp",
+    "dataType" : "DATE",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "omschrijving",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ {
+    "type" : "mkbase.entiteit",
+    "required" : false,
+    "multiple" : false,
+    "cascadeDelete" : false
+  } ],
+  "inherits" : "mkbase.alleMemoS"
+}

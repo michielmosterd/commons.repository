@@ -1,0 +1,36 @@
+{
+  "class" : "mkbase.document",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "titel",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : true,
+    "list" : null
+  }, {
+    "name" : "datum",
+    "dataType" : "DATE",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "bestand",
+    "dataType" : "FILE",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "omschrijving",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ {
+    "type" : "mkbase.entiteit",
+    "required" : false,
+    "multiple" : false,
+    "cascadeDelete" : false
+  } ],
+  "inherits" : "commons.item"
+}

@@ -1,1 +1,0 @@
-{"name":"company","namespace":"boardroom","extendsType":"boardroom.companiesPersons","valueTypes":[{"name":"name1","dataType":"TEXT","enabled":true,"required":true},{"name":"_description","dataType":"TEXT","enabled":true,"required":false}],"relations":[],"type":"BASIC"}

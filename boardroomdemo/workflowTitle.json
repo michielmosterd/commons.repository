@@ -1,1 +1,0 @@
-{"name":"workflowTitle","namespace":"boardroom","extendsType":"commons.item","valueTypes":[{"name":"title","dataType":"TEXT","enabled":true,"required":false},{"name":"_description","dataType":"TEXT","enabled":true,"required":false}],"relations":[],"type":"BASIC"}

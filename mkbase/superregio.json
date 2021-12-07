@@ -1,0 +1,12 @@
+{
+  "class" : "mkbase.superregio",
+  "type" : "ABSTRACT",
+  "valueTypes" : [ ],
+  "relations" : [ {
+    "type" : "mkbase.regioSite",
+    "required" : true,
+    "multiple" : true,
+    "cascadeDelete" : false
+  } ],
+  "inherits" : "mkbase.regioSite"
+}

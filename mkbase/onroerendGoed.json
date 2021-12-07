@@ -1,0 +1,19 @@
+{
+  "class" : "mkbase.onroerendGoed",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "huurOfKoop",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "omschrijving",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ ],
+  "inherits" : "commons.item"
+}

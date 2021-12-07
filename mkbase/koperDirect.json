@@ -1,0 +1,67 @@
+{
+  "class" : "mkbase.koperDirect",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "betaald",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "automatischeVerlengingContract",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "overnamekrant",
+    "dataType" : "BOOLEAN",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "overnameMail",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "postadres",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "huisnummer",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "postcode",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "plaats",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "prijsVanContract",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "mbiContractWeek",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ ],
+  "inherits" : "mkbase.koper"
+}

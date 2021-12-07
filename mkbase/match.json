@@ -1,0 +1,59 @@
+{
+  "class" : "mkbase.match",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "faseVanContact",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : true,
+    "list" : null
+  }, {
+    "name" : "memoDossier",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "omschrijving",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "sector",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "overnamesomRange",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "dealInformatie",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "subsector",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ {
+    "type" : "mkbase.koper",
+    "required" : true,
+    "multiple" : false,
+    "cascadeDelete" : false
+  }, {
+    "type" : "mkbase.verkoper",
+    "required" : true,
+    "multiple" : false,
+    "cascadeDelete" : false
+  } ],
+  "inherits" : "mkbase.mappensysteem"
+}

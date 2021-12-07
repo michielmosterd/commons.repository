@@ -1,0 +1,90 @@
+{
+  "class" : "mkbase.entiteit",
+  "type" : "ABSTRACT",
+  "valueTypes" : [ {
+    "name" : "ingevoerdDoor",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : true,
+    "list" : null
+  }, {
+    "name" : "sector",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "BedrijfsNaam",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "contractvorm",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "land",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "website",
+    "dataType" : "HYPERLINK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "profielnummer",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "naceCode",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "eersteContact",
+    "dataType" : "DATE",
+    "enabled" : true,
+    "required" : true,
+    "list" : null
+  }, {
+    "name" : "transeoMarketplace",
+    "dataType" : "BOOLEAN",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "followUp",
+    "dataType" : "DATE",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "contractsdatum",
+    "dataType" : "DATE",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "omschrijving",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ {
+    "type" : "mkbase.regioSite",
+    "required" : true,
+    "multiple" : false,
+    "cascadeDelete" : false
+  } ],
+  "inherits" : "commons.item"
+}

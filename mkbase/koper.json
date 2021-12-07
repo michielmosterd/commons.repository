@@ -1,0 +1,175 @@
+{
+  "class" : "mkbase.koper",
+  "type" : "ABSTRACT",
+  "valueTypes" : [ {
+    "name" : "profielnummer",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "franchisewijzer",
+    "dataType" : "BOOLEAN",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "tweedeBranche",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "uitgebreideProfielInformatieFrans",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "interesseFrans",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "regioExtraInformatie",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "interesse",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "branche",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "sector",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "subsector",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "sector2",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "subsector2",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "omschrijvingMail",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "omschrijvingMailFrans",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "geenInteresse",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "profielstatus",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "uitgebreideProfielinformatie",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "gewensteOmzet",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "ervaring",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "eigenMiddelen",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "typeOvername",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "meerderheidNoodzakelijk",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "afzetmarkt",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "interesseitaliaans",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "uitgebreideProfielInformatieItaliaans",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "uitgebreideProfielInformatieItaliaans1",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "omschrijving",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "samenvatting",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ ],
+  "inherits" : "mkbase.entiteit"
+}

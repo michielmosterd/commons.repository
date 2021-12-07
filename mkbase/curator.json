@@ -1,0 +1,13 @@
+{
+  "class" : "mkbase.curator",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "succesfee",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ ],
+  "inherits" : "mkbase.intermediair"
+}

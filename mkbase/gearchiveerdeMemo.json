@@ -1,0 +1,12 @@
+{
+  "class" : "mkbase.gearchiveerdeMemo",
+  "type" : "BASIC",
+  "valueTypes" : [ ],
+  "relations" : [ {
+    "type" : "mkbase.entiteit",
+    "required" : true,
+    "multiple" : true,
+    "cascadeDelete" : false
+  } ],
+  "inherits" : "mkbase.alleMemoS"
+}

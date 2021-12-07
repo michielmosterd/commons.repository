@@ -1,0 +1,12 @@
+{
+  "class" : "mkbase.koperIndirect",
+  "type" : "BASIC",
+  "valueTypes" : [ ],
+  "relations" : [ {
+    "type" : "mkbase.intermediair",
+    "required" : false,
+    "multiple" : false,
+    "cascadeDelete" : false
+  } ],
+  "inherits" : "mkbase.koper"
+}

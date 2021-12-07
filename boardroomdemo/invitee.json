@@ -1,1 +1,0 @@
-{"name":"invitee","namespace":"boardroom","extendsType":"boardroom.roles","valueTypes":[{"name":"_description","dataType":"TEXT","enabled":true,"required":false}],"relations":[{"type":"boardroom.meeting","required":false,"multiple":false},{"type":"boardroom.agendaItem","required":false,"multiple":false}],"type":"BASIC"}

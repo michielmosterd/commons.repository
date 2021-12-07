@@ -1,0 +1,43 @@
+{
+  "class" : "mkbase.alleMemoS",
+  "type" : "ABSTRACT",
+  "valueTypes" : [ {
+    "name" : "resultaatContact",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "datum",
+    "dataType" : "DATE",
+    "enabled" : true,
+    "required" : true,
+    "list" : null
+  }, {
+    "name" : "kernwoord",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "opmerking",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "schrijverMemo",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "omschrijving",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ ],
+  "inherits" : "commons.item"
+}

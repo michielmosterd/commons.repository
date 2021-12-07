@@ -1,0 +1,31 @@
+{
+  "class" : "mkbase.projectontwikkelaar",
+  "type" : "BASIC",
+  "valueTypes" : [ {
+    "name" : "bestaandeGrondpositie",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "huurOfKoop",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "maximumInvestering",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "mimaleInvestering",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  } ],
+  "relations" : [ ],
+  "inherits" : "mkbase.intermediair"
+}
