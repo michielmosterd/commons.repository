@@ -3,6 +3,6 @@
     "type": "NONE",
 
     "imports": [
-        { "class": "commons.demoConfig" }
+        "commons.demoConfig"
     ]
 }

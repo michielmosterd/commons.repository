@@ -3,7 +3,7 @@
     "type": "NONE",
 
     "imports": [
-        { "class": "commons.demoConfig" },
-        { "class": "customerx.company" }
+        "commons.demoConfig",
+        "customerx.company"
     ]
 }
