@@ -12,7 +12,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.soortAdviseur"
   }, {
     "name" : "aantalVestigingen",
     "dataType" : "TEXT",

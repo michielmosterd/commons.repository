@@ -30,7 +30,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.geslacht"
   }, {
     "name" : "voorletters",
     "dataType" : "TEXT",

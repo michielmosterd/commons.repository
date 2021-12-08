@@ -6,55 +6,55 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.soortVc"
   }, {
     "name" : "interesseInBranche1",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.branche"
   }, {
     "name" : "interesseInBranche2",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.branche"
   }, {
     "name" : "interesseInBranche3",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.branche"
   }, {
     "name" : "soortFinanciering",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.typeFinanciering"
   }, {
     "name" : "winstgevendheidVereist",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.jaNee"
   }, {
     "name" : "mbiGezocht",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.jaNee"
   }, {
     "name" : "commissarisPlaatsVereist",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.jaNee"
   }, {
     "name" : "interesseInOnroerendGoedProjecten",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.jaNee"
   }, {
     "name" : "mimaleInvestering",
     "dataType" : "TEXT",

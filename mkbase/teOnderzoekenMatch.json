@@ -6,7 +6,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : true,
-    "list" : null
+    "list" : "mkbase.teOnderzoekenMatch"
   }, {
     "name" : "memoDossier",
     "dataType" : "TEXTBLOCK",

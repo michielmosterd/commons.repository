@@ -12,7 +12,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.branche"
   }, {
     "name" : "uitgebreideProfielInformatieFrans",
     "dataType" : "TEXTBLOCK",
@@ -36,43 +36,43 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.regio"
   }, {
     "name" : "branche",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.branche"
   }, {
     "name" : "onroerendGoed",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.jaNee"
   }, {
     "name" : "sector",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.sector"
   }, {
     "name" : "subsector",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.subsector"
   }, {
     "name" : "sector2",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.sector"
   }, {
     "name" : "subsector2",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.subsector"
   }, {
     "name" : "omschrijvingMail",
     "dataType" : "TEXT",
@@ -90,7 +90,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.profielstatus"
   }, {
     "name" : "uitgebreideProfielinformatie",
     "dataType" : "TEXTBLOCK",
@@ -198,7 +198,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.typeOverdracht"
   }, {
     "name" : "afzetmarkt",
     "dataType" : "TEXTBLOCK",
@@ -216,7 +216,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.jaNee"
   }, {
     "name" : "eventueleEisenAanKandidaatKoper",
     "dataType" : "TEXTBLOCK",

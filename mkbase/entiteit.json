@@ -6,13 +6,13 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : true,
-    "list" : null
+    "list" : "mkbase.ingevoerdDoor"
   }, {
     "name" : "sector",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.sector"
   }, {
     "name" : "BedrijfsNaam",
     "dataType" : "TEXT",
@@ -24,13 +24,13 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.contract"
   }, {
     "name" : "land",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.land"
   }, {
     "name" : "website",
     "dataType" : "HYPERLINK",

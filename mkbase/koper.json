@@ -18,7 +18,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.branche"
   }, {
     "name" : "uitgebreideProfielInformatieFrans",
     "dataType" : "TEXTBLOCK",
@@ -36,7 +36,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.regio"
   }, {
     "name" : "interesse",
     "dataType" : "TEXT",
@@ -48,31 +48,31 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.branche"
   }, {
     "name" : "sector",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.sector"
   }, {
     "name" : "subsector",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.subsector"
   }, {
     "name" : "sector2",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.sector"
   }, {
     "name" : "subsector2",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.subsector"
   }, {
     "name" : "omschrijvingMail",
     "dataType" : "TEXT",
@@ -96,7 +96,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.profielstatus"
   }, {
     "name" : "uitgebreideProfielinformatie",
     "dataType" : "TEXTBLOCK",
@@ -126,13 +126,13 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.typeOvername"
   }, {
     "name" : "meerderheidNoodzakelijk",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.jaNee"
   }, {
     "name" : "afzetmarkt",
     "dataType" : "TEXTBLOCK",

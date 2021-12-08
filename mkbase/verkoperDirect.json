@@ -6,7 +6,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.jaNee"
   }, {
     "name" : "overnamekrant",
     "dataType" : "BOOLEAN",
@@ -18,13 +18,13 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.jaNee"
   }, {
     "name" : "betaald",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.jaNee"
   }, {
     "name" : "postadres",
     "dataType" : "TEXT",
@@ -54,7 +54,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.prijsVanContract"
   } ],
   "relations" : [ ],
   "inherits" : "mkbase.verkoper"

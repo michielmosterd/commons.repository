@@ -6,13 +6,13 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.jaNee"
   }, {
     "name" : "automatischeVerlengingContract",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.jaNee"
   }, {
     "name" : "overnamekrant",
     "dataType" : "BOOLEAN",
@@ -24,7 +24,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.jaNee"
   }, {
     "name" : "postadres",
     "dataType" : "TEXT",
@@ -54,13 +54,13 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.prijsVanContract"
   }, {
     "name" : "mbiContractWeek",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.mbiWeek"
   } ],
   "relations" : [ ],
   "inherits" : "mkbase.koper"

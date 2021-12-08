@@ -6,7 +6,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : true,
-    "list" : null
+    "list" : "mkbase.faseVanContact"
   }, {
     "name" : "memoDossier",
     "dataType" : "TEXTBLOCK",
@@ -24,13 +24,13 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.sector"
   }, {
     "name" : "overnamesomRange",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.rangeOvernamesom"
   }, {
     "name" : "dealInformatie",
     "dataType" : "TEXTBLOCK",
@@ -42,7 +42,7 @@
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,
-    "list" : null
+    "list" : "mkbase.subsector"
   } ],
   "relations" : [ {
     "type" : "mkbase.koper",

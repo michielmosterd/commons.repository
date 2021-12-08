@@ -50,5 +50,387 @@
     "list" : null
   } ],
   "relations" : [ ],
+  "lists" : [ {
+    "name" : "mkbase.contract",
+    "items" : {
+      "001" : "Potentieel",
+      "002" : "Aangesloten",
+      "003" : "Verwijderd"
+    }
+  }, {
+    "name" : "mkbase.geslacht",
+    "items" : {
+      "Vrouw" : "Mevrouw",
+      "Man" : "De heer"
+    }
+  }, {
+    "name" : "mkbase.land",
+    "items" : {
+      "B" : "Belgie",
+      "BEn" : "Benelux",
+      "FR" : "Frankrijk",
+      "DLD" : "Duitsland",
+      "NL" : "Nederland",
+      "LUX" : "Luxemburg",
+      "Int" : "Internationaal",
+      "NED-ANT" : "Nederlandse Antillen"
+    }
+  }, {
+    "name" : "mkbase.mbiWeek",
+    "items" : {
+      "1" : "Week 1",
+      "2" : "Week 2",
+      "3" : "Week 3",
+      "4" : "Week 4"
+    }
+  }, {
+    "name" : "mkbase.branche",
+    "items" : {
+      "N DET WON" : "Detailhandel wonen",
+      "A METAAL" : "Metaalindustrie",
+      "H ICT" : "Automatisering / ICT",
+      "J GRH" : "Groothandel",
+      "K ZDET FOOD" : "Detailhandel Food",
+      "C PAPGRA" : "Papier Grafische industrie",
+      "E BOUW" : "Bouwnijverheid",
+      "P DET OVERIG" : "Detailhandel Overig",
+      "B AUTO" : "Automotive",
+      "I DIENST" : "Dienstverlening",
+      "Q HRC" : "Horeca / Recreatie",
+      "F OG" : "Onroerend Goed",
+      "D OVINDUS" : "Overige Industrie",
+      "G TRANS" : "Transport en Vervoer",
+      "o ZDET GROEN" : "Detailhandel Groen- en Tuincentra",
+      "M DETAILMO" : "Detailhandel mode",
+      "L ZDET DOE" : "Detailhandel doe het zelf"
+    }
+  }, {
+    "name" : "mkbase.provincie",
+    "items" : {
+      "GRO" : "Groningen",
+      "Benelux" : "Andere naam",
+      "BEL-NAM" : "Namen",
+      "BEL-AB" : "Heel Wallonie",
+      "BEn" : "Benelux",
+      "BEL-AA" : "Heel Vlaanderen",
+      "FR" : "Friesland",
+      "INT" : "Internationaal",
+      "BEL-LIM" : "Limburg (Belgie)",
+      "BEL-HEN" : "Henegouwen",
+      "BEL-LUX" : "Groothertogdom (LUX)",
+      "FLEV" : "Flevoland",
+      "Heel Frankrijk" : "Frankrijk",
+      "NBR" : "Noord-Brabant",
+      "UT" : "Utrecht",
+      "ZHOL" : "Zuid-Holland",
+      "BEL-WABRA" : "Waals Brabant",
+      "BEL-LUIK" : "Luik",
+      "OV" : "Overijssel",
+      "BEL" : "Heel Belgie",
+      "BEL-OVLA" : "Oost Vlaanderen",
+      "BEL-VLABRA" : "Vlaams Brabant",
+      "HEEL NED" : "Heel Nederland",
+      "BEL-LUX1" : "Luxemburg",
+      "LIM" : "Limburg",
+      "NHOL" : "Noord-Holland",
+      "DRE" : "Drenthe",
+      "GELD" : "Gelderland",
+      "ZEE" : "Zeeland",
+      "BEL-WEVLA" : "West Vlaanderen",
+      "BEL-ANT" : "Antwerpen",
+      "BEL-BRU" : "Brussel"
+    }
+  }, {
+    "name" : "mkbase.soortFranchise",
+    "items" : {
+      "Hard" : "Hard franchise",
+      "Soft" : "Soft franchise"
+    }
+  }, {
+    "name" : "mkbase.specialisatieMakelaar",
+    "items" : {
+      "WINKELS" : "Winkels",
+      "BEDPAND" : "Bedrijfspanden",
+      "HALLEN" : "Bedrijfshallen",
+      "WONING" : "Woning"
+    }
+  }, {
+    "name" : "mkbase.huurKoopOg",
+    "items" : {
+      "H/K" : "Huur en Koop",
+      "KOOP" : "Koop",
+      "HUUR" : "Huur"
+    }
+  }, {
+    "name" : "mkbase.prijsVanContract",
+    "items" : {
+      "GRATIS" : "Gratis",
+      "RETAIL" : "Retail",
+      "MBI+" : "MBI+",
+      "STANDAARD K" : "Standaard Koop",
+      "MBI" : "MBI",
+      "STANDAARD V" : "Standaard Verkoop",
+      "EENMALIG" : "Eenmalig"
+    }
+  }, {
+    "name" : "mkbase.regio",
+    "items" : {
+      "RAND" : "Randstad",
+      "TW" : "Twente",
+      "BRU" : "Brussel",
+      "VLA" : "Vlaanderen",
+      "WA" : "Wallonië",
+      "Ben" : "Benelux",
+      "ONL" : "Oost Nederland",
+      "Frankrijk" : "Frankrijk",
+      "Int" : "Internationaal",
+      "ACHT" : "Achterhoek",
+      "WNL" : "West Nederland",
+      "MIDNL" : "Midden Nederland",
+      "ZNED" : "Zuid Nederland",
+      "NONL" : "Noord Nederland",
+      "NL" : "Heel Nederland"
+    }
+  }, {
+    "name" : "mkbase.jaNee",
+    "items" : {
+      "Ja" : "Ja",
+      "Nee" : "Nee"
+    }
+  }, {
+    "name" : "mkbase.profielstatus",
+    "items" : {
+      "Verwijderd" : "Verwijderd",
+      "AC" : "Actief",
+      "On H" : "On hold",
+      "STIL" : "Stil",
+      "eg" : "Eenmalige geheimhouding",
+      "DOORS" : "Doorstart",
+      "FRAN" : "Franchise",
+      "Exclusief" : "Exclusief"
+    }
+  }, {
+    "name" : "mkbase.typeOvername",
+    "items" : {
+      "ACTIVA" : "Activa",
+      "Onbekend" : "Onbekend",
+      "MBI" : "Management Buy In",
+      "PART" : "Participatie",
+      "STRA" : "Strategisch",
+      "DOOR" : "Doorstart"
+    }
+  }, {
+    "name" : "mkbase.typeOverdracht",
+    "items" : {
+      "ACT" : "Activa / Passiva",
+      "PART" : "Participatie",
+      "AAN" : "Aandelenoverdracht"
+    }
+  }, {
+    "name" : "mkbase.soortAdviseur",
+    "items" : {
+      "ACC" : "Accountant",
+      "FIS" : "Fiscalist",
+      "BANK" : "Bank",
+      "JUR" : "Jurist / advocaat",
+      "OVERIG" : "Overig",
+      "F&O" : "Fusie en Overname specialist"
+    }
+  }, {
+    "name" : "mkbase.soortVc",
+    "items" : {
+      "INF" : "Informal investor",
+      "OV" : "Overig",
+      "FONDS" : "Fonds",
+      "OGBEL" : "Belegger OG",
+      "PPM" : "Participatiemaatschappij"
+    }
+  }, {
+    "name" : "mkbase.typeFinanciering",
+    "items" : {
+      "GROEI" : "Groei kapitaal",
+      "SEED" : "Seed Capital",
+      "OV" : "Overig",
+      "TOT" : "Totale overname",
+      "TURN" : "Turn-around"
+    }
+  }, {
+    "name" : "mkbase.faseVanContact",
+    "items" : {
+      "Fase 2" : "Eerste Contact is gelegd",
+      "Fase 1" : "Match doorgegeven",
+      "Fase 8" : "On Hold",
+      "Fase 7" : "Verkocht aan derden",
+      "Fase 6" : "Stukgelopen/ Teruggetrokken",
+      "Fase 5" : "Verkocht",
+      "Fase 4" : "Exclusiviteit",
+      "Fase 3" : "Eerste contact heeft tot verdere afspraken geleid"
+    }
+  }, {
+    "name" : "mkbase.mogelijkeMatch",
+    "items" : {
+      "1" : "Mogelijke interesse",
+      "2" : "Koper geen interesse",
+      "3" : "Verkoper geen interesse"
+    }
+  }, {
+    "name" : "mkbase.teOnderzoekenMatch",
+    "items" : {
+      "1" : "Nog te onderzoeken",
+      "2" : "Doorgegeven",
+      "3" : "Niet interessant"
+    }
+  }, {
+    "name" : "mkbase.ingevoerdDoor",
+    "items" : {
+      "VL" : "Vlaanderen",
+      "WA" : "Wallonie",
+      "IT" : "Italie",
+      "NL" : "Nederland"
+    }
+  }, {
+    "name" : "mkbase.sector",
+    "items" : {
+      "11" : "Automotive",
+      "1" : "Land- en tuinbouw, visteelt",
+      "2" : "Mijnbouw",
+      "3" : "Industrie",
+      "4" : "Bouwnijverheid",
+      "5" : "Papier Grafische Industrie",
+      "6" : "Groothandel",
+      "7" : "Dienstverlening",
+      "8" : "Automatisering/ ICT",
+      "81" : "Horeca",
+      "9" : "Detailhandel",
+      "10" : "Vastgoed"
+    }
+  }, {
+    "name" : "mkbase.subsector",
+    "items" : {
+      "4-a" : "Bouwnijverheid / algemeen bouwen, aannemers",
+      "4-b" : "Bouwnijverheid / installatiebranche, dakbedekking",
+      "4-c" : "Bouwnijverheid / grond-, weg-, en waterbouw",
+      "6-a" : "Groothandel / food",
+      "6-b" : "Groothandel / consumentengoederen non food",
+      "6-c" : "Groothandel / technisch",
+      "8-a" : "ICT / software",
+      "4-e" : "Bouwnijverheid/ afwerking",
+      "4-f" : "Bouwnijverheid / divers, overig",
+      "6-d" : "Groothandel/overig",
+      "8-b" : "ICT / internet en hosting",
+      "8-c" : "ICT / netwerkbeheer",
+      "4-g" : "Bouwnijverheid/ allen",
+      "6-e" : "Groothandel / allen",
+      "8-d" : "ICT/ advies",
+      "8-e" : "ICT / overig",
+      "8-f" : "ICT/ allen",
+      "8-g" : "ICT/ E commerce",
+      "12-c" : "Detailhandel / groen- en tuincentra",
+      "12-b" : "Detailhandel / doe het zelf",
+      "12-a" : "Detailhandel / food",
+      "10a" : "Onroerend goed / algemeen",
+      "10-c" : "Onroerend goed / allen",
+      "10b" : "Onroerend goed / Te ontwikkelen",
+      "12-g" : "Detailhandel/ allen",
+      "12-f" : "Detailhandel / overig",
+      "12-e" : "Detailhandel / mode",
+      "12-d" : "Detailhandel / wonen",
+      "3-a" : "Industrie / voedingsindustrie",
+      "3-b" : "Industrie / textiel",
+      "3-c" : "Industrie / chemisch, kunststof, plastic",
+      "5-a" : "Papier Grafisch / Uitgeverij",
+      "3-d" : "Industrie / metaal",
+      "5-b" : "Papier Grafisch / Drukkerij",
+      "3-e" : "Industrie / machinebouw",
+      "7-a" : "Dienstverlening / transport en logistiek",
+      "5-c" : "Papier Grafisch/ allen",
+      "3-f" : "Industrie / meubelindustrie",
+      "7-b" : "Dienstverlening / financieel, OG en verzekeringen",
+      "3-g" : "Industrie / papier, karton en verpakkingen",
+      "7-c" : "Dienstverlening / verhuur roerende zaken",
+      "9-a" : "Horeca / recreatie, camping",
+      "3-h" : "Industrie / overig",
+      "7-d" : "Dienstverlening / gezondheidszorg",
+      "9-b" : "Horeca / hotels",
+      "7-e" : "Dienstverlening / advisering",
+      "9-c" : "Horeca/ restaurants",
+      "3-i" : "Industrie/ allen",
+      "7-f" : "Dienstverlening / facilitaire dienstverlening",
+      "9-d" : "Horeca / café, snackbar",
+      "7-g" : "Dienstverlening/ uitzend en detachering",
+      "9-e" : "Horeca/ allen",
+      "7-h" : "Dienstverlening / overig",
+      "7-i" : "Dienstverlening/ allen",
+      "11-c" : "Automotive/ allen",
+      "11-b" : "Automotive / handel auto-onderdelen",
+      "11-a" : "Automotive / handel, onderhoud en reparatie"
+    }
+  }, {
+    "name" : "mkbase.resultaatContact",
+    "items" : {
+      "Ver" : "Verwijderd + reden",
+      "inf w" : "Information Wallon",
+      "Beld" : "Belde ongelegen",
+      "Kwaliteit MBI" : "Kwaliteit MBI",
+      "Informatie Nederland" : "Informatie Nederland",
+      "Status" : "Status contacten besproken",
+      "Lees" : "Lees eerst deze memo",
+      "Rea1" : "Reactie op dienstverlening",
+      "Transeo" : "Transeo",
+      "Deal" : "Deal via ons",
+      "VC" : "VC verstuurd + informatie intern",
+      "Pers" : "Persoonsgegevens gewijzigd",
+      "Pot" : "Potentieel",
+      "branche" : "Informatie branche",
+      "VM" : "Voicemail",
+      "Afwij" : "Afwijkend contract gestuurd",
+      "inf B" : "Informatie Belgie",
+      "NF" : "Nieuw profiel",
+      "Pot3" : "Potentieel 3",
+      "Gew" : "Gewijzigd",
+      "Opge" : "Opgezegd",
+      "Pot2" : "Potentieel 2",
+      "Uit" : "Uitbesteed",
+      "deal" : "Deal informatie",
+      "Beri" : "Bericht achtergelaten",
+      "F" : "F verstuurd + informatie intern",
+      "Onh" : "On hold gezet",
+      "I" : "I verstuurd + informatie intern",
+      "K" : "K verstuurd + informatie intern",
+      "Nu b" : "Nu wel betaald",
+      "Afs" : "Afspraak",
+      "V" : "V verstuurd + informatie intern",
+      "extra" : "Extra informatie",
+      "Vr" : "Vragen over (interne) financien",
+      "Zw" : "Zwarte lijst",
+      "Excl" : "Op exclusief gezet",
+      "Prof" : "Profiel doorgegeven",
+      "GG" : "Geen gehoor",
+      "Bin" : "Binnen + informatie intern",
+      "Verd" : "Verdeling profiel",
+      "Infi" : "Informatie intern",
+      "Pr na" : "Profiel doorgegeven na contact gehad",
+      "Niet" : "Extra informatie niet vrijgeven",
+      "Rea" : "Reactie op profiel",
+      "Woor" : "Woordenboek",
+      "Bev" : "Bevestiging overname contract",
+      "opac" : "Op actief gezet",
+      "Fax" : "Fax overzicht ontvangen",
+      "Besrp" : "Besproken op profielvergadering"
+    }
+  }, {
+    "name" : "mkbase.rangeOvernamesom",
+    "items" : {
+      "1" : "€ 0 - € 250.000 ",
+      "2" : "€ 250.001 - € 500.000 ",
+      "3" : "€ 500.001 - € 1.000.000 ",
+      "4" : "€ 1.000.001 - € 2.500.000 ",
+      "5" : "€ 2.500.001 - € 5.000.000 ",
+      "6" : "€ 5.000.001 - € 10.000.000 ",
+      "7" : "€ 10.000.001 - € 25.000.000 ",
+      "8" : "€ 25.000.001 - € 50.000.000 ",
+      "9" : "> € 50.000.000 "
+    }
+  } ],
   "extends" : "commons.item"
 }
