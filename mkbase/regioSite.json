@@ -26,6 +26,11 @@
     "required" : false,
     "list" : null
   } ],
-  "relations" : [ ],
+  "relations" : [ {
+    "type" : "mkbase.entiteit",
+    "required" : false,
+    "multiple" : true,
+    "cascadeDelete" : false
+  } ],
   "inherits" : "commons.item"
 }

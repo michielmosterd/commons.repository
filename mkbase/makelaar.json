@@ -2,7 +2,7 @@
   "class" : "mkbase.makelaar",
   "type" : "BASIC",
   "valueTypes" : [ {
-    "name" : "specialisatie",
+    "name" : "specialisatie105",
     "dataType" : "LIST",
     "enabled" : true,
     "required" : false,

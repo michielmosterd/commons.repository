@@ -104,6 +104,16 @@
     "required" : false,
     "list" : null
   } ],
-  "relations" : [ ],
+  "relations" : [ {
+    "type" : "mkbase.koperIndirect",
+    "required" : false,
+    "multiple" : true,
+    "cascadeDelete" : false
+  }, {
+    "type" : "mkbase.verkoperIndirect",
+    "required" : false,
+    "multiple" : true,
+    "cascadeDelete" : false
+  } ],
   "inherits" : "mkbase.entiteit"
 }

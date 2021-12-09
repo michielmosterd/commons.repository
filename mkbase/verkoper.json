@@ -230,7 +230,7 @@
     "required" : false,
     "list" : null
   }, {
-    "name" : "interesseitaliaans",
+    "name" : "interesseitaliaans126",
     "dataType" : "TEXT",
     "enabled" : true,
     "required" : false,
@@ -248,6 +248,21 @@
     "required" : false,
     "list" : null
   } ],
-  "relations" : [ ],
+  "relations" : [ {
+    "type" : "mkbase.match",
+    "required" : false,
+    "multiple" : true,
+    "cascadeDelete" : false
+  }, {
+    "type" : "mkbase.mogelijkeMatch",
+    "required" : false,
+    "multiple" : true,
+    "cascadeDelete" : false
+  }, {
+    "type" : "mkbase.teOnderzoekenMatch",
+    "required" : false,
+    "multiple" : true,
+    "cascadeDelete" : false
+  } ],
   "inherits" : "mkbase.entiteit"
 }

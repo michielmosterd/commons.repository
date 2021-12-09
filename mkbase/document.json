@@ -8,7 +8,7 @@
     "required" : true,
     "list" : null
   }, {
-    "name" : "datum",
+    "name" : "datum1",
     "dataType" : "DATE",
     "enabled" : true,
     "required" : false,
