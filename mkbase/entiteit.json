@@ -85,26 +85,6 @@
     "required" : true,
     "multiple" : false,
     "cascadeDelete" : false
-  }, {
-    "type" : "mkbase.contactpersoon",
-    "required" : false,
-    "multiple" : true,
-    "cascadeDelete" : false
-  }, {
-    "type" : "mkbase.memo",
-    "required" : false,
-    "multiple" : true,
-    "cascadeDelete" : false
-  }, {
-    "type" : "mkbase.document",
-    "required" : false,
-    "multiple" : true,
-    "cascadeDelete" : false
-  }, {
-    "type" : "mkbase.gearchiveerdeMemo",
-    "required" : false,
-    "multiple" : true,
-    "cascadeDelete" : false
   } ],
   "inherits" : "commons.item"
 }

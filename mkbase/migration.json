@@ -30,6 +30,27 @@
       "list" : null
     } ],
     "steps" : [ {
+      "source" : "27",
+      "target" : "mkbase.regioSite",
+      "fields" : [ {
+        "source" : "_description",
+        "target" : "omschrijving",
+        "type" : "TEXT"
+      }, {
+        "source" : "regionNaamFR",
+        "target" : "naamFr",
+        "type" : "TEXT"
+      }, {
+        "source" : "regioCode",
+        "target" : "code",
+        "type" : "TEXT"
+      }, {
+        "source" : "regioNaamNL",
+        "target" : "regioNl",
+        "type" : "TEXT"
+      } ],
+      "relations" : [ ]
+    }, {
       "source" : "4",
       "target" : "mkbase.koperDirect",
       "fields" : [ {
@@ -220,10 +241,11 @@
         "source" : "Contract",
         "target" : "contractvorm",
         "type" : "LIST"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Regio (site)",
         "target" : "mkbase.regioSite",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "5",
@@ -376,14 +398,15 @@
         "source" : "Contract",
         "target" : "contractvorm",
         "type" : "LIST"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Regio (site)",
         "target" : "mkbase.regioSite",
-        "type" : "OBJECT"
+        "multiple" : false
       }, {
         "source" : "Intermediair",
         "target" : "mkbase.intermediair",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "7",
@@ -628,10 +651,11 @@
         "source" : "Nacecode",
         "target" : "naceCode",
         "type" : "TEXT"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Regio (site)",
         "target" : "mkbase.regioSite",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "8",
@@ -840,14 +864,15 @@
         "source" : "Nacecode",
         "target" : "naceCode",
         "type" : "TEXT"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Regio (site)",
         "target" : "mkbase.regioSite",
-        "type" : "OBJECT"
+        "multiple" : false
       }, {
         "source" : "Intermediair",
         "target" : "mkbase.intermediair",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "10",
@@ -968,10 +993,11 @@
         "source" : "Contract",
         "target" : "contractvorm",
         "type" : "LIST"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Regio (site)",
         "target" : "mkbase.regioSite",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "11",
@@ -1132,10 +1158,11 @@
         "source" : "Contract",
         "target" : "contractvorm",
         "type" : "LIST"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Regio (site)",
         "target" : "mkbase.regioSite",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "12",
@@ -1268,10 +1295,11 @@
         "source" : "Contract",
         "target" : "contractvorm",
         "type" : "LIST"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Regio (site)",
         "target" : "mkbase.regioSite",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "13",
@@ -1412,10 +1440,11 @@
         "source" : "Contract",
         "target" : "contractvorm",
         "type" : "LIST"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Regio (site)",
         "target" : "mkbase.regioSite",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "14",
@@ -1540,10 +1569,11 @@
         "source" : "Contract",
         "target" : "contractvorm",
         "type" : "LIST"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Regio (site)",
         "target" : "mkbase.regioSite",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "15",
@@ -1676,10 +1706,11 @@
         "source" : "Contract",
         "target" : "contractvorm",
         "type" : "LIST"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Regio (site)",
         "target" : "mkbase.regioSite",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "16",
@@ -1736,10 +1767,11 @@
         "source" : "Contract",
         "target" : "contractvorm",
         "type" : "LIST"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Regio (site)",
         "target" : "mkbase.regioSite",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "17",
@@ -1752,7 +1784,8 @@
         "source" : "HuurofKoop",
         "target" : "huurOfKoop",
         "type" : "LIST"
-      } ]
+      } ],
+      "relations" : [ ]
     }, {
       "source" : "18",
       "target" : "mkbase.contactpersoon",
@@ -1800,10 +1833,11 @@
         "source" : "Geslacht",
         "target" : "geslacht",
         "type" : "LIST"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Entiteit",
         "target" : "mkbase.entiteit",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "19",
@@ -1836,10 +1870,11 @@
         "source" : "ContactpersoonMKBase",
         "target" : "schrijverMemo",
         "type" : "TEXT"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Entiteit",
         "target" : "mkbase.entiteit",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "21",
@@ -1860,10 +1895,11 @@
         "source" : "documentFile",
         "target" : "bestand",
         "type" : "FILE"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Entiteit",
         "target" : "mkbase.entiteit",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "24",
@@ -1904,14 +1940,15 @@
         "source" : "dealinformatie",
         "target" : "dealInformatie",
         "type" : "TEXTBLOCK"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Koper ",
         "target" : "mkbase.koper",
-        "type" : "OBJECT"
+        "multiple" : false
       }, {
         "source" : "Verkoper",
         "target" : "mkbase.verkoper",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "25",
@@ -1940,14 +1977,15 @@
         "source" : "MemoDossier",
         "target" : "memoDossier",
         "type" : "TEXTBLOCK"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Koper ",
         "target" : "mkbase.koper",
-        "type" : "OBJECT"
+        "multiple" : false
       }, {
         "source" : "Verkoper",
         "target" : "mkbase.verkoper",
-        "type" : "OBJECT"
+        "multiple" : false
       } ]
     }, {
       "source" : "26",
@@ -1976,34 +2014,15 @@
         "source" : "MemoDossier",
         "target" : "memoDossier",
         "type" : "TEXTBLOCK"
-      }, {
+      } ],
+      "relations" : [ {
         "source" : "Koper ",
         "target" : "mkbase.koper",
-        "type" : "OBJECT"
+        "multiple" : false
       }, {
         "source" : "Verkoper",
         "target" : "mkbase.verkoper",
-        "type" : "OBJECT"
-      } ]
-    }, {
-      "source" : "27",
-      "target" : "mkbase.regioSite",
-      "fields" : [ {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
-        "source" : "regionNaamFR",
-        "target" : "naamFr",
-        "type" : "TEXT"
-      }, {
-        "source" : "regioCode",
-        "target" : "code",
-        "type" : "TEXT"
-      }, {
-        "source" : "regioNaamNL",
-        "target" : "regioNl",
-        "type" : "TEXT"
+        "multiple" : false
       } ]
     }, {
       "source" : "31",
@@ -2032,7 +2051,8 @@
         "source" : "ContactpersoonMKBase",
         "target" : "schrijverMemo",
         "type" : "TEXT"
-      } ]
+      } ],
+      "relations" : [ ]
     } ],
     "valueMap" : {
       "ListValue-109" : "AC",

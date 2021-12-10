@@ -170,21 +170,6 @@
     "required" : false,
     "list" : null
   } ],
-  "relations" : [ {
-    "type" : "mkbase.match",
-    "required" : false,
-    "multiple" : true,
-    "cascadeDelete" : false
-  }, {
-    "type" : "mkbase.mogelijkeMatch",
-    "required" : false,
-    "multiple" : true,
-    "cascadeDelete" : false
-  }, {
-    "type" : "mkbase.teOnderzoekenMatch",
-    "required" : false,
-    "multiple" : true,
-    "cascadeDelete" : false
-  } ],
+  "relations" : [ ],
   "inherits" : "mkbase.entiteit"
 }
