@@ -51,830 +51,6 @@
       } ],
       "relations" : [ ]
     }, {
-      "source" : "4",
-      "target" : "mkbase.koperDirect",
-      "fields" : [ {
-        "source" : "Eigenmiddelen",
-        "target" : "eigenMiddelen",
-        "type" : "TEXT"
-      }, {
-        "source" : "Postadres",
-        "target" : "postadres",
-        "type" : "TEXT"
-      }, {
-        "source" : "Eerstecontact",
-        "target" : "eersteContact",
-        "type" : "DATE"
-      }, {
-        "source" : "Ervaring",
-        "target" : "ervaring",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Uitgebreideprofielinformatie",
-        "target" : "uitgebreideProfielinformatie",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
-        "source" : "Typeovername",
-        "target" : "typeOvername",
-        "type" : "LIST"
-      }, {
-        "source" : "Followup",
-        "target" : "followUp",
-        "type" : "DATE"
-      }, {
-        "source" : "Ingevoerddoor",
-        "target" : "ingevoerdDoor",
-        "type" : "LIST"
-      }, {
-        "source" : "Profielnummer",
-        "target" : "profielnummer",
-        "type" : "TEXT"
-      }, {
-        "source" : "Gewensteomzet",
-        "target" : "gewensteOmzet",
-        "type" : "TEXT"
-      }, {
-        "source" : "Branche2",
-        "target" : "tweedeBranche",
-        "type" : "LIST"
-      }, {
-        "source" : "Land",
-        "target" : "land",
-        "type" : "LIST"
-      }, {
-        "source" : "Uitgebreideprofielinformatieitaliaans",
-        "target" : "uitgebreideProfielInformatieItaliaans",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Sector",
-        "target" : "sector",
-        "type" : "LIST"
-      }, {
-        "source" : "OmschrijvingMailFrans",
-        "target" : "omschrijvingMailFrans",
-        "type" : "TEXT"
-      }, {
-        "source" : "URL",
-        "target" : "website",
-        "type" : "HYPERLINK"
-      }, {
-        "source" : "Overnamemail",
-        "target" : "overnameMail",
-        "type" : "LIST"
-      }, {
-        "source" : "Subsector",
-        "target" : "subsector",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector2",
-        "target" : "sector2",
-        "type" : "LIST"
-      }, {
-        "source" : "Betaald",
-        "target" : "betaald",
-        "type" : "LIST"
-      }, {
-        "source" : "Plaats",
-        "target" : "plaats",
-        "type" : "TEXT"
-      }, {
-        "source" : "FranchiseWijzer",
-        "target" : "franchisewijzer",
-        "type" : "BOOLEAN"
-      }, {
-        "source" : "transeo",
-        "target" : "transeoMarketplace",
-        "type" : "BOOLEAN"
-      }, {
-        "source" : "Postcode",
-        "target" : "postcode",
-        "type" : "TEXT"
-      }, {
-        "source" : "Interesse",
-        "target" : "interesse",
-        "type" : "TEXT"
-      }, {
-        "source" : "InteresseItaliaans",
-        "target" : "interesseitaliaans126",
-        "type" : "TEXT"
-      }, {
-        "source" : "Subsector2",
-        "target" : "subsector2",
-        "type" : "LIST"
-      }, {
-        "source" : "Geeninteresse",
-        "target" : "geenInteresse",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Verlenging",
-        "target" : "automatischeVerlengingContract",
-        "type" : "LIST"
-      }, {
-        "source" : "UitgebreideprofielInformatieFrans",
-        "target" : "uitgebreideProfielInformatieFrans",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Prijsvancontract",
-        "target" : "prijsVanContract",
-        "type" : "LIST"
-      }, {
-        "source" : "Contractsdatum",
-        "target" : "contractsdatum",
-        "type" : "DATE"
-      }, {
-        "source" : "Regioextrainformatie",
-        "target" : "regioExtraInformatie",
-        "type" : "LIST"
-      }, {
-        "source" : "_Interesse (Frans)",
-        "target" : "interesseFrans",
-        "type" : "TEXT"
-      }, {
-        "source" : "Omschrijvingmail",
-        "target" : "omschrijvingMail",
-        "type" : "TEXT"
-      }, {
-        "source" : "Overnamekrant",
-        "target" : "overnamekrant",
-        "type" : "BOOLEAN"
-      }, {
-        "source" : "Huisnummer",
-        "target" : "huisnummer",
-        "type" : "TEXT"
-      }, {
-        "source" : "Branche",
-        "target" : "branche",
-        "type" : "LIST"
-      }, {
-        "source" : "_summary",
-        "target" : "samenvatting",
-        "type" : "TEXT"
-      }, {
-        "source" : "Naam",
-        "target" : "BedrijfsNaam",
-        "type" : "TEXT"
-      }, {
-        "source" : "Profielstatus",
-        "target" : "profielstatus",
-        "type" : "LIST"
-      }, {
-        "source" : "MBIcontractweek",
-        "target" : "mbiContractWeek",
-        "type" : "LIST"
-      }, {
-        "source" : "Meerderheidnoodzakelijk",
-        "target" : "meerderheidNoodzakelijk",
-        "type" : "LIST"
-      }, {
-        "source" : "Nacecode",
-        "target" : "naceCode",
-        "type" : "TEXT"
-      }, {
-        "source" : "Afzetmarkt",
-        "target" : "afzetmarkt",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Contract",
-        "target" : "contractvorm",
-        "type" : "LIST"
-      } ],
-      "relations" : [ {
-        "source" : "Regio (site)",
-        "target" : "mkbase.regioSite",
-        "multiple" : false
-      } ]
-    }, {
-      "source" : "5",
-      "target" : "mkbase.koperIndirect",
-      "fields" : [ {
-        "source" : "Eigenmiddelen",
-        "target" : "eigenMiddelen",
-        "type" : "TEXT"
-      }, {
-        "source" : "Eerstecontact",
-        "target" : "eersteContact",
-        "type" : "DATE"
-      }, {
-        "source" : "Ervaring",
-        "target" : "ervaring",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Uitgebreideprofielinformatie",
-        "target" : "uitgebreideProfielinformatie",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
-        "source" : "Typeovername",
-        "target" : "typeOvername",
-        "type" : "LIST"
-      }, {
-        "source" : "Followup",
-        "target" : "followUp",
-        "type" : "DATE"
-      }, {
-        "source" : "Ingevoerddoor",
-        "target" : "ingevoerdDoor",
-        "type" : "LIST"
-      }, {
-        "source" : "Profielnummer",
-        "target" : "profielnummer",
-        "type" : "TEXT"
-      }, {
-        "source" : "Gewensteomzet",
-        "target" : "gewensteOmzet",
-        "type" : "TEXT"
-      }, {
-        "source" : "Branche2",
-        "target" : "tweedeBranche",
-        "type" : "LIST"
-      }, {
-        "source" : "Land",
-        "target" : "land",
-        "type" : "LIST"
-      }, {
-        "source" : "Uitgebreideprofielinformatieitaliaans",
-        "target" : "uitgebreideProfielInformatieItaliaans",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Sector",
-        "target" : "sector",
-        "type" : "LIST"
-      }, {
-        "source" : "OmschrijvingMailFrans",
-        "target" : "omschrijvingMailFrans",
-        "type" : "TEXT"
-      }, {
-        "source" : "URL",
-        "target" : "website",
-        "type" : "HYPERLINK"
-      }, {
-        "source" : "Subsector",
-        "target" : "subsector",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector2",
-        "target" : "sector2",
-        "type" : "LIST"
-      }, {
-        "source" : "FranchiseWijzer",
-        "target" : "franchisewijzer",
-        "type" : "BOOLEAN"
-      }, {
-        "source" : "transeo",
-        "target" : "transeoMarketplace",
-        "type" : "BOOLEAN"
-      }, {
-        "source" : "Interesse",
-        "target" : "interesse",
-        "type" : "TEXT"
-      }, {
-        "source" : "InteresseItaliaans",
-        "target" : "interesseitaliaans126",
-        "type" : "TEXT"
-      }, {
-        "source" : "Subsector2",
-        "target" : "subsector2",
-        "type" : "LIST"
-      }, {
-        "source" : "Geeninteresse",
-        "target" : "geenInteresse",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "UitgebreideprofielInformatieFrans",
-        "target" : "uitgebreideProfielInformatieFrans",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Contractsdatum",
-        "target" : "contractsdatum",
-        "type" : "DATE"
-      }, {
-        "source" : "Regioextrainformatie",
-        "target" : "regioExtraInformatie",
-        "type" : "LIST"
-      }, {
-        "source" : "_Interesse (Frans)",
-        "target" : "interesseFrans",
-        "type" : "TEXT"
-      }, {
-        "source" : "Omschrijvingmail",
-        "target" : "omschrijvingMail",
-        "type" : "TEXT"
-      }, {
-        "source" : "Branche",
-        "target" : "branche",
-        "type" : "LIST"
-      }, {
-        "source" : "_summary",
-        "target" : "samenvatting",
-        "type" : "TEXT"
-      }, {
-        "source" : "Naam",
-        "target" : "BedrijfsNaam",
-        "type" : "TEXT"
-      }, {
-        "source" : "Profielstatus",
-        "target" : "profielstatus",
-        "type" : "LIST"
-      }, {
-        "source" : "Meerderheidnoodzakelijk",
-        "target" : "meerderheidNoodzakelijk",
-        "type" : "LIST"
-      }, {
-        "source" : "Nacecode",
-        "target" : "naceCode",
-        "type" : "TEXT"
-      }, {
-        "source" : "Afzetmarkt",
-        "target" : "afzetmarkt",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Contract",
-        "target" : "contractvorm",
-        "type" : "LIST"
-      } ],
-      "relations" : [ {
-        "source" : "Regio (site)",
-        "target" : "mkbase.regioSite",
-        "multiple" : false
-      }, {
-        "source" : "Intermediair",
-        "target" : "mkbase.intermediair",
-        "multiple" : false
-      } ]
-    }, {
-      "source" : "7",
-      "target" : "mkbase.verkoperDirect",
-      "fields" : [ {
-        "source" : "Goodwill",
-        "target" : "goodwill",
-        "type" : "TEXT"
-      }, {
-        "source" : "Omzetvoorgaandejaren",
-        "target" : "omzetVoorgaandeJaren",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Postadres",
-        "target" : "postadres",
-        "type" : "TEXT"
-      }, {
-        "source" : "Ligging",
-        "target" : "ligging",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "PersoneelFTE",
-        "target" : "personeelFte",
-        "type" : "TEXT"
-      }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
-        "source" : "Waardeonroerendgoed",
-        "target" : "waardeOnroerendGoed",
-        "type" : "TEXT"
-      }, {
-        "source" : "Profielnummer",
-        "target" : "profielnummer",
-        "type" : "TEXT"
-      }, {
-        "source" : "Branche2",
-        "target" : "tweedeBranche",
-        "type" : "LIST"
-      }, {
-        "source" : "Inventaris",
-        "target" : "inventaris",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Klantenbestand",
-        "target" : "klantenbestand",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Redenvanverkoop",
-        "target" : "redenVanVerkoop",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Resultaat",
-        "target" : "resultaat",
-        "type" : "TEXT"
-      }, {
-        "source" : "Sector",
-        "target" : "sector",
-        "type" : "LIST"
-      }, {
-        "source" : "Onroerendgoed",
-        "target" : "onroerendGoed",
-        "type" : "LIST"
-      }, {
-        "source" : "OmschrijvingMailFrans",
-        "target" : "omschrijvingMailFrans",
-        "type" : "TEXT"
-      }, {
-        "source" : "Looptijdhuurcontract",
-        "target" : "looptijdHuurcontract",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Eventueleeisenaankandidaatkoper",
-        "target" : "eventueleEisenAanKandidaatKoper",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Overnamemail",
-        "target" : "overnameMail",
-        "type" : "LIST"
-      }, {
-        "source" : "Betaald",
-        "target" : "betaald",
-        "type" : "LIST"
-      }, {
-        "source" : "Plaats",
-        "target" : "plaats",
-        "type" : "TEXT"
-      }, {
-        "source" : "Postcode",
-        "target" : "postcode",
-        "type" : "TEXT"
-      }, {
-        "source" : "Interesse",
-        "target" : "interesse",
-        "type" : "TEXT"
-      }, {
-        "source" : "InteresseItaliaans",
-        "target" : "interesseitaliaans126",
-        "type" : "TEXT"
-      }, {
-        "source" : "Subsector2",
-        "target" : "subsector2",
-        "type" : "LIST"
-      }, {
-        "source" : "UitgebreideprofielInformatieFrans",
-        "target" : "uitgebreideProfielInformatieFrans",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Prijsvancontract",
-        "target" : "prijsVanContract",
-        "type" : "LIST"
-      }, {
-        "source" : "VVO",
-        "target" : "vvo",
-        "type" : "TEXT"
-      }, {
-        "source" : "Regioextrainformatie",
-        "target" : "regioExtraInformatie",
-        "type" : "LIST"
-      }, {
-        "source" : "_Interesse (Frans)",
-        "target" : "interesseFrans",
-        "type" : "TEXT"
-      }, {
-        "source" : "Branche",
-        "target" : "branche",
-        "type" : "LIST"
-      }, {
-        "source" : "Geschiedenis",
-        "target" : "geschiedenis",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Profielstatus",
-        "target" : "profielstatus",
-        "type" : "LIST"
-      }, {
-        "source" : "Afzetmarkt",
-        "target" : "afzetmarkt",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Contract",
-        "target" : "contractvorm",
-        "type" : "LIST"
-      }, {
-        "source" : "Eerstecontact",
-        "target" : "eersteContact",
-        "type" : "DATE"
-      }, {
-        "source" : "Uitgebreideprofielinformatie",
-        "target" : "uitgebreideProfielinformatie",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Huurprijs",
-        "target" : "huurprijs",
-        "type" : "TEXT"
-      }, {
-        "source" : "Followup",
-        "target" : "followUp",
-        "type" : "DATE"
-      }, {
-        "source" : "Ingevoerddoor",
-        "target" : "ingevoerdDoor",
-        "type" : "LIST"
-      }, {
-        "source" : "Land",
-        "target" : "land",
-        "type" : "LIST"
-      }, {
-        "source" : "Jaaromzet",
-        "target" : "jaaromzet",
-        "type" : "TEXT"
-      }, {
-        "source" : "Typeoverdracht",
-        "target" : "typeOverdracht",
-        "type" : "LIST"
-      }, {
-        "source" : "URL",
-        "target" : "website",
-        "type" : "HYPERLINK"
-      }, {
-        "source" : "Subsector",
-        "target" : "subsector",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector2",
-        "target" : "sector2",
-        "type" : "LIST"
-      }, {
-        "source" : "Overnamerichtprijs",
-        "target" : "overnamerichtprijs",
-        "type" : "TEXT"
-      }, {
-        "source" : "Staatvanmachinepark",
-        "target" : "staatVanMachinepark",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "transeo",
-        "target" : "transeoMarketplace",
-        "type" : "BOOLEAN"
-      }, {
-        "source" : "Voorraad",
-        "target" : "voorraad",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Verlenging",
-        "target" : "automatischeVerlengingContract",
-        "type" : "LIST"
-      }, {
-        "source" : "Contractsdatum",
-        "target" : "contractsdatum",
-        "type" : "DATE"
-      }, {
-        "source" : "Omschrijvingmail",
-        "target" : "omschrijvingMail",
-        "type" : "TEXT"
-      }, {
-        "source" : "Overnamekrant",
-        "target" : "overnamekrant",
-        "type" : "BOOLEAN"
-      }, {
-        "source" : "Huisnummer",
-        "target" : "huisnummer",
-        "type" : "TEXT"
-      }, {
-        "source" : "_summary",
-        "target" : "samenvatting",
-        "type" : "TEXT"
-      }, {
-        "source" : "Naam",
-        "target" : "BedrijfsNaam",
-        "type" : "TEXT"
-      }, {
-        "source" : "Resultaatvoorgaandejaren",
-        "target" : "resultaatVoorgaandeJaren",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Bereidheidtotinwerken",
-        "target" : "bereidheidTotInwerken",
-        "type" : "LIST"
-      }, {
-        "source" : "Nacecode",
-        "target" : "naceCode",
-        "type" : "TEXT"
-      } ],
-      "relations" : [ {
-        "source" : "Regio (site)",
-        "target" : "mkbase.regioSite",
-        "multiple" : false
-      } ]
-    }, {
-      "source" : "8",
-      "target" : "mkbase.verkoperIndirect",
-      "fields" : [ {
-        "source" : "Goodwill",
-        "target" : "goodwill",
-        "type" : "TEXT"
-      }, {
-        "source" : "Omzetvoorgaandejaren",
-        "target" : "omzetVoorgaandeJaren",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Ligging",
-        "target" : "ligging",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "PersoneelFTE",
-        "target" : "personeelFte",
-        "type" : "TEXT"
-      }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
-        "source" : "Waardeonroerendgoed",
-        "target" : "waardeOnroerendGoed",
-        "type" : "TEXT"
-      }, {
-        "source" : "Profielnummer",
-        "target" : "profielnummer",
-        "type" : "TEXT"
-      }, {
-        "source" : "Branche2",
-        "target" : "tweedeBranche",
-        "type" : "LIST"
-      }, {
-        "source" : "Inventaris",
-        "target" : "inventaris",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Klantenbestand",
-        "target" : "klantenbestand",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Redenvanverkoop",
-        "target" : "redenVanVerkoop",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Resultaat",
-        "target" : "resultaat",
-        "type" : "TEXT"
-      }, {
-        "source" : "Sector",
-        "target" : "sector",
-        "type" : "LIST"
-      }, {
-        "source" : "Onroerendgoed",
-        "target" : "onroerendGoed",
-        "type" : "LIST"
-      }, {
-        "source" : "OmschrijvingMailFrans",
-        "target" : "omschrijvingMailFrans",
-        "type" : "TEXT"
-      }, {
-        "source" : "Looptijdhuurcontract",
-        "target" : "looptijdHuurcontract",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Eventueleeisenaankandidaatkoper",
-        "target" : "eventueleEisenAanKandidaatKoper",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Interesse",
-        "target" : "interesse",
-        "type" : "TEXT"
-      }, {
-        "source" : "InteresseItaliaans",
-        "target" : "interesseitaliaans126",
-        "type" : "TEXT"
-      }, {
-        "source" : "Subsector2",
-        "target" : "subsector2",
-        "type" : "LIST"
-      }, {
-        "source" : "UitgebreideprofielInformatieFrans",
-        "target" : "uitgebreideProfielInformatieFrans",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "VVO",
-        "target" : "vvo",
-        "type" : "TEXT"
-      }, {
-        "source" : "Regioextrainformatie",
-        "target" : "regioExtraInformatie",
-        "type" : "LIST"
-      }, {
-        "source" : "_Interesse (Frans)",
-        "target" : "interesseFrans",
-        "type" : "TEXT"
-      }, {
-        "source" : "Branche",
-        "target" : "branche",
-        "type" : "LIST"
-      }, {
-        "source" : "Geschiedenis",
-        "target" : "geschiedenis",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Profielstatus",
-        "target" : "profielstatus",
-        "type" : "LIST"
-      }, {
-        "source" : "Afzetmarkt",
-        "target" : "afzetmarkt",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Contract",
-        "target" : "contractvorm",
-        "type" : "LIST"
-      }, {
-        "source" : "Eerstecontact",
-        "target" : "eersteContact",
-        "type" : "DATE"
-      }, {
-        "source" : "Uitgebreideprofielinformatie",
-        "target" : "uitgebreideProfielinformatie",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Huurprijs",
-        "target" : "huurprijs",
-        "type" : "TEXT"
-      }, {
-        "source" : "Followup",
-        "target" : "followUp",
-        "type" : "DATE"
-      }, {
-        "source" : "Ingevoerddoor",
-        "target" : "ingevoerdDoor",
-        "type" : "LIST"
-      }, {
-        "source" : "Land",
-        "target" : "land",
-        "type" : "LIST"
-      }, {
-        "source" : "Jaaromzet",
-        "target" : "jaaromzet",
-        "type" : "TEXT"
-      }, {
-        "source" : "Typeoverdracht",
-        "target" : "typeOverdracht",
-        "type" : "LIST"
-      }, {
-        "source" : "URL",
-        "target" : "website",
-        "type" : "HYPERLINK"
-      }, {
-        "source" : "Subsector",
-        "target" : "subsector",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector2",
-        "target" : "sector2",
-        "type" : "LIST"
-      }, {
-        "source" : "Overnamerichtprijs",
-        "target" : "overnamerichtprijs",
-        "type" : "TEXT"
-      }, {
-        "source" : "Staatvanmachinepark",
-        "target" : "staatVanMachinepark",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "transeo",
-        "target" : "transeoMarketplace",
-        "type" : "BOOLEAN"
-      }, {
-        "source" : "Voorraad",
-        "target" : "voorraad",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Contractsdatum",
-        "target" : "contractsdatum",
-        "type" : "DATE"
-      }, {
-        "source" : "Omschrijvingmail",
-        "target" : "omschrijvingMail",
-        "type" : "TEXT"
-      }, {
-        "source" : "_summary",
-        "target" : "samenvatting",
-        "type" : "TEXT"
-      }, {
-        "source" : "Naam",
-        "target" : "BedrijfsNaam",
-        "type" : "TEXT"
-      }, {
-        "source" : "Resultaatvoorgaandejaren",
-        "target" : "resultaatVoorgaandeJaren",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Bereidheidtotinwerken",
-        "target" : "bereidheidTotInwerken",
-        "type" : "LIST"
-      }, {
-        "source" : "Nacecode",
-        "target" : "naceCode",
-        "type" : "TEXT"
-      } ],
-      "relations" : [ {
-        "source" : "Regio (site)",
-        "target" : "mkbase.regioSite",
-        "multiple" : false
-      }, {
-        "source" : "Intermediair",
-        "target" : "mkbase.intermediair",
-        "multiple" : false
-      } ]
-    }, {
       "source" : "10",
       "target" : "mkbase.curator",
       "fields" : [ {
@@ -1710,6 +886,830 @@
       "relations" : [ {
         "source" : "Regio (site)",
         "target" : "mkbase.regioSite",
+        "multiple" : false
+      } ]
+    }, {
+      "source" : "4",
+      "target" : "mkbase.koperDirect",
+      "fields" : [ {
+        "source" : "Eigenmiddelen",
+        "target" : "eigenMiddelen",
+        "type" : "TEXT"
+      }, {
+        "source" : "Postadres",
+        "target" : "postadres",
+        "type" : "TEXT"
+      }, {
+        "source" : "Eerstecontact",
+        "target" : "eersteContact",
+        "type" : "DATE"
+      }, {
+        "source" : "Ervaring",
+        "target" : "ervaring",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Uitgebreideprofielinformatie",
+        "target" : "uitgebreideProfielinformatie",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "_description",
+        "target" : "omschrijving",
+        "type" : "TEXT"
+      }, {
+        "source" : "Typeovername",
+        "target" : "typeOvername",
+        "type" : "LIST"
+      }, {
+        "source" : "Followup",
+        "target" : "followUp",
+        "type" : "DATE"
+      }, {
+        "source" : "Ingevoerddoor",
+        "target" : "ingevoerdDoor",
+        "type" : "LIST"
+      }, {
+        "source" : "Profielnummer",
+        "target" : "profielnummer",
+        "type" : "TEXT"
+      }, {
+        "source" : "Gewensteomzet",
+        "target" : "gewensteOmzet",
+        "type" : "TEXT"
+      }, {
+        "source" : "Branche2",
+        "target" : "tweedeBranche",
+        "type" : "LIST"
+      }, {
+        "source" : "Land",
+        "target" : "land",
+        "type" : "LIST"
+      }, {
+        "source" : "Uitgebreideprofielinformatieitaliaans",
+        "target" : "uitgebreideProfielInformatieItaliaans",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Sector",
+        "target" : "sector",
+        "type" : "LIST"
+      }, {
+        "source" : "OmschrijvingMailFrans",
+        "target" : "omschrijvingMailFrans",
+        "type" : "TEXT"
+      }, {
+        "source" : "URL",
+        "target" : "website",
+        "type" : "HYPERLINK"
+      }, {
+        "source" : "Overnamemail",
+        "target" : "overnameMail",
+        "type" : "LIST"
+      }, {
+        "source" : "Subsector",
+        "target" : "subsector",
+        "type" : "LIST"
+      }, {
+        "source" : "Sector2",
+        "target" : "sector2",
+        "type" : "LIST"
+      }, {
+        "source" : "Betaald",
+        "target" : "betaald",
+        "type" : "LIST"
+      }, {
+        "source" : "Plaats",
+        "target" : "plaats",
+        "type" : "TEXT"
+      }, {
+        "source" : "FranchiseWijzer",
+        "target" : "franchisewijzer",
+        "type" : "BOOLEAN"
+      }, {
+        "source" : "transeo",
+        "target" : "transeoMarketplace",
+        "type" : "BOOLEAN"
+      }, {
+        "source" : "Postcode",
+        "target" : "postcode",
+        "type" : "TEXT"
+      }, {
+        "source" : "Interesse",
+        "target" : "interesse",
+        "type" : "TEXT"
+      }, {
+        "source" : "InteresseItaliaans",
+        "target" : "interesseitaliaans126",
+        "type" : "TEXT"
+      }, {
+        "source" : "Subsector2",
+        "target" : "subsector2",
+        "type" : "LIST"
+      }, {
+        "source" : "Geeninteresse",
+        "target" : "geenInteresse",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Verlenging",
+        "target" : "automatischeVerlengingContract",
+        "type" : "LIST"
+      }, {
+        "source" : "UitgebreideprofielInformatieFrans",
+        "target" : "uitgebreideProfielInformatieFrans",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Prijsvancontract",
+        "target" : "prijsVanContract",
+        "type" : "LIST"
+      }, {
+        "source" : "Contractsdatum",
+        "target" : "contractsdatum",
+        "type" : "DATE"
+      }, {
+        "source" : "Regioextrainformatie",
+        "target" : "regioExtraInformatie",
+        "type" : "LIST"
+      }, {
+        "source" : "_Interesse (Frans)",
+        "target" : "interesseFrans",
+        "type" : "TEXT"
+      }, {
+        "source" : "Omschrijvingmail",
+        "target" : "omschrijvingMail",
+        "type" : "TEXT"
+      }, {
+        "source" : "Overnamekrant",
+        "target" : "overnamekrant",
+        "type" : "BOOLEAN"
+      }, {
+        "source" : "Huisnummer",
+        "target" : "huisnummer",
+        "type" : "TEXT"
+      }, {
+        "source" : "Branche",
+        "target" : "branche",
+        "type" : "LIST"
+      }, {
+        "source" : "_summary",
+        "target" : "samenvatting",
+        "type" : "TEXT"
+      }, {
+        "source" : "Naam",
+        "target" : "BedrijfsNaam",
+        "type" : "TEXT"
+      }, {
+        "source" : "Profielstatus",
+        "target" : "profielstatus",
+        "type" : "LIST"
+      }, {
+        "source" : "MBIcontractweek",
+        "target" : "mbiContractWeek",
+        "type" : "LIST"
+      }, {
+        "source" : "Meerderheidnoodzakelijk",
+        "target" : "meerderheidNoodzakelijk",
+        "type" : "LIST"
+      }, {
+        "source" : "Nacecode",
+        "target" : "naceCode",
+        "type" : "TEXT"
+      }, {
+        "source" : "Afzetmarkt",
+        "target" : "afzetmarkt",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Contract",
+        "target" : "contractvorm",
+        "type" : "LIST"
+      } ],
+      "relations" : [ {
+        "source" : "Regio (site)",
+        "target" : "mkbase.regioSite",
+        "multiple" : false
+      } ]
+    }, {
+      "source" : "5",
+      "target" : "mkbase.koperIndirect",
+      "fields" : [ {
+        "source" : "Eigenmiddelen",
+        "target" : "eigenMiddelen",
+        "type" : "TEXT"
+      }, {
+        "source" : "Eerstecontact",
+        "target" : "eersteContact",
+        "type" : "DATE"
+      }, {
+        "source" : "Ervaring",
+        "target" : "ervaring",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Uitgebreideprofielinformatie",
+        "target" : "uitgebreideProfielinformatie",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "_description",
+        "target" : "omschrijving",
+        "type" : "TEXT"
+      }, {
+        "source" : "Typeovername",
+        "target" : "typeOvername",
+        "type" : "LIST"
+      }, {
+        "source" : "Followup",
+        "target" : "followUp",
+        "type" : "DATE"
+      }, {
+        "source" : "Ingevoerddoor",
+        "target" : "ingevoerdDoor",
+        "type" : "LIST"
+      }, {
+        "source" : "Profielnummer",
+        "target" : "profielnummer",
+        "type" : "TEXT"
+      }, {
+        "source" : "Gewensteomzet",
+        "target" : "gewensteOmzet",
+        "type" : "TEXT"
+      }, {
+        "source" : "Branche2",
+        "target" : "tweedeBranche",
+        "type" : "LIST"
+      }, {
+        "source" : "Land",
+        "target" : "land",
+        "type" : "LIST"
+      }, {
+        "source" : "Uitgebreideprofielinformatieitaliaans",
+        "target" : "uitgebreideProfielInformatieItaliaans",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Sector",
+        "target" : "sector",
+        "type" : "LIST"
+      }, {
+        "source" : "OmschrijvingMailFrans",
+        "target" : "omschrijvingMailFrans",
+        "type" : "TEXT"
+      }, {
+        "source" : "URL",
+        "target" : "website",
+        "type" : "HYPERLINK"
+      }, {
+        "source" : "Subsector",
+        "target" : "subsector",
+        "type" : "LIST"
+      }, {
+        "source" : "Sector2",
+        "target" : "sector2",
+        "type" : "LIST"
+      }, {
+        "source" : "FranchiseWijzer",
+        "target" : "franchisewijzer",
+        "type" : "BOOLEAN"
+      }, {
+        "source" : "transeo",
+        "target" : "transeoMarketplace",
+        "type" : "BOOLEAN"
+      }, {
+        "source" : "Interesse",
+        "target" : "interesse",
+        "type" : "TEXT"
+      }, {
+        "source" : "InteresseItaliaans",
+        "target" : "interesseitaliaans126",
+        "type" : "TEXT"
+      }, {
+        "source" : "Subsector2",
+        "target" : "subsector2",
+        "type" : "LIST"
+      }, {
+        "source" : "Geeninteresse",
+        "target" : "geenInteresse",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "UitgebreideprofielInformatieFrans",
+        "target" : "uitgebreideProfielInformatieFrans",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Contractsdatum",
+        "target" : "contractsdatum",
+        "type" : "DATE"
+      }, {
+        "source" : "Regioextrainformatie",
+        "target" : "regioExtraInformatie",
+        "type" : "LIST"
+      }, {
+        "source" : "_Interesse (Frans)",
+        "target" : "interesseFrans",
+        "type" : "TEXT"
+      }, {
+        "source" : "Omschrijvingmail",
+        "target" : "omschrijvingMail",
+        "type" : "TEXT"
+      }, {
+        "source" : "Branche",
+        "target" : "branche",
+        "type" : "LIST"
+      }, {
+        "source" : "_summary",
+        "target" : "samenvatting",
+        "type" : "TEXT"
+      }, {
+        "source" : "Naam",
+        "target" : "BedrijfsNaam",
+        "type" : "TEXT"
+      }, {
+        "source" : "Profielstatus",
+        "target" : "profielstatus",
+        "type" : "LIST"
+      }, {
+        "source" : "Meerderheidnoodzakelijk",
+        "target" : "meerderheidNoodzakelijk",
+        "type" : "LIST"
+      }, {
+        "source" : "Nacecode",
+        "target" : "naceCode",
+        "type" : "TEXT"
+      }, {
+        "source" : "Afzetmarkt",
+        "target" : "afzetmarkt",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Contract",
+        "target" : "contractvorm",
+        "type" : "LIST"
+      } ],
+      "relations" : [ {
+        "source" : "Regio (site)",
+        "target" : "mkbase.regioSite",
+        "multiple" : false
+      }, {
+        "source" : "Intermediair",
+        "target" : "mkbase.intermediair",
+        "multiple" : false
+      } ]
+    }, {
+      "source" : "7",
+      "target" : "mkbase.verkoperDirect",
+      "fields" : [ {
+        "source" : "Goodwill",
+        "target" : "goodwill",
+        "type" : "TEXT"
+      }, {
+        "source" : "Omzetvoorgaandejaren",
+        "target" : "omzetVoorgaandeJaren",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Postadres",
+        "target" : "postadres",
+        "type" : "TEXT"
+      }, {
+        "source" : "Ligging",
+        "target" : "ligging",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "PersoneelFTE",
+        "target" : "personeelFte",
+        "type" : "TEXT"
+      }, {
+        "source" : "_description",
+        "target" : "omschrijving",
+        "type" : "TEXT"
+      }, {
+        "source" : "Waardeonroerendgoed",
+        "target" : "waardeOnroerendGoed",
+        "type" : "TEXT"
+      }, {
+        "source" : "Profielnummer",
+        "target" : "profielnummer",
+        "type" : "TEXT"
+      }, {
+        "source" : "Branche2",
+        "target" : "tweedeBranche",
+        "type" : "LIST"
+      }, {
+        "source" : "Inventaris",
+        "target" : "inventaris",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Klantenbestand",
+        "target" : "klantenbestand",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Redenvanverkoop",
+        "target" : "redenVanVerkoop",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Resultaat",
+        "target" : "resultaat",
+        "type" : "TEXT"
+      }, {
+        "source" : "Sector",
+        "target" : "sector",
+        "type" : "LIST"
+      }, {
+        "source" : "Onroerendgoed",
+        "target" : "onroerendGoed",
+        "type" : "LIST"
+      }, {
+        "source" : "OmschrijvingMailFrans",
+        "target" : "omschrijvingMailFrans",
+        "type" : "TEXT"
+      }, {
+        "source" : "Looptijdhuurcontract",
+        "target" : "looptijdHuurcontract",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Eventueleeisenaankandidaatkoper",
+        "target" : "eventueleEisenAanKandidaatKoper",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Overnamemail",
+        "target" : "overnameMail",
+        "type" : "LIST"
+      }, {
+        "source" : "Betaald",
+        "target" : "betaald",
+        "type" : "LIST"
+      }, {
+        "source" : "Plaats",
+        "target" : "plaats",
+        "type" : "TEXT"
+      }, {
+        "source" : "Postcode",
+        "target" : "postcode",
+        "type" : "TEXT"
+      }, {
+        "source" : "Interesse",
+        "target" : "interesse",
+        "type" : "TEXT"
+      }, {
+        "source" : "InteresseItaliaans",
+        "target" : "interesseitaliaans126",
+        "type" : "TEXT"
+      }, {
+        "source" : "Subsector2",
+        "target" : "subsector2",
+        "type" : "LIST"
+      }, {
+        "source" : "UitgebreideprofielInformatieFrans",
+        "target" : "uitgebreideProfielInformatieFrans",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Prijsvancontract",
+        "target" : "prijsVanContract",
+        "type" : "LIST"
+      }, {
+        "source" : "VVO",
+        "target" : "vvo",
+        "type" : "TEXT"
+      }, {
+        "source" : "Regioextrainformatie",
+        "target" : "regioExtraInformatie",
+        "type" : "LIST"
+      }, {
+        "source" : "_Interesse (Frans)",
+        "target" : "interesseFrans",
+        "type" : "TEXT"
+      }, {
+        "source" : "Branche",
+        "target" : "branche",
+        "type" : "LIST"
+      }, {
+        "source" : "Geschiedenis",
+        "target" : "geschiedenis",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Profielstatus",
+        "target" : "profielstatus",
+        "type" : "LIST"
+      }, {
+        "source" : "Afzetmarkt",
+        "target" : "afzetmarkt",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Contract",
+        "target" : "contractvorm",
+        "type" : "LIST"
+      }, {
+        "source" : "Eerstecontact",
+        "target" : "eersteContact",
+        "type" : "DATE"
+      }, {
+        "source" : "Uitgebreideprofielinformatie",
+        "target" : "uitgebreideProfielinformatie",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Huurprijs",
+        "target" : "huurprijs",
+        "type" : "TEXT"
+      }, {
+        "source" : "Followup",
+        "target" : "followUp",
+        "type" : "DATE"
+      }, {
+        "source" : "Ingevoerddoor",
+        "target" : "ingevoerdDoor",
+        "type" : "LIST"
+      }, {
+        "source" : "Land",
+        "target" : "land",
+        "type" : "LIST"
+      }, {
+        "source" : "Jaaromzet",
+        "target" : "jaaromzet",
+        "type" : "TEXT"
+      }, {
+        "source" : "Typeoverdracht",
+        "target" : "typeOverdracht",
+        "type" : "LIST"
+      }, {
+        "source" : "URL",
+        "target" : "website",
+        "type" : "HYPERLINK"
+      }, {
+        "source" : "Subsector",
+        "target" : "subsector",
+        "type" : "LIST"
+      }, {
+        "source" : "Sector2",
+        "target" : "sector2",
+        "type" : "LIST"
+      }, {
+        "source" : "Overnamerichtprijs",
+        "target" : "overnamerichtprijs",
+        "type" : "TEXT"
+      }, {
+        "source" : "Staatvanmachinepark",
+        "target" : "staatVanMachinepark",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "transeo",
+        "target" : "transeoMarketplace",
+        "type" : "BOOLEAN"
+      }, {
+        "source" : "Voorraad",
+        "target" : "voorraad",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Verlenging",
+        "target" : "automatischeVerlengingContract",
+        "type" : "LIST"
+      }, {
+        "source" : "Contractsdatum",
+        "target" : "contractsdatum",
+        "type" : "DATE"
+      }, {
+        "source" : "Omschrijvingmail",
+        "target" : "omschrijvingMail",
+        "type" : "TEXT"
+      }, {
+        "source" : "Overnamekrant",
+        "target" : "overnamekrant",
+        "type" : "BOOLEAN"
+      }, {
+        "source" : "Huisnummer",
+        "target" : "huisnummer",
+        "type" : "TEXT"
+      }, {
+        "source" : "_summary",
+        "target" : "samenvatting",
+        "type" : "TEXT"
+      }, {
+        "source" : "Naam",
+        "target" : "BedrijfsNaam",
+        "type" : "TEXT"
+      }, {
+        "source" : "Resultaatvoorgaandejaren",
+        "target" : "resultaatVoorgaandeJaren",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Bereidheidtotinwerken",
+        "target" : "bereidheidTotInwerken",
+        "type" : "LIST"
+      }, {
+        "source" : "Nacecode",
+        "target" : "naceCode",
+        "type" : "TEXT"
+      } ],
+      "relations" : [ {
+        "source" : "Regio (site)",
+        "target" : "mkbase.regioSite",
+        "multiple" : false
+      } ]
+    }, {
+      "source" : "8",
+      "target" : "mkbase.verkoperIndirect",
+      "fields" : [ {
+        "source" : "Goodwill",
+        "target" : "goodwill",
+        "type" : "TEXT"
+      }, {
+        "source" : "Omzetvoorgaandejaren",
+        "target" : "omzetVoorgaandeJaren",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Ligging",
+        "target" : "ligging",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "PersoneelFTE",
+        "target" : "personeelFte",
+        "type" : "TEXT"
+      }, {
+        "source" : "_description",
+        "target" : "omschrijving",
+        "type" : "TEXT"
+      }, {
+        "source" : "Waardeonroerendgoed",
+        "target" : "waardeOnroerendGoed",
+        "type" : "TEXT"
+      }, {
+        "source" : "Profielnummer",
+        "target" : "profielnummer",
+        "type" : "TEXT"
+      }, {
+        "source" : "Branche2",
+        "target" : "tweedeBranche",
+        "type" : "LIST"
+      }, {
+        "source" : "Inventaris",
+        "target" : "inventaris",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Klantenbestand",
+        "target" : "klantenbestand",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Redenvanverkoop",
+        "target" : "redenVanVerkoop",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Resultaat",
+        "target" : "resultaat",
+        "type" : "TEXT"
+      }, {
+        "source" : "Sector",
+        "target" : "sector",
+        "type" : "LIST"
+      }, {
+        "source" : "Onroerendgoed",
+        "target" : "onroerendGoed",
+        "type" : "LIST"
+      }, {
+        "source" : "OmschrijvingMailFrans",
+        "target" : "omschrijvingMailFrans",
+        "type" : "TEXT"
+      }, {
+        "source" : "Looptijdhuurcontract",
+        "target" : "looptijdHuurcontract",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Eventueleeisenaankandidaatkoper",
+        "target" : "eventueleEisenAanKandidaatKoper",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Interesse",
+        "target" : "interesse",
+        "type" : "TEXT"
+      }, {
+        "source" : "InteresseItaliaans",
+        "target" : "interesseitaliaans126",
+        "type" : "TEXT"
+      }, {
+        "source" : "Subsector2",
+        "target" : "subsector2",
+        "type" : "LIST"
+      }, {
+        "source" : "UitgebreideprofielInformatieFrans",
+        "target" : "uitgebreideProfielInformatieFrans",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "VVO",
+        "target" : "vvo",
+        "type" : "TEXT"
+      }, {
+        "source" : "Regioextrainformatie",
+        "target" : "regioExtraInformatie",
+        "type" : "LIST"
+      }, {
+        "source" : "_Interesse (Frans)",
+        "target" : "interesseFrans",
+        "type" : "TEXT"
+      }, {
+        "source" : "Branche",
+        "target" : "branche",
+        "type" : "LIST"
+      }, {
+        "source" : "Geschiedenis",
+        "target" : "geschiedenis",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Profielstatus",
+        "target" : "profielstatus",
+        "type" : "LIST"
+      }, {
+        "source" : "Afzetmarkt",
+        "target" : "afzetmarkt",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Contract",
+        "target" : "contractvorm",
+        "type" : "LIST"
+      }, {
+        "source" : "Eerstecontact",
+        "target" : "eersteContact",
+        "type" : "DATE"
+      }, {
+        "source" : "Uitgebreideprofielinformatie",
+        "target" : "uitgebreideProfielinformatie",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Huurprijs",
+        "target" : "huurprijs",
+        "type" : "TEXT"
+      }, {
+        "source" : "Followup",
+        "target" : "followUp",
+        "type" : "DATE"
+      }, {
+        "source" : "Ingevoerddoor",
+        "target" : "ingevoerdDoor",
+        "type" : "LIST"
+      }, {
+        "source" : "Land",
+        "target" : "land",
+        "type" : "LIST"
+      }, {
+        "source" : "Jaaromzet",
+        "target" : "jaaromzet",
+        "type" : "TEXT"
+      }, {
+        "source" : "Typeoverdracht",
+        "target" : "typeOverdracht",
+        "type" : "LIST"
+      }, {
+        "source" : "URL",
+        "target" : "website",
+        "type" : "HYPERLINK"
+      }, {
+        "source" : "Subsector",
+        "target" : "subsector",
+        "type" : "LIST"
+      }, {
+        "source" : "Sector2",
+        "target" : "sector2",
+        "type" : "LIST"
+      }, {
+        "source" : "Overnamerichtprijs",
+        "target" : "overnamerichtprijs",
+        "type" : "TEXT"
+      }, {
+        "source" : "Staatvanmachinepark",
+        "target" : "staatVanMachinepark",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "transeo",
+        "target" : "transeoMarketplace",
+        "type" : "BOOLEAN"
+      }, {
+        "source" : "Voorraad",
+        "target" : "voorraad",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Contractsdatum",
+        "target" : "contractsdatum",
+        "type" : "DATE"
+      }, {
+        "source" : "Omschrijvingmail",
+        "target" : "omschrijvingMail",
+        "type" : "TEXT"
+      }, {
+        "source" : "_summary",
+        "target" : "samenvatting",
+        "type" : "TEXT"
+      }, {
+        "source" : "Naam",
+        "target" : "BedrijfsNaam",
+        "type" : "TEXT"
+      }, {
+        "source" : "Resultaatvoorgaandejaren",
+        "target" : "resultaatVoorgaandeJaren",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Bereidheidtotinwerken",
+        "target" : "bereidheidTotInwerken",
+        "type" : "LIST"
+      }, {
+        "source" : "Nacecode",
+        "target" : "naceCode",
+        "type" : "TEXT"
+      } ],
+      "relations" : [ {
+        "source" : "Regio (site)",
+        "target" : "mkbase.regioSite",
+        "multiple" : false
+      }, {
+        "source" : "Intermediair",
+        "target" : "mkbase.intermediair",
         "multiple" : false
       } ]
     }, {
