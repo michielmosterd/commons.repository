@@ -1,6 +1,6 @@
 {
   "class" : "mkbase.item",
-  "type" : "ABSTRACT",
+  "type" : "EXTENSION",
   "imports" : [ "mkbase.koperDirect", "mkbase.koperIndirect", "mkbase.verkoperDirect", "mkbase.verkoperIndirect", "mkbase.curator", "mkbase.ventureCapitalist", "mkbase.adviseur", "mkbase.franchisegever", "mkbase.makelaar", "mkbase.projectontwikkelaar", "mkbase.leverancier", "mkbase.onroerendGoed", "mkbase.contactpersoon", "mkbase.memo", "mkbase.document", "mkbase.match", "mkbase.mogelijkeMatch", "mkbase.teOnderzoekenMatch", "mkbase.regioSite", "mkbase.gearchiveerdeMemo", "mkbase.migration" ],
   "valueTypes" : [ {
     "name" : "importId",
