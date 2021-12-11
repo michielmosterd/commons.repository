@@ -3,5 +3,6 @@
   "type" : "ABSTRACT",
   "valueTypes" : [ ],
   "relations" : [ ],
+  "formulas" : [ ],
   "inherits" : "mkbase.baseDossier"
 }

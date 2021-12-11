@@ -15,5 +15,6 @@
     "list" : null
   } ],
   "relations" : [ ],
+  "formulas" : [ ],
   "inherits" : "commons.item"
 }

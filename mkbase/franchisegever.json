@@ -39,5 +39,6 @@
     "list" : null
   } ],
   "relations" : [ ],
+  "formulas" : [ ],
   "inherits" : "mkbase.intermediair"
 }

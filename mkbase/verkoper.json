@@ -235,19 +235,17 @@
     "enabled" : true,
     "required" : false,
     "list" : null
-  }, {
-    "name" : "omschrijving",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
-    "name" : "samenvatting",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
   } ],
   "relations" : [ ],
+  "formulas" : [ {
+    "valueType" : "profielnummer",
+    "formula" : "S{identity('VerkoperReeks', '5')}"
+  }, {
+    "valueType" : "name",
+    "formula" : "{<30>} {<22>} {<43>} {<23>}"
+  }, {
+    "valueType" : "summary",
+    "formula" : "{<39>}"
+  } ],
   "inherits" : "mkbase.entiteit"
 }

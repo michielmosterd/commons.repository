@@ -7,18 +7,16 @@
     "enabled" : true,
     "required" : false,
     "list" : null
-  }, {
-    "name" : "omschrijving",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
   } ],
   "relations" : [ {
     "type" : "mkbase.entiteit",
     "required" : false,
     "multiple" : false,
     "cascadeDelete" : false
+  } ],
+  "formulas" : [ {
+    "valueType" : "name",
+    "formula" : "{<4.2><129>}"
   } ],
   "inherits" : "mkbase.alleMemoS"
 }

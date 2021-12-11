@@ -8,8 +8,15 @@
     "enabled" : true,
     "required" : false,
     "list" : null
+  }, {
+    "name" : "summary",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
   } ],
   "relations" : [ ],
+  "formulas" : [ ],
   "lists" : [ {
     "name" : "mkbase.contract",
     "items" : {

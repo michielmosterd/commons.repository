@@ -55,24 +55,19 @@
     "enabled" : true,
     "required" : false,
     "list" : null
-  }, {
-    "name" : "omschrijving",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
-    "name" : "samenvatting",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
   } ],
   "relations" : [ {
     "type" : "mkbase.entiteit",
     "required" : false,
     "multiple" : false,
     "cascadeDelete" : false
+  } ],
+  "formulas" : [ {
+    "valueType" : "name",
+    "formula" : "{{geslacht}} {{voorletters}} {{achternaam}}"
+  }, {
+    "valueType" : "summary",
+    "formula" : "{{eMailAdres}} {{telefoonnummer}} {{mobieleTelefoon}}"
   } ],
   "inherits" : "commons.item"
 }

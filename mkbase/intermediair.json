@@ -97,13 +97,14 @@
     "enabled" : true,
     "required" : false,
     "list" : null
-  }, {
-    "name" : "omschrijving",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
   } ],
   "relations" : [ ],
+  "formulas" : [ {
+    "valueType" : "profielnummer",
+    "formula" : "I{identity('IntermediairReeks', '5')}"
+  }, {
+    "valueType" : "name",
+    "formula" : "{{profielnummer}} {{BedrijfsNaam}} {{contractvorm}}"
+  } ],
   "inherits" : "mkbase.entiteit"
 }

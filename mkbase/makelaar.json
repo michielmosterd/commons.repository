@@ -15,5 +15,6 @@
     "list" : "mkbase.huurKoopOg"
   } ],
   "relations" : [ ],
+  "formulas" : [ ],
   "inherits" : "mkbase.intermediair"
 }

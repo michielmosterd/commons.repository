@@ -14,12 +14,6 @@
     "required" : false,
     "list" : null
   }, {
-    "name" : "omschrijving",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
     "name" : "sector",
     "dataType" : "LIST",
     "enabled" : true,
@@ -54,6 +48,10 @@
     "required" : true,
     "multiple" : false,
     "cascadeDelete" : false
+  } ],
+  "formulas" : [ {
+    "valueType" : "name",
+    "formula" : "{{faseVanContact}}"
   } ],
   "inherits" : "mkbase.mappensysteem"
 }

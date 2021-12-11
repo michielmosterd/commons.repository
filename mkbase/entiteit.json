@@ -73,18 +73,16 @@
     "enabled" : true,
     "required" : false,
     "list" : null
-  }, {
-    "name" : "omschrijving",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
   } ],
   "relations" : [ {
     "type" : "mkbase.regioSite",
     "required" : true,
     "multiple" : false,
     "cascadeDelete" : false
+  } ],
+  "formulas" : [ {
+    "valueType" : "name",
+    "formula" : "{{profielnummer}} {{BedrijfsNaam}} {!Contract}"
   } ],
   "inherits" : "commons.item"
 }

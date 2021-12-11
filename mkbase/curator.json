@@ -9,5 +9,6 @@
     "list" : "mkbase.jaNee"
   } ],
   "relations" : [ ],
+  "formulas" : [ ],
   "inherits" : "mkbase.intermediair"
 }

@@ -63,5 +63,6 @@
     "list" : "mkbase.mbiWeek"
   } ],
   "relations" : [ ],
+  "formulas" : [ ],
   "inherits" : "mkbase.koper"
 }

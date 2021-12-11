@@ -7,13 +7,11 @@
     "enabled" : true,
     "required" : false,
     "list" : "mkbase.huurKoopOg"
-  }, {
-    "name" : "omschrijving",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
   } ],
   "relations" : [ ],
+  "formulas" : [ {
+    "valueType" : "name",
+    "formula" : "Onroerend goed"
+  } ],
   "inherits" : "commons.item"
 }

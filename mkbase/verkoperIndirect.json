@@ -8,5 +8,6 @@
     "multiple" : false,
     "cascadeDelete" : false
   } ],
+  "formulas" : [ ],
   "inherits" : "mkbase.verkoper"
 }

@@ -1,13 +1,11 @@
 {
   "class" : "mkbase.leverancier",
   "type" : "BASIC",
-  "valueTypes" : [ {
-    "name" : "omschrijving",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  } ],
+  "valueTypes" : [ ],
   "relations" : [ ],
+  "formulas" : [ {
+    "valueType" : "name",
+    "formula" : "Leverancier"
+  } ],
   "inherits" : "mkbase.entiteit"
 }

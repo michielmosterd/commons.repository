@@ -19,13 +19,11 @@
     "enabled" : true,
     "required" : true,
     "list" : null
-  }, {
-    "name" : "omschrijving",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
   } ],
   "relations" : [ ],
+  "formulas" : [ {
+    "valueType" : "name",
+    "formula" : "{{regioNl}}"
+  } ],
   "inherits" : "commons.item"
 }

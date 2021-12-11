@@ -157,19 +157,17 @@
     "enabled" : true,
     "required" : false,
     "list" : null
-  }, {
-    "name" : "omschrijving",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
-    "name" : "samenvatting",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
   } ],
   "relations" : [ ],
+  "formulas" : [ {
+    "valueType" : "profielnummer",
+    "formula" : "B{identity('KoperReeks', '5')}"
+  }, {
+    "valueType" : "name",
+    "formula" : "{{profielnummer}} {{BedrijfsNaam}} {{profielstatus}} {{contractvorm}}"
+  }, {
+    "valueType" : "summary",
+    "formula" : "{{interesse}}"
+  } ],
   "inherits" : "mkbase.entiteit"
 }
