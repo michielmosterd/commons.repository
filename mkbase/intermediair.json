@@ -101,7 +101,7 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "profielnummer",
-    "formula" : "I{{identitifier \"IntermediairReeks\"}}"
+    "formula" : "I{{identifier \"IntermediairReeks\"}}"
   }, {
     "valueType" : "name",
     "formula" : "{{profielnummer}} {{BedrijfsNaam}} {{contractvorm}}"
