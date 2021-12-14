@@ -2,6 +2,12 @@
   "class" : "mkbase.verkoper",
   "type" : "ABSTRACT",
   "valueTypes" : [ {
+    "name" : "vvo",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
     "name" : "profielnummer",
     "dataType" : "TEXT",
     "enabled" : true,
@@ -98,6 +104,12 @@
     "required" : false,
     "list" : null
   }, {
+    "name" : "huurprijs",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
     "name" : "redenVanVerkoop",
     "dataType" : "TEXTBLOCK",
     "enabled" : true,
@@ -141,12 +153,6 @@
     "list" : null
   }, {
     "name" : "waardeOnroerendGoed",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
-    "name" : "huurprijs",
     "dataType" : "TEXT",
     "enabled" : true,
     "required" : false,
@@ -224,12 +230,6 @@
     "required" : false,
     "list" : null
   }, {
-    "name" : "vvo",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
     "name" : "interesseitaliaans126",
     "dataType" : "TEXT",
     "enabled" : true,
@@ -239,7 +239,7 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "profielnummer",
-    "formula" : "S{identity('VerkoperReeks', '5')}"
+    "formula" : "S{{identifier \"VerkoperReeks\"}}"
   }, {
     "valueType" : "name",
     "formula" : "{<30>} {<22>} {<43>} {<23>}"

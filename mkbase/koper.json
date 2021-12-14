@@ -161,7 +161,7 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "profielnummer",
-    "formula" : "B{identity('KoperReeks', '5')}"
+    "formula" : "B{{identifier \"KoperReeks\"}}"
   }, {
     "valueType" : "name",
     "formula" : "{{profielnummer}} {{BedrijfsNaam}} {{profielstatus}} {{contractvorm}}"

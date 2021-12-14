@@ -33,8 +33,8 @@
       "source" : "27",
       "target" : "mkbase.regioSite",
       "fields" : [ {
-        "source" : "_description",
-        "target" : "omschrijving",
+        "source" : "_summary",
+        "target" : "summary",
         "type" : "TEXT"
       }, {
         "source" : "regionNaamFR",
@@ -74,9 +74,307 @@
         "target" : "aantalKranten",
         "type" : "TEXT"
       }, {
-        "source" : "_description",
-        "target" : "omschrijving",
+        "source" : "Followup",
+        "target" : "followUp",
+        "type" : "DATE"
+      }, {
+        "source" : "Ingevoerddoor",
+        "target" : "ingevoerdDoor",
+        "type" : "LIST"
+      }, {
+        "source" : "Profielnummer",
+        "target" : "ID:IntermediairReeks",
         "type" : "TEXT"
+      }, {
+        "source" : "Staffelafwijkendeafspraken",
+        "target" : "staffelAfwijkendeAfspraken",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Land",
+        "target" : "land",
+        "type" : "LIST"
+      }, {
+        "source" : "Specialisatie",
+        "target" : "specialisatie",
+        "type" : "TEXT"
+      }, {
+        "source" : "Stilprofielabonnement",
+        "target" : "stilProfielAbonnement",
+        "type" : "LIST"
+      }, {
+        "source" : "Sector",
+        "target" : "sector",
+        "type" : "LIST"
+      }, {
+        "source" : "_summary",
+        "target" : "summary",
+        "type" : "TEXT"
+      }, {
+        "source" : "URL",
+        "target" : "website",
+        "type" : "HYPERLINK"
+      }, {
+        "source" : "Overnamemail",
+        "target" : "overnameMail",
+        "type" : "LIST"
+      }, {
+        "source" : "Betaald",
+        "target" : "betaald",
+        "type" : "LIST"
+      }, {
+        "source" : "Plaats",
+        "target" : "plaats",
+        "type" : "TEXT"
+      }, {
+        "source" : "transeo",
+        "target" : "transeoMarketplace",
+        "type" : "BOOLEAN"
+      }, {
+        "source" : "Postcode",
+        "target" : "postcode",
+        "type" : "TEXT"
+      }, {
+        "source" : "Verlenging",
+        "target" : "automatischeVerlengingContract",
+        "type" : "LIST"
+      }, {
+        "source" : "Contractsdatum",
+        "target" : "contractsdatum",
+        "type" : "DATE"
+      }, {
+        "source" : "Regioextrainformatie",
+        "target" : "regioExtraInformatie",
+        "type" : "LIST"
+      }, {
+        "source" : "Succesfee",
+        "target" : "succesfee",
+        "type" : "LIST"
+      }, {
+        "source" : "Overnamekrant",
+        "target" : "overnamekrant",
+        "type" : "BOOLEAN"
+      }, {
+        "source" : "Huisnummer",
+        "target" : "huisnummer",
+        "type" : "TEXT"
+      }, {
+        "source" : "Naam",
+        "target" : "BedrijfsNaam",
+        "type" : "TEXT"
+      }, {
+        "source" : "Nacecode",
+        "target" : "naceCode",
+        "type" : "TEXT"
+      }, {
+        "source" : "Contract",
+        "target" : "contractvorm",
+        "type" : "LIST"
+      } ],
+      "relations" : [ {
+        "source" : "regioSite",
+        "target" : "mkbase.regioSite",
+        "multiple" : false
+      } ]
+    }, {
+      "source" : "11",
+      "target" : "mkbase.ventureCapitalist",
+      "fields" : [ {
+        "source" : "Soortfinanciering",
+        "target" : "soortFinanciering",
+        "type" : "LIST"
+      }, {
+        "source" : "Geassocieerdlid",
+        "target" : "geassocieerdLid",
+        "type" : "LIST"
+      }, {
+        "source" : "Aantalcontracten",
+        "target" : "aantalContracten",
+        "type" : "TEXT"
+      }, {
+        "source" : "SoortVC",
+        "target" : "soortVc",
+        "type" : "LIST"
+      }, {
+        "source" : "Postadres",
+        "target" : "postadres",
+        "type" : "TEXT"
+      }, {
+        "source" : "Eerstecontact",
+        "target" : "eersteContact",
+        "type" : "DATE"
+      }, {
+        "source" : "Aantalkranten",
+        "target" : "aantalKranten",
+        "type" : "TEXT"
+      }, {
+        "source" : "InteresseinBranche3",
+        "target" : "interesseInBranche3",
+        "type" : "LIST"
+      }, {
+        "source" : "InteresseinBranche2",
+        "target" : "interesseInBranche2",
+        "type" : "LIST"
+      }, {
+        "source" : "InteresseinBranche1",
+        "target" : "interesseInBranche1",
+        "type" : "LIST"
+      }, {
+        "source" : "Followup",
+        "target" : "followUp",
+        "type" : "DATE"
+      }, {
+        "source" : "Minimaleinvestering",
+        "target" : "mimaleInvestering",
+        "type" : "TEXT"
+      }, {
+        "source" : "Ingevoerddoor",
+        "target" : "ingevoerdDoor",
+        "type" : "LIST"
+      }, {
+        "source" : "Profielnummer",
+        "target" : "ID:IntermediairReeks",
+        "type" : "TEXT"
+      }, {
+        "source" : "Commissarisplaatsvereist",
+        "target" : "commissarisPlaatsVereist",
+        "type" : "LIST"
+      }, {
+        "source" : "Staffelafwijkendeafspraken",
+        "target" : "staffelAfwijkendeAfspraken",
+        "type" : "TEXTBLOCK"
+      }, {
+        "source" : "Maximuminvestering",
+        "target" : "maximumInvestering",
+        "type" : "TEXT"
+      }, {
+        "source" : "Land",
+        "target" : "land",
+        "type" : "LIST"
+      }, {
+        "source" : "MBIgezocht",
+        "target" : "mbiGezocht",
+        "type" : "LIST"
+      }, {
+        "source" : "Specialisatie",
+        "target" : "specialisatie",
+        "type" : "TEXT"
+      }, {
+        "source" : "Stilprofielabonnement",
+        "target" : "stilProfielAbonnement",
+        "type" : "LIST"
+      }, {
+        "source" : "Interesseinonroerendgoedprojecten",
+        "target" : "interesseInOnroerendGoedProjecten",
+        "type" : "LIST"
+      }, {
+        "source" : "Sector",
+        "target" : "sector",
+        "type" : "LIST"
+      }, {
+        "source" : "_summary",
+        "target" : "summary",
+        "type" : "TEXT"
+      }, {
+        "source" : "URL",
+        "target" : "website",
+        "type" : "HYPERLINK"
+      }, {
+        "source" : "Overnamemail",
+        "target" : "overnameMail",
+        "type" : "LIST"
+      }, {
+        "source" : "Betaald",
+        "target" : "betaald",
+        "type" : "LIST"
+      }, {
+        "source" : "Plaats",
+        "target" : "plaats",
+        "type" : "TEXT"
+      }, {
+        "source" : "transeo",
+        "target" : "transeoMarketplace",
+        "type" : "BOOLEAN"
+      }, {
+        "source" : "Postcode",
+        "target" : "postcode",
+        "type" : "TEXT"
+      }, {
+        "source" : "Verlenging",
+        "target" : "automatischeVerlengingContract",
+        "type" : "LIST"
+      }, {
+        "source" : "Contractsdatum",
+        "target" : "contractsdatum",
+        "type" : "DATE"
+      }, {
+        "source" : "Winstgevendheidvereist",
+        "target" : "winstgevendheidVereist",
+        "type" : "LIST"
+      }, {
+        "source" : "Regioextrainformatie",
+        "target" : "regioExtraInformatie",
+        "type" : "LIST"
+      }, {
+        "source" : "Overnamekrant",
+        "target" : "overnamekrant",
+        "type" : "BOOLEAN"
+      }, {
+        "source" : "Huisnummer",
+        "target" : "huisnummer",
+        "type" : "TEXT"
+      }, {
+        "source" : "Naam",
+        "target" : "BedrijfsNaam",
+        "type" : "TEXT"
+      }, {
+        "source" : "Nacecode",
+        "target" : "naceCode",
+        "type" : "TEXT"
+      }, {
+        "source" : "Contract",
+        "target" : "contractvorm",
+        "type" : "LIST"
+      } ],
+      "relations" : [ {
+        "source" : "regioSite",
+        "target" : "mkbase.regioSite",
+        "multiple" : false
+      } ]
+    }, {
+      "source" : "12",
+      "target" : "mkbase.adviseur",
+      "fields" : [ {
+        "source" : "Geassocieerdlid",
+        "target" : "geassocieerdLid",
+        "type" : "LIST"
+      }, {
+        "source" : "Geslaagdetransacties",
+        "target" : "geslaagdeTransacties",
+        "type" : "TEXT"
+      }, {
+        "source" : "Aantalcontracten",
+        "target" : "aantalContracten",
+        "type" : "TEXT"
+      }, {
+        "source" : "Postadres",
+        "target" : "postadres",
+        "type" : "TEXT"
+      }, {
+        "source" : "Eerstecontact",
+        "target" : "eersteContact",
+        "type" : "DATE"
+      }, {
+        "source" : "Aantalvestigingen",
+        "target" : "aantalVestigingen",
+        "type" : "TEXT"
+      }, {
+        "source" : "Aantalkranten",
+        "target" : "aantalKranten",
+        "type" : "TEXT"
+      }, {
+        "source" : "Soortadviseur",
+        "target" : "soortAdviseur",
+        "type" : "LIST"
       }, {
         "source" : "Followup",
         "target" : "followUp",
@@ -146,10 +444,6 @@
         "target" : "regioExtraInformatie",
         "type" : "LIST"
       }, {
-        "source" : "Succesfee",
-        "target" : "succesfee",
-        "type" : "LIST"
-      }, {
         "source" : "Overnamekrant",
         "target" : "overnamekrant",
         "type" : "BOOLEAN"
@@ -171,309 +465,7 @@
         "type" : "LIST"
       } ],
       "relations" : [ {
-        "source" : "Regio (site)",
-        "target" : "mkbase.regioSite",
-        "multiple" : false
-      } ]
-    }, {
-      "source" : "11",
-      "target" : "mkbase.ventureCapitalist",
-      "fields" : [ {
-        "source" : "Soortfinanciering",
-        "target" : "soortFinanciering",
-        "type" : "LIST"
-      }, {
-        "source" : "Geassocieerdlid",
-        "target" : "geassocieerdLid",
-        "type" : "LIST"
-      }, {
-        "source" : "Aantalcontracten",
-        "target" : "aantalContracten",
-        "type" : "TEXT"
-      }, {
-        "source" : "SoortVC",
-        "target" : "soortVc",
-        "type" : "LIST"
-      }, {
-        "source" : "Postadres",
-        "target" : "postadres",
-        "type" : "TEXT"
-      }, {
-        "source" : "Eerstecontact",
-        "target" : "eersteContact",
-        "type" : "DATE"
-      }, {
-        "source" : "Aantalkranten",
-        "target" : "aantalKranten",
-        "type" : "TEXT"
-      }, {
-        "source" : "InteresseinBranche3",
-        "target" : "interesseInBranche3",
-        "type" : "LIST"
-      }, {
-        "source" : "InteresseinBranche2",
-        "target" : "interesseInBranche2",
-        "type" : "LIST"
-      }, {
-        "source" : "InteresseinBranche1",
-        "target" : "interesseInBranche1",
-        "type" : "LIST"
-      }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
-        "source" : "Followup",
-        "target" : "followUp",
-        "type" : "DATE"
-      }, {
-        "source" : "Minimaleinvestering",
-        "target" : "mimaleInvestering",
-        "type" : "TEXT"
-      }, {
-        "source" : "Ingevoerddoor",
-        "target" : "ingevoerdDoor",
-        "type" : "LIST"
-      }, {
-        "source" : "Profielnummer",
-        "target" : "profielnummer",
-        "type" : "TEXT"
-      }, {
-        "source" : "Commissarisplaatsvereist",
-        "target" : "commissarisPlaatsVereist",
-        "type" : "LIST"
-      }, {
-        "source" : "Staffelafwijkendeafspraken",
-        "target" : "staffelAfwijkendeAfspraken",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Maximuminvestering",
-        "target" : "maximumInvestering",
-        "type" : "TEXT"
-      }, {
-        "source" : "Land",
-        "target" : "land",
-        "type" : "LIST"
-      }, {
-        "source" : "MBIgezocht",
-        "target" : "mbiGezocht",
-        "type" : "LIST"
-      }, {
-        "source" : "Specialisatie",
-        "target" : "specialisatie",
-        "type" : "TEXT"
-      }, {
-        "source" : "Stilprofielabonnement",
-        "target" : "stilProfielAbonnement",
-        "type" : "LIST"
-      }, {
-        "source" : "Interesseinonroerendgoedprojecten",
-        "target" : "interesseInOnroerendGoedProjecten",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector",
-        "target" : "sector",
-        "type" : "LIST"
-      }, {
-        "source" : "URL",
-        "target" : "website",
-        "type" : "HYPERLINK"
-      }, {
-        "source" : "Overnamemail",
-        "target" : "overnameMail",
-        "type" : "LIST"
-      }, {
-        "source" : "Betaald",
-        "target" : "betaald",
-        "type" : "LIST"
-      }, {
-        "source" : "Plaats",
-        "target" : "plaats",
-        "type" : "TEXT"
-      }, {
-        "source" : "transeo",
-        "target" : "transeoMarketplace",
-        "type" : "BOOLEAN"
-      }, {
-        "source" : "Postcode",
-        "target" : "postcode",
-        "type" : "TEXT"
-      }, {
-        "source" : "Verlenging",
-        "target" : "automatischeVerlengingContract",
-        "type" : "LIST"
-      }, {
-        "source" : "Contractsdatum",
-        "target" : "contractsdatum",
-        "type" : "DATE"
-      }, {
-        "source" : "Winstgevendheidvereist",
-        "target" : "winstgevendheidVereist",
-        "type" : "LIST"
-      }, {
-        "source" : "Regioextrainformatie",
-        "target" : "regioExtraInformatie",
-        "type" : "LIST"
-      }, {
-        "source" : "Overnamekrant",
-        "target" : "overnamekrant",
-        "type" : "BOOLEAN"
-      }, {
-        "source" : "Huisnummer",
-        "target" : "huisnummer",
-        "type" : "TEXT"
-      }, {
-        "source" : "Naam",
-        "target" : "BedrijfsNaam",
-        "type" : "TEXT"
-      }, {
-        "source" : "Nacecode",
-        "target" : "naceCode",
-        "type" : "TEXT"
-      }, {
-        "source" : "Contract",
-        "target" : "contractvorm",
-        "type" : "LIST"
-      } ],
-      "relations" : [ {
-        "source" : "Regio (site)",
-        "target" : "mkbase.regioSite",
-        "multiple" : false
-      } ]
-    }, {
-      "source" : "12",
-      "target" : "mkbase.adviseur",
-      "fields" : [ {
-        "source" : "Geassocieerdlid",
-        "target" : "geassocieerdLid",
-        "type" : "LIST"
-      }, {
-        "source" : "Geslaagdetransacties",
-        "target" : "geslaagdeTransacties",
-        "type" : "TEXT"
-      }, {
-        "source" : "Aantalcontracten",
-        "target" : "aantalContracten",
-        "type" : "TEXT"
-      }, {
-        "source" : "Postadres",
-        "target" : "postadres",
-        "type" : "TEXT"
-      }, {
-        "source" : "Eerstecontact",
-        "target" : "eersteContact",
-        "type" : "DATE"
-      }, {
-        "source" : "Aantalvestigingen",
-        "target" : "aantalVestigingen",
-        "type" : "TEXT"
-      }, {
-        "source" : "Aantalkranten",
-        "target" : "aantalKranten",
-        "type" : "TEXT"
-      }, {
-        "source" : "Soortadviseur",
-        "target" : "soortAdviseur",
-        "type" : "LIST"
-      }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
-        "source" : "Followup",
-        "target" : "followUp",
-        "type" : "DATE"
-      }, {
-        "source" : "Ingevoerddoor",
-        "target" : "ingevoerdDoor",
-        "type" : "LIST"
-      }, {
-        "source" : "Profielnummer",
-        "target" : "profielnummer",
-        "type" : "TEXT"
-      }, {
-        "source" : "Staffelafwijkendeafspraken",
-        "target" : "staffelAfwijkendeAfspraken",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Land",
-        "target" : "land",
-        "type" : "LIST"
-      }, {
-        "source" : "Specialisatie",
-        "target" : "specialisatie",
-        "type" : "TEXT"
-      }, {
-        "source" : "Stilprofielabonnement",
-        "target" : "stilProfielAbonnement",
-        "type" : "LIST"
-      }, {
-        "source" : "Sector",
-        "target" : "sector",
-        "type" : "LIST"
-      }, {
-        "source" : "URL",
-        "target" : "website",
-        "type" : "HYPERLINK"
-      }, {
-        "source" : "Overnamemail",
-        "target" : "overnameMail",
-        "type" : "LIST"
-      }, {
-        "source" : "Betaald",
-        "target" : "betaald",
-        "type" : "LIST"
-      }, {
-        "source" : "Plaats",
-        "target" : "plaats",
-        "type" : "TEXT"
-      }, {
-        "source" : "transeo",
-        "target" : "transeoMarketplace",
-        "type" : "BOOLEAN"
-      }, {
-        "source" : "Postcode",
-        "target" : "postcode",
-        "type" : "TEXT"
-      }, {
-        "source" : "Verlenging",
-        "target" : "automatischeVerlengingContract",
-        "type" : "LIST"
-      }, {
-        "source" : "Contractsdatum",
-        "target" : "contractsdatum",
-        "type" : "DATE"
-      }, {
-        "source" : "Regioextrainformatie",
-        "target" : "regioExtraInformatie",
-        "type" : "LIST"
-      }, {
-        "source" : "Overnamekrant",
-        "target" : "overnamekrant",
-        "type" : "BOOLEAN"
-      }, {
-        "source" : "_summary",
-        "target" : "samenvatting",
-        "type" : "TEXT"
-      }, {
-        "source" : "Huisnummer",
-        "target" : "huisnummer",
-        "type" : "TEXT"
-      }, {
-        "source" : "Naam",
-        "target" : "BedrijfsNaam",
-        "type" : "TEXT"
-      }, {
-        "source" : "Nacecode",
-        "target" : "naceCode",
-        "type" : "TEXT"
-      }, {
-        "source" : "Contract",
-        "target" : "contractvorm",
-        "type" : "LIST"
-      } ],
-      "relations" : [ {
-        "source" : "Regio (site)",
+        "source" : "regioSite",
         "target" : "mkbase.regioSite",
         "multiple" : false
       } ]
@@ -505,10 +497,6 @@
         "target" : "aantalKranten",
         "type" : "TEXT"
       }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
         "source" : "Followup",
         "target" : "followUp",
         "type" : "DATE"
@@ -522,7 +510,7 @@
         "type" : "LIST"
       }, {
         "source" : "Profielnummer",
-        "target" : "profielnummer",
+        "target" : "ID:IntermediairReeks",
         "type" : "TEXT"
       }, {
         "source" : "Staffelafwijkendeafspraken",
@@ -552,6 +540,10 @@
         "source" : "Soortfranchise",
         "target" : "soortFranchise",
         "type" : "LIST"
+      }, {
+        "source" : "_summary",
+        "target" : "summary",
+        "type" : "TEXT"
       }, {
         "source" : "URL",
         "target" : "website",
@@ -618,7 +610,7 @@
         "type" : "LIST"
       } ],
       "relations" : [ {
-        "source" : "Regio (site)",
+        "source" : "regioSite",
         "target" : "mkbase.regioSite",
         "multiple" : false
       } ]
@@ -650,10 +642,6 @@
         "target" : "aantalKranten",
         "type" : "TEXT"
       }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
         "source" : "Followup",
         "target" : "followUp",
         "type" : "DATE"
@@ -663,7 +651,7 @@
         "type" : "LIST"
       }, {
         "source" : "Profielnummer",
-        "target" : "profielnummer",
+        "target" : "ID:IntermediairReeks",
         "type" : "TEXT"
       }, {
         "source" : "Staffelafwijkendeafspraken",
@@ -689,6 +677,10 @@
         "source" : "Sector",
         "target" : "sector",
         "type" : "LIST"
+      }, {
+        "source" : "_summary",
+        "target" : "summary",
+        "type" : "TEXT"
       }, {
         "source" : "URL",
         "target" : "website",
@@ -747,7 +739,7 @@
         "type" : "LIST"
       } ],
       "relations" : [ {
-        "source" : "Regio (site)",
+        "source" : "regioSite",
         "target" : "mkbase.regioSite",
         "multiple" : false
       } ]
@@ -779,10 +771,6 @@
         "target" : "aantalKranten",
         "type" : "TEXT"
       }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
         "source" : "Followup",
         "target" : "followUp",
         "type" : "DATE"
@@ -796,7 +784,7 @@
         "type" : "LIST"
       }, {
         "source" : "Profielnummer",
-        "target" : "profielnummer",
+        "target" : "ID:IntermediairReeks",
         "type" : "TEXT"
       }, {
         "source" : "Staffelafwijkendeafspraken",
@@ -826,6 +814,10 @@
         "source" : "Sector",
         "target" : "sector",
         "type" : "LIST"
+      }, {
+        "source" : "_summary",
+        "target" : "summary",
+        "type" : "TEXT"
       }, {
         "source" : "URL",
         "target" : "website",
@@ -884,7 +876,7 @@
         "type" : "LIST"
       } ],
       "relations" : [ {
-        "source" : "Regio (site)",
+        "source" : "regioSite",
         "target" : "mkbase.regioSite",
         "multiple" : false
       } ]
@@ -912,10 +904,6 @@
         "target" : "uitgebreideProfielinformatie",
         "type" : "TEXTBLOCK"
       }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
         "source" : "Typeovername",
         "target" : "typeOvername",
         "type" : "LIST"
@@ -929,7 +917,7 @@
         "type" : "LIST"
       }, {
         "source" : "Profielnummer",
-        "target" : "profielnummer",
+        "target" : "ID:KoperReeks",
         "type" : "TEXT"
       }, {
         "source" : "Gewensteomzet",
@@ -1048,10 +1036,6 @@
         "target" : "branche",
         "type" : "LIST"
       }, {
-        "source" : "_summary",
-        "target" : "samenvatting",
-        "type" : "TEXT"
-      }, {
         "source" : "Naam",
         "target" : "BedrijfsNaam",
         "type" : "TEXT"
@@ -1081,7 +1065,7 @@
         "type" : "LIST"
       } ],
       "relations" : [ {
-        "source" : "Regio (site)",
+        "source" : "regioSite",
         "target" : "mkbase.regioSite",
         "multiple" : false
       } ]
@@ -1105,10 +1089,6 @@
         "target" : "uitgebreideProfielinformatie",
         "type" : "TEXTBLOCK"
       }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
         "source" : "Typeovername",
         "target" : "typeOvername",
         "type" : "LIST"
@@ -1122,7 +1102,7 @@
         "type" : "LIST"
       }, {
         "source" : "Profielnummer",
-        "target" : "profielnummer",
+        "target" : "ID:KoperReeks",
         "type" : "TEXT"
       }, {
         "source" : "Gewensteomzet",
@@ -1209,10 +1189,6 @@
         "target" : "branche",
         "type" : "LIST"
       }, {
-        "source" : "_summary",
-        "target" : "samenvatting",
-        "type" : "TEXT"
-      }, {
         "source" : "Naam",
         "target" : "BedrijfsNaam",
         "type" : "TEXT"
@@ -1238,7 +1214,7 @@
         "type" : "LIST"
       } ],
       "relations" : [ {
-        "source" : "Regio (site)",
+        "source" : "regioSite",
         "target" : "mkbase.regioSite",
         "multiple" : false
       }, {
@@ -1270,16 +1246,12 @@
         "target" : "personeelFte",
         "type" : "TEXT"
       }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
         "source" : "Waardeonroerendgoed",
         "target" : "waardeOnroerendGoed",
         "type" : "TEXT"
       }, {
         "source" : "Profielnummer",
-        "target" : "profielnummer",
+        "target" : "ID:VerkoperReeks",
         "type" : "TEXT"
       }, {
         "source" : "Branche2",
@@ -1470,10 +1442,6 @@
         "target" : "huisnummer",
         "type" : "TEXT"
       }, {
-        "source" : "_summary",
-        "target" : "samenvatting",
-        "type" : "TEXT"
-      }, {
         "source" : "Naam",
         "target" : "BedrijfsNaam",
         "type" : "TEXT"
@@ -1491,7 +1459,7 @@
         "type" : "TEXT"
       } ],
       "relations" : [ {
-        "source" : "Regio (site)",
+        "source" : "regioSite",
         "target" : "mkbase.regioSite",
         "multiple" : false
       } ]
@@ -1515,16 +1483,12 @@
         "target" : "personeelFte",
         "type" : "TEXT"
       }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
         "source" : "Waardeonroerendgoed",
         "target" : "waardeOnroerendGoed",
         "type" : "TEXT"
       }, {
         "source" : "Profielnummer",
-        "target" : "profielnummer",
+        "target" : "ID:VerkoperReeks",
         "type" : "TEXT"
       }, {
         "source" : "Branche2",
@@ -1683,10 +1647,6 @@
         "target" : "omschrijvingMail",
         "type" : "TEXT"
       }, {
-        "source" : "_summary",
-        "target" : "samenvatting",
-        "type" : "TEXT"
-      }, {
         "source" : "Naam",
         "target" : "BedrijfsNaam",
         "type" : "TEXT"
@@ -1704,7 +1664,7 @@
         "type" : "TEXT"
       } ],
       "relations" : [ {
-        "source" : "Regio (site)",
+        "source" : "regioSite",
         "target" : "mkbase.regioSite",
         "multiple" : false
       }, {
@@ -1716,6 +1676,10 @@
       "source" : "16",
       "target" : "mkbase.leverancier",
       "fields" : [ {
+        "source" : "_summary",
+        "target" : "summary",
+        "type" : "TEXT"
+      }, {
         "source" : "URL",
         "target" : "website",
         "type" : "HYPERLINK"
@@ -1731,10 +1695,6 @@
         "source" : "Contractsdatum",
         "target" : "contractsdatum",
         "type" : "DATE"
-      }, {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
       }, {
         "source" : "Followup",
         "target" : "followUp",
@@ -1769,7 +1729,7 @@
         "type" : "LIST"
       } ],
       "relations" : [ {
-        "source" : "Regio (site)",
+        "source" : "regioSite",
         "target" : "mkbase.regioSite",
         "multiple" : false
       } ]
@@ -1777,8 +1737,8 @@
       "source" : "17",
       "target" : "mkbase.onroerendGoed",
       "fields" : [ {
-        "source" : "_description",
-        "target" : "omschrijving",
+        "source" : "_summary",
+        "target" : "summary",
         "type" : "TEXT"
       }, {
         "source" : "HuurofKoop",
@@ -1790,10 +1750,6 @@
       "source" : "18",
       "target" : "mkbase.contactpersoon",
       "fields" : [ {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
         "source" : "Achternaam",
         "target" : "achternaam",
         "type" : "TEXT"
@@ -1808,10 +1764,6 @@
       }, {
         "source" : "Voorletters",
         "target" : "voorletters",
-        "type" : "TEXT"
-      }, {
-        "source" : "_summary",
-        "target" : "samenvatting",
         "type" : "TEXT"
       }, {
         "source" : "Opmerking",
@@ -1843,13 +1795,13 @@
       "source" : "19",
       "target" : "mkbase.memo",
       "fields" : [ {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
         "source" : "Datum",
         "target" : "datum",
         "type" : "DATE"
+      }, {
+        "source" : "_summary",
+        "target" : "summary",
+        "type" : "TEXT"
       }, {
         "source" : "Followup",
         "target" : "followUp",
@@ -1884,8 +1836,8 @@
         "target" : "datum1",
         "type" : "DATE"
       }, {
-        "source" : "_description",
-        "target" : "omschrijving",
+        "source" : "_summary",
+        "target" : "summary",
         "type" : "TEXT"
       }, {
         "source" : "documentTitle",
@@ -1905,8 +1857,8 @@
       "source" : "24",
       "target" : "mkbase.match",
       "fields" : [ {
-        "source" : "_description",
-        "target" : "omschrijving",
+        "source" : "_summary",
+        "target" : "summary",
         "type" : "TEXT"
       }, {
         "source" : "overnamesomrange",
@@ -1942,7 +1894,7 @@
         "type" : "TEXTBLOCK"
       } ],
       "relations" : [ {
-        "source" : "Koper ",
+        "source" : "Koper",
         "target" : "mkbase.koper",
         "multiple" : false
       }, {
@@ -1954,10 +1906,6 @@
       "source" : "25",
       "target" : "mkbase.mogelijkeMatch",
       "fields" : [ {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
         "source" : "dossierEnd",
         "target" : "gesloten",
         "type" : "DATE"
@@ -1965,10 +1913,6 @@
         "source" : "MogelijkeMatch",
         "target" : "mogelijkeMatch",
         "type" : "LIST"
-      }, {
-        "source" : "_summary",
-        "target" : "samenvatting",
-        "type" : "TEXT"
       }, {
         "source" : "dossierStart",
         "target" : "start",
@@ -1979,7 +1923,7 @@
         "type" : "TEXTBLOCK"
       } ],
       "relations" : [ {
-        "source" : "Koper ",
+        "source" : "Koper",
         "target" : "mkbase.koper",
         "multiple" : false
       }, {
@@ -1991,10 +1935,6 @@
       "source" : "26",
       "target" : "mkbase.teOnderzoekenMatch",
       "fields" : [ {
-        "source" : "_description",
-        "target" : "omschrijving",
-        "type" : "TEXT"
-      }, {
         "source" : "Teonderzoekenmatch",
         "target" : "teOnderzoekenMatch",
         "type" : "LIST"
@@ -2002,10 +1942,6 @@
         "source" : "dossierEnd",
         "target" : "gesloten",
         "type" : "DATE"
-      }, {
-        "source" : "_summary",
-        "target" : "samenvatting",
-        "type" : "TEXT"
       }, {
         "source" : "dossierStart",
         "target" : "start",
@@ -2016,7 +1952,7 @@
         "type" : "TEXTBLOCK"
       } ],
       "relations" : [ {
-        "source" : "Koper ",
+        "source" : "Koper",
         "target" : "mkbase.koper",
         "multiple" : false
       }, {
@@ -2032,8 +1968,8 @@
         "target" : "datum",
         "type" : "DATE"
       }, {
-        "source" : "_description",
-        "target" : "omschrijving",
+        "source" : "_summary",
+        "target" : "summary",
         "type" : "TEXT"
       }, {
         "source" : "Opmerking",
@@ -2276,7 +2212,7 @@
       "ListValue-286" : "8",
       "ListValue-166" : "I",
       "ListValue-287" : "9",
-      "ListValue-163" : "Rea",
+      "ListValue-163" : "Rea1",
       "ListValue-284" : "6",
       "ListValue-164" : "K",
       "ListValue-285" : "7",
@@ -2331,7 +2267,7 @@
       "ListValue-188" : "GG",
       "ListValue-185" : "Opge",
       "ListValue-186" : "Verd",
-      "ListValue-189" : "Rea1"
+      "ListValue-189" : "Rea"
     }
   }
 }

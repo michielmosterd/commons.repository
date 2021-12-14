@@ -2,6 +2,18 @@
   "class" : "mkbase.entiteit",
   "type" : "ABSTRACT",
   "valueTypes" : [ {
+    "name" : "eersteContact",
+    "dataType" : "DATE",
+    "enabled" : true,
+    "required" : true,
+    "list" : null
+  }, {
+    "name" : "transeoMarketplace",
+    "dataType" : "BOOLEAN",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
     "name" : "ingevoerdDoor",
     "dataType" : "LIST",
     "enabled" : true,
@@ -46,18 +58,6 @@
   }, {
     "name" : "naceCode",
     "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
-    "name" : "eersteContact",
-    "dataType" : "DATE",
-    "enabled" : true,
-    "required" : true,
-    "list" : null
-  }, {
-    "name" : "transeoMarketplace",
-    "dataType" : "BOOLEAN",
     "enabled" : true,
     "required" : false,
     "list" : null

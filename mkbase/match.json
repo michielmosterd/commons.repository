@@ -2,17 +2,17 @@
   "class" : "mkbase.match",
   "type" : "BASIC",
   "valueTypes" : [ {
-    "name" : "faseVanContact",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : true,
-    "list" : "mkbase.faseVanContact"
-  }, {
     "name" : "memoDossier",
     "dataType" : "TEXTBLOCK",
     "enabled" : true,
     "required" : false,
     "list" : null
+  }, {
+    "name" : "faseVanContact",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : true,
+    "list" : "mkbase.faseVanContact"
   }, {
     "name" : "sector",
     "dataType" : "LIST",

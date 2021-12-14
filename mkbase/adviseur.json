@@ -2,12 +2,6 @@
   "class" : "mkbase.adviseur",
   "type" : "BASIC",
   "valueTypes" : [ {
-    "name" : "geslaagdeTransacties",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
     "name" : "soortAdviseur",
     "dataType" : "LIST",
     "enabled" : true,
@@ -15,6 +9,12 @@
     "list" : "mkbase.soortAdviseur"
   }, {
     "name" : "aantalVestigingen",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "geslaagdeTransacties",
     "dataType" : "TEXT",
     "enabled" : true,
     "required" : false,

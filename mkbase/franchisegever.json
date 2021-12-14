@@ -2,24 +2,6 @@
   "class" : "mkbase.franchisegever",
   "type" : "BASIC",
   "valueTypes" : [ {
-    "name" : "soortFranchise",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.soortFranchise"
-  }, {
-    "name" : "locatieEisen",
-    "dataType" : "TEXTBLOCK",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
-    "name" : "minimaleVvo",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
     "name" : "maximaleVvo",
     "dataType" : "TEXT",
     "enabled" : true,
@@ -34,6 +16,24 @@
   }, {
     "name" : "eisenAanFranchisenemer",
     "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "soortFranchise",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.soortFranchise"
+  }, {
+    "name" : "locatieEisen",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "minimaleVvo",
+    "dataType" : "TEXT",
     "enabled" : true,
     "required" : false,
     "list" : null

@@ -14,6 +14,18 @@
     "required" : false,
     "list" : "mkbase.branche"
   }, {
+    "name" : "mimaleInvestering",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "maximumInvestering",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
     "name" : "interesseInBranche2",
     "dataType" : "LIST",
     "enabled" : true,
@@ -55,18 +67,6 @@
     "enabled" : true,
     "required" : false,
     "list" : "mkbase.jaNee"
-  }, {
-    "name" : "mimaleInvestering",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
-    "name" : "maximumInvestering",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
   } ],
   "relations" : [ ],
   "formulas" : [ ],

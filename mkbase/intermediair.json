@@ -2,6 +2,48 @@
   "class" : "mkbase.intermediair",
   "type" : "ABSTRACT",
   "valueTypes" : [ {
+    "name" : "specialisatie",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "regioExtraInformatie",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.regio"
+  }, {
+    "name" : "aantalKranten",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "aantalContracten",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "stilProfielAbonnement",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.jaNee"
+  }, {
+    "name" : "geassocieerdLid",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.jaNee"
+  }, {
+    "name" : "staffelAfwijkendeAfspraken",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
     "name" : "profielnummer",
     "dataType" : "TEXT",
     "enabled" : true,
@@ -52,48 +94,6 @@
   }, {
     "name" : "plaats",
     "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
-    "name" : "specialisatie",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
-    "name" : "regioExtraInformatie",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.regio"
-  }, {
-    "name" : "aantalKranten",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
-    "name" : "aantalContracten",
-    "dataType" : "TEXT",
-    "enabled" : true,
-    "required" : false,
-    "list" : null
-  }, {
-    "name" : "stilProfielAbonnement",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.jaNee"
-  }, {
-    "name" : "geassocieerdLid",
-    "dataType" : "LIST",
-    "enabled" : true,
-    "required" : false,
-    "list" : "mkbase.jaNee"
-  }, {
-    "name" : "staffelAfwijkendeAfspraken",
-    "dataType" : "TEXTBLOCK",
     "enabled" : true,
     "required" : false,
     "list" : null
