@@ -87,7 +87,7 @@
         "type" : "LIST"
       }, {
         "source" : "Profielnummer",
-        "target" : "profielnummer",
+        "target" : "ID:IntermediairReeks",
         "type" : "TEXT"
       }, {
         "source" : "Staffelafwijkendeafspraken",
