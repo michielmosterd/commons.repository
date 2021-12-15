@@ -242,10 +242,10 @@
     "formula" : "S{{identifier \"VerkoperReeks\"}}"
   }, {
     "valueType" : "name",
-    "formula" : "{<30>} {<22>} {<43>} {<23>}"
+    "formula" : "{{profielnummer}} {{BedrijfsNaam}} {{profielstatus}} {{contractvorm}}"
   }, {
     "valueType" : "summary",
-    "formula" : "{<39>}"
+    "formula" : "{{interesse}}"
   } ],
   "inherits" : "mkbase.entiteit"
 }
