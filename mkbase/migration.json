@@ -1016,7 +1016,7 @@
         "target" : "regioExtraInformatie",
         "type" : "LIST"
       }, {
-        "source" : "_Interesse (Frans)",
+        "source" : "InteresseFrans",
         "target" : "interesseFrans",
         "type" : "TEXT"
       }, {
@@ -1177,7 +1177,7 @@
         "target" : "regioExtraInformatie",
         "type" : "LIST"
       }, {
-        "source" : "_Interesse (Frans)",
+        "source" : "InteresseFrans",
         "target" : "interesseFrans",
         "type" : "TEXT"
       }, {
