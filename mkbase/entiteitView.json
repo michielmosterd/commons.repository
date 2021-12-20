@@ -1,0 +1,20 @@
+{
+    "class": "mkbase.entiteitView",
+    "type": "EXTENSION",
+    "extends": "mkbase.entiteit",
+    "views": [
+        {
+            "name": "Overview",
+            "defaultView": true,
+            "relationView": true,
+            "defaultSort": "profielnummer,desc",
+            "values": [
+                "profielnummer",
+                "BedrijfsNaam",
+                "profielstatus",
+                "contractvorm",
+                "mkbase.regioSite"
+            ]
+        }
+    ]
+}

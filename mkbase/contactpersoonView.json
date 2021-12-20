@@ -1,0 +1,21 @@
+{
+    "class": "mkbase.contactpersoonView",
+    "type": "EXTENSION",
+    "extends": "mkbase.contactpersoon",
+    "views": [
+        {
+            "name": "Overview",
+            "defaultView": true,
+            "relationView": true,
+            "defaultSort": "achternaam",
+            "values": [
+                "mkbase.entiteit",
+                "voornaam",
+                "achternaam",
+                "telefoonnummer",
+                "mobieleTelefoon",
+                "eMailAdres"
+            ]
+        }
+    ]
+}

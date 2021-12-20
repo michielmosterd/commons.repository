@@ -1,0 +1,10 @@
+{
+    "class": "mkbase.mkbase",
+    "type": "NONE",
+    "imports": [
+        "mkbase.item",
+        "mkbase.entiteitView",
+        "mkbase.memoView",
+        "mkbase.contactpersoonView"
+    ]
+}

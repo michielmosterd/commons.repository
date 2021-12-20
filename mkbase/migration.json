@@ -1829,31 +1829,6 @@
         "multiple" : false
       } ]
     }, {
-      "source" : "21",
-      "target" : "mkbase.document",
-      "fields" : [ {
-        "source" : "documentDate",
-        "target" : "datum1",
-        "type" : "DATE"
-      }, {
-        "source" : "_summary",
-        "target" : "summary",
-        "type" : "TEXT"
-      }, {
-        "source" : "documentTitle",
-        "target" : "titel",
-        "type" : "TEXT"
-      }, {
-        "source" : "documentFile",
-        "target" : "bestand",
-        "type" : "FILE"
-      } ],
-      "relations" : [ {
-        "source" : "Entiteit",
-        "target" : "mkbase.entiteit",
-        "multiple" : false
-      } ]
-    }, {
       "source" : "24",
       "target" : "mkbase.match",
       "fields" : [ {
@@ -1960,35 +1935,6 @@
         "target" : "mkbase.verkoper",
         "multiple" : false
       } ]
-    }, {
-      "source" : "31",
-      "target" : "mkbase.gearchiveerdeMemo",
-      "fields" : [ {
-        "source" : "Datum",
-        "target" : "datum",
-        "type" : "DATE"
-      }, {
-        "source" : "_summary",
-        "target" : "summary",
-        "type" : "TEXT"
-      }, {
-        "source" : "Opmerking",
-        "target" : "opmerking",
-        "type" : "TEXTBLOCK"
-      }, {
-        "source" : "Kernwoord",
-        "target" : "kernwoord",
-        "type" : "TEXT"
-      }, {
-        "source" : "Resultaatcontact",
-        "target" : "resultaatContact",
-        "type" : "LIST"
-      }, {
-        "source" : "ContactpersoonMKBase",
-        "target" : "schrijverMemo",
-        "type" : "TEXT"
-      } ],
-      "relations" : [ ]
     } ],
     "valueMap" : {
       "ListValue-109" : "AC",

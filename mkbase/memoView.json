@@ -1,0 +1,22 @@
+{
+    "class": "mkbase.memoView",
+    "type": "EXTENSION",
+    "extends": "mkbase.memo",
+    "views": [
+        {
+            "name": "Overview",
+            "defaultView": true,
+            "relationView": true,
+            "defaultSort": "datum,desc",
+            "values": [
+                "datum",
+                "opmerking",
+                "kernwoord",
+                "schrijverMemo",
+                "resultaatContact",
+                "followUp",
+                "mkbase.entiteit"
+            ]
+        }
+    ]
+}
