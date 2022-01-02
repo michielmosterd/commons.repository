@@ -3,16 +3,16 @@
   "type": "NONE",
 
     "imports": [
-        { "class": "northwindModel.category" },
-        { "class": "northwindModel.employee" },
-        { "class": "northwindModel.region" },
-        { "class": "northwindModel.orderDetail" },
-        { "class": "northwindModel.supplier" },
-        { "class": "northwindModel.customer" },
-        { "class": "northwindModel.order" },
-        { "class": "northwindModel.product" },
-        { "class": "northwindModel.shipper" },
-        { "class": "northwindModel.territory" }
+        "northwindModel.category",
+        "northwindModel.employee",
+        "northwindModel.region",
+        "northwindModel.orderDetail",
+        "northwindModel.supplier",
+        "northwindModel.customer",
+        "northwindModel.order",
+        "northwindModel.product",
+        "northwindModel.shipper",
+        "northwindModel.territory"
     ],
     "assets": [
       { "type": "LOGO", "filename": "northwind.png", "contentType": "image/png" }
