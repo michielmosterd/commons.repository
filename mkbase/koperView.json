@@ -1,0 +1,51 @@
+{
+  "class": "mkbase.koperView",
+  "extends": "mkbase.koper",
+  "type": "EXTENSION",
+  "layouts": [
+    {
+      "type": "OBJECT_MAIN",
+      "items": [
+        { "name": "name", "type": "HEADER" },
+        { "name": "profielnummer" },
+        { "name": "profielstatus" },
+        { "name": "franchisewijzer" },
+        { "name": "branche" },
+        { "name": "tweedeBranche" },
+        { "name": "sector" },
+        { "name": "sector2" },
+        { "name": "subsector" },
+        { "name": "subsector2" },
+        { "name": "gewensteOmzet" },
+        { "name": "ervaring" },
+        { "name": "eigenMiddelen" },
+        { "name": "typeOvername" },
+        { "name": "meerderheidNoodzakelijk" },
+        { "name": "afzetmarkt" },
+        { "name": "mkbase.regioSite", "type": "RELATION" }
+      ]
+    },
+    {
+      "name": "profileInfo",
+      "type": "OBJECT_TABPAGE",
+      "items": [
+
+        { "name": "omschrijvingMail" },
+        { "name": "omschrijvingMailFrans" },
+        { "name": "interesse" },
+        { "name": "interesseFrans" },
+        { "name": "interesseitaliaans126" },
+        { "name": "uitgebreideProfielinformatie" },
+        { "name": "uitgebreideProfielInformatieFrans" },
+        { "name": "uitgebreideProfielInformatieItaliaans" }
+      ]
+    },
+    {
+      "name": "DATA_CLASS_PLURAL:mkbase.match",
+      "type": "OBJECT_TABPAGE",
+      "items": [
+        { "name": "mkbase.match", "type": "VIEW", "showTitle": false }
+      ]
+    }
+  ]
+}

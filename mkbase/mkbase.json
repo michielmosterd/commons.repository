@@ -4,6 +4,8 @@
     "imports": [
         "mkbase.item",
         "mkbase.entiteitView",
+        "mkbase.koperView",
+        "mkbase.matchView",
         "mkbase.memoView",
         "mkbase.contactpersoonView"
     ]

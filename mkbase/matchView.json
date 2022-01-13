@@ -1,0 +1,20 @@
+{
+  "class": "mkbase.matchView",
+  "type": "EXTENSION",
+  "extends": "mkbase.match",
+  "views": [
+    {
+      "name": "Matches",
+      "defaultView": true,
+      "relationView": true,
+      "defaultSort": "start,desc",
+      "values": [
+        "faseVanContact",
+        "mkbase.verkoper",
+        "mkbase.koper",
+        "start",
+        "gesloten"
+      ]
+    }
+  ]
+}

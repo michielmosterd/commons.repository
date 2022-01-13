@@ -4,7 +4,7 @@
     "extends": "mkbase.entiteit",
     "views": [
         {
-            "name": "Overview",
+            "name": "ActiveEntities",
             "defaultView": true,
             "relationView": true,
             "defaultSort": "profielnummer,desc",
@@ -14,7 +14,19 @@
                 "profielstatus",
                 "contractvorm",
                 "mkbase.regioSite"
+            ],
+            "filter": [
+              { "name": "contractvorm", "value": "002"}
             ]
         }
+    ],
+    "layouts": [
+      {
+        "name": "DATA_CLASS_PLURAL:mkbase.memo",
+        "type": "OBJECT_TABPAGE",
+        "items": [
+          { "name": "mkbase.memo", "type": "VIEW", "showTitle": false }
+        ]
+      }
     ]
 }
