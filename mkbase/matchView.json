@@ -4,7 +4,7 @@
   "extends": "mkbase.match",
   "views": [
     {
-      "name": "Matches",
+      "label": "Matches",
       "defaultView": true,
       "relationView": true,
       "defaultSort": "start,desc",

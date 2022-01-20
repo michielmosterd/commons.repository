@@ -41,7 +41,7 @@
       ]
     },
     {
-      "name": "DATA_CLASS_PLURAL:mkbase.match",
+      "label": "DATA_CLASS_PLURAL:mkbase.match",
       "type": "OBJECT_TABPAGE",
       "items": [
         { "name": "mkbase.match", "type": "VIEW", "showTitle": false }
