@@ -26,9 +26,9 @@
       ]
     },
     {
-      "name": "profileInfo",
+      "labelKey": "profileInfo",
       "type": "OBJECT_TABPAGE",
-      "items": [
+      "items": [        
 
         { "name": "omschrijvingMail" },
         { "name": "omschrijvingMailFrans" },
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "label": "DATA_CLASS_PLURAL:mkbase.match",
+      "labelKey": "DATA_CLASS_PLURAL:mkbase.match",
       "type": "OBJECT_TABPAGE",
       "items": [
         { "name": "mkbase.match", "type": "VIEW", "showTitle": false }

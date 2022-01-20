@@ -4,7 +4,7 @@
   "extends": "mkbase.match",
   "views": [
     {
-      "label": "Matches",
+      "labelKey": "Matches",
       "defaultView": true,
       "relationView": true,
       "defaultSort": "start,desc",
@@ -16,5 +16,5 @@
         "gesloten"
       ]
     }
-  ]
+  ]  
 }
