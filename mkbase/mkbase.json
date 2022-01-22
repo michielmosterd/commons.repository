@@ -8,5 +8,28 @@
         "mkbase.matchView",
         "mkbase.memoView",
         "mkbase.contactpersoonView"
+    ],
+    "layouts": [
+        {
+            "type": "GENERAL_DASHBOARD",
+            "items": [
+                {
+                    "type": "NAVIGATE",
+                    "relatedClass": "mkbase.koperDirect"
+                },
+                {
+                    "type": "NAVIGATE",
+                    "relatedClass": "mkbase.koperIndirect"
+                },
+                {
+                    "type": "NAVIGATE",
+                    "relatedClass": "mkbase.verkoperDirect"
+                },
+                {
+                    "type": "NAVIGATE",
+                    "relatedClass": "mkbase.verkoperIndirect"
+                }
+            ]
+        }
     ]
 }

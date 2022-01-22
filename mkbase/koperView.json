@@ -4,9 +4,9 @@
   "type": "EXTENSION",
   "layouts": [
     {
-      "type": "OBJECT_MAIN",
+      "type": "OBJECT_DASHBOARD",
       "items": [
-        { "name": "name", "type": "HEADER" },
+        { "name": "name", "header": true },
         { "name": "profielnummer" },
         { "name": "profielstatus" },
         { "name": "franchisewijzer" },
@@ -22,12 +22,13 @@
         { "name": "typeOvername" },
         { "name": "meerderheidNoodzakelijk" },
         { "name": "afzetmarkt" },
-        { "name": "mkbase.regioSite", "type": "RELATION" }
+        { "type": "RELATION", "relatedClass": "mkbase.regioSite" }
       ]
     },
     {
       "labelKey": "profileInfo",
-      "type": "OBJECT_TABPAGE",
+      "type": "OBJECT_DASHBOARD",
+      "tabPage": true,
       "items": [        
 
         { "name": "omschrijvingMail" },
@@ -42,9 +43,10 @@
     },
     {
       "labelKey": "DATA_CLASS_PLURAL:mkbase.match",
-      "type": "OBJECT_TABPAGE",
+      "type": "OBJECT_DASHBOARD",
+      "tabPage": true,
       "items": [
-        { "name": "mkbase.match", "type": "VIEW", "showTitle": false }
+        { "relatedClass": "mkbase.match", "type": "VIEW", "showTitle": false }
       ]
     }
   ]

@@ -1,31 +1,36 @@
 {
-    "class": "mkbase.entiteitView",
-    "type": "EXTENSION",
-    "extends": "mkbase.entiteit",
-    "views": [
+  "class": "mkbase.entiteitView",
+  "type": "EXTENSION",
+  "extends": "mkbase.entiteit",
+  "views": [
+    {
+      "name": "ActiveEntities",
+      "defaultView": true,
+      "relationView": true,
+      "defaultSort": "profielnummer,desc",
+      "values": [
+        "profielnummer",
+        "BedrijfsNaam",
+        "profielstatus",
+        "contractvorm",
+        "mkbase.regioSite"
+      ],
+      "filter": []
+    }
+  ],
+  "layouts": [
+    {
+      "labelKey": "DATA_CLASS_PLURAL:mkbase.memo",
+      "type": "OBJECT_DASHBOARD",
+      
+      "tabPage": true,
+      "items": [
         {
-            "name": "ActiveEntities",
-            "defaultView": true,
-            "relationView": true,
-            "defaultSort": "profielnummer,desc",
-            "values": [
-                "profielnummer",
-                "BedrijfsNaam",
-                "profielstatus",
-                "contractvorm",
-                "mkbase.regioSite"
-            ],
-            "filter": [
-            ]
+          "type": "VIEW",
+          "relatedClass": "mkbase.memo",
+          "showTitle": false
         }
-    ],
-    "layouts": [
-      {
-        "labelKey": "DATA_CLASS_PLURAL:mkbase.memo",
-        "type": "OBJECT_TABPAGE",
-        "items": [
-          { "name": "mkbase.memo", "type": "VIEW", "showTitle": false }
-        ]
-      }
-    ]
+      ]
+    }
+  ]
 }
