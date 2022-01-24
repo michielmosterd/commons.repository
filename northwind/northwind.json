@@ -1,20 +1,90 @@
 {
   "class": "northwindModel.northwind",
   "type": "NONE",
-
-    "imports": [
-        "northwindModel.category",
-        "northwindModel.employee",
-        "northwindModel.region",
-        "northwindModel.orderDetail",
-        "northwindModel.supplier",
-        "northwindModel.customer",
-        "northwindModel.order",
-        "northwindModel.product",
-        "northwindModel.shipper",
-        "northwindModel.territory"
-    ],
-    "assets": [
-      { "type": "LOGO", "filename": "northwind.png", "contentType": "image/png" }
-    ]
+  "imports": [
+    "northwindModel.category",
+    "northwindModel.employee",
+    "northwindModel.region",
+    "northwindModel.orderDetail",
+    "northwindModel.supplier",
+    "northwindModel.customer",
+    "northwindModel.order",
+    "northwindModel.product",
+    "northwindModel.shipper",
+    "northwindModel.territory"
+  ],
+  "assets": [
+    {
+      "type": "LOGO",
+      "filename": "northwind.png",
+      "contentType": "image/png"
+    }
+  ],
+  "layouts": [
+    {
+      "type": "GENERAL_DASHBOARD",
+      "items": [
+        {
+          "type": "HEADER",
+          "label": "Northwind Traders"
+        },
+        {
+          "type": "TEXT",
+          "label": "LABEL:welcomeText"
+        }
+      ]
+    },
+    {
+      "type": "GENERAL_DASHBOARD",
+      "labelKey": "DATA_CLASS_PLURAL:northwindModel.category",
+      "tabPage": true,
+      "items": [
+        {
+          "type": "VIEW",
+          "class": "northwindModel.category"
+        }
+      ]
+    },
+    {
+      "type": "GENERAL_DASHBOARD",
+      "labelKey": "DATA_CLASS_PLURAL:northwindModel.product",
+      "tabPage": true,
+      "items": [
+        {
+          "type": "VIEW",
+          "class": "northwindModel.product"
+        }
+      ]
+    },
+    {
+      "type": "GENERAL_DASHBOARD",
+      "labelKey": "DATA_CLASS_PLURAL:northwindModel.customer",
+      "tabPage": true,
+      "items": [
+        {
+          "type": "VIEW",
+          "class": "northwindModel.customer"
+        }
+      ]
+    },
+    {
+      "type": "GENERAL_DASHBOARD",
+      "labelKey": "DATA_CLASS_PLURAL:northwindModel.employee",
+      "tabPage": true,
+      "items": [
+        {
+          "type": "VIEW",
+          "class": "northwindModel.employee"
+        }
+      ]
+    }
+  ],
+  "translations": [
+    {
+      "language": "en",
+      "generalLabels": {
+        "welcomeText": "The Northwind database is a sample database to demonstrate the features of this product. The database contains the sales data for Northwind Traders, a fictitious specialty foods exportimport company."
+      }
+    }
+  ]
 }

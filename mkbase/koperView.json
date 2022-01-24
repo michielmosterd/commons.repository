@@ -46,8 +46,18 @@
       "type": "OBJECT_DASHBOARD",
       "tabPage": true,
       "items": [
-        { "relatedClass": "mkbase.match", "type": "VIEW", "showTitle": false }
+        { "relatedClass": "mkbase.match", "type": "RELATED_VIEW", "showTitle": false }
       ]
-    }
+    },
+    {
+      "class": "mkbase.koperDirect",
+      "labelKey": "DATA_CLASS_PLURAL:mkbase.koper",
+      "type": "CLASS_DASHBOARD",
+      "items": [
+        { "type": "HEADER", "label": "DATA_CLASS_PLURAL:mkbase.koperDirect" },
+        { "type": "TEXT", "label": "Hello World!" },
+        { "type": "VIEW", "class": "mkbase.koperDirect", "showTitle": true }
+      ]
+    }    
   ]
 }

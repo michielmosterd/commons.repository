@@ -15,19 +15,19 @@
             "items": [
                 {
                     "type": "NAVIGATE",
-                    "relatedClass": "mkbase.koperDirect"
+                    "class": "mkbase.koperDirect"
                 },
                 {
                     "type": "NAVIGATE",
-                    "relatedClass": "mkbase.koperIndirect"
+                    "class": "mkbase.koperIndirect"
                 },
                 {
                     "type": "NAVIGATE",
-                    "relatedClass": "mkbase.verkoperDirect"
+                    "class": "mkbase.verkoperDirect"
                 },
                 {
                     "type": "NAVIGATE",
-                    "relatedClass": "mkbase.verkoperIndirect"
+                    "class": "mkbase.verkoperIndirect"
                 }
             ]
         }

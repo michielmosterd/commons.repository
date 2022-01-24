@@ -26,7 +26,7 @@
       "tabPage": true,
       "items": [
         {
-          "type": "VIEW",
+          "type": "RELATED_VIEW",
           "relatedClass": "mkbase.memo",
           "showTitle": false
         }
