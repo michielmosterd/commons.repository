@@ -19,5 +19,102 @@
       "filename": "northwind.png",
       "contentType": "image/png"
     }
+  ],
+  "layouts": [
+    {
+      "type": "GENERAL_DASHBOARD",
+      "items": [
+        {
+          "type": "HEADER",
+          "label": "<i style=\"color: darkblue\">North<span style=\"color: lightblue;\">Wind</span> Traders</i>"
+        },
+        {
+          "type": "TEXT",
+          "label": "LABEL:welcomeText"
+        }
+      ]
+    },
+    {
+      "type": "GENERAL_DASHBOARD",
+      "labelKey": "DATA_CLASS_PLURAL:northwindModel.category",
+      "tabPage": true,
+      "items": [
+        {
+          "type": "VIEW",
+          "class": "northwindModel.category"
+        }
+      ]
+    },
+    {
+      "type": "GENERAL_DASHBOARD",
+      "labelKey": "DATA_CLASS_PLURAL:northwindModel.product",
+      "tabPage": true,
+      "items": [
+        {
+          "type": "VIEW",
+          "class": "northwindModel.product"
+        }
+      ]
+    },
+    {
+      "type": "GENERAL_DASHBOARD",
+      "labelKey": "DATA_CLASS_PLURAL:northwindModel.customer",
+      "tabPage": true,
+      "items": [
+        {
+          "type": "VIEW",
+          "class": "northwindModel.customer"
+        }
+      ]
+    },
+    {
+      "type": "GENERAL_DASHBOARD",
+      "labelKey": "DATA_CLASS_PLURAL:northwindModel.employee",
+      "tabPage": true,
+      "items": [
+        {
+          "type": "VIEW",
+          "class": "northwindModel.employee"
+        }
+      ]
+    },
+    {
+      "type": "NAVIGATION_PANE",
+      "items": [
+        {
+          "type": "NAVIGATE",
+          "class": "northwindModel.customer",
+          "icon": "commons#icon-office"
+        },
+        {
+          "type": "NAVIGATE",
+          "class": "northwindModel.employee",
+          "icon": "commons#icon-users"
+        },
+        {
+          "type": "NAVIGATE",
+          "class": "northwindModel.shipper",
+          "icon": "commons#icon-truck"
+        },
+        {
+          "type": "NAVIGATE",
+          "class": "northwindModel.order",
+          "icon": "commons#icon-cart"
+        },
+        {
+          "type": "NAVIGATE",
+          "class": "northwindModel.territory",
+          "icon": "commons#icon-earth"
+        }
+      ]
+    }
+  ],
+  "translations": [
+    {
+      "language": "en",
+      "generalLabels": {
+        "welcomeText": "The Northwind database is a sample database to demonstrate the features of this product. The database contains the sales data for <b onerror=\"alert(1)\" style=\"color: darkblue;\">Northwind Traders</b>, a fictitious specialty foods exportimport company."
+      }
+    }
   ]
 }

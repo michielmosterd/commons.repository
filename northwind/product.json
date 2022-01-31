@@ -65,9 +65,9 @@
         "relationView": true,
         "defaultSort": "name",
         "values": [
-            "name",
-            "northwindModel.category",
-            "northwindModel.supplier"
+            { "name": "name" },
+            { "type": "RELATION", "relatedClass": "northwindModel.category" },
+            { "type": "RELATION", "relatedClass": "northwindModel.supplier" }
         ]
       }
     ]

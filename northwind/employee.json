@@ -96,9 +96,9 @@
         "relationView": true,
         "defaultSort": "name",
         "values": [
-            "name",
-            "title",
-            "northwindModel.territory"
+            { "name": "name" },
+            { "name": "title" },
+            { "type": "RELATION", "relatedClass": "northwindModel.territory" }
         ]
       }
     ]

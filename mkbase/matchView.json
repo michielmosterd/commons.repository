@@ -9,11 +9,11 @@
       "relationView": true,
       "defaultSort": "start,desc",
       "values": [
-        "faseVanContact",
-        "mkbase.verkoper",
-        "mkbase.koper",
-        "start",
-        "gesloten"
+        { "name": "faseVanContact" },
+        { "type": "RELATION", "relatedClass": "mkbase.verkoper" },
+        { "type": "RELATION", "relatedClass": "mkbase.koper" },
+        { "name": "start" },
+        { "name": "gesloten" }
       ]
     }
   ]  

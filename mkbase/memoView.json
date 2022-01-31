@@ -9,14 +9,20 @@
             "relationView": true,
             "defaultSort": "datum,desc",
             "values": [
-                "datum",
-                "opmerking",
-                "kernwoord",
-                "schrijverMemo",
-                "resultaatContact",
-                "followUp",
-                "mkbase.entiteit"
+                { "name": "datum" },
+                { "name": "opmerking" },
+                { "name": "kernwoord" },
+                { "name": "schrijverMemo" },
+                { "name": "resultaatContact" },
+                { "name": "followUp" },
+                { "type": "RELATION", "relatedClass": "mkbase.entiteit" }
             ]
+        }
+    ],
+    "translations": [
+        {
+            "language": "en",
+            "plural": "memos"
         }
     ]
 }

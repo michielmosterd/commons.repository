@@ -9,12 +9,12 @@
             "relationView": true,
             "defaultSort": "achternaam",
             "values": [
-                "mkbase.entiteit",
-                "voornaam",
-                "achternaam",
-                "telefoonnummer",
-                "mobieleTelefoon",
-                "eMailAdres"
+                { "type": "RELATION", "relatedClass": "mkbase.entiteit" },
+                { "name": "voornaam" },
+                { "name": "achternaam" },
+                { "name": "telefoonnummer" },
+                { "name": "mobieleTelefoon" },
+                { "name": "eMailAdres" }
             ]
         }
     ]

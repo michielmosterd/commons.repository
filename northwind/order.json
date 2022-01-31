@@ -80,9 +80,9 @@
         "relationView": true,
         "defaultSort": "orderId",
         "values": [
-            "northwindModel.customer",
-            "orderId",
-            "orderDate"
+            { "type": "RELATION", "relatedClass": "northwindModel.customer" },
+            { "name": "orderId" },
+            { "name": "orderDate" }
         ]
       }
     ]

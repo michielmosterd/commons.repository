@@ -9,11 +9,11 @@
       "relationView": true,
       "defaultSort": "profielnummer,desc",
       "values": [
-        "profielnummer",
-        "BedrijfsNaam",
-        "profielstatus",
-        "contractvorm",
-        "mkbase.regioSite"
+        { "name": "profielnummer" },
+        { "name": "BedrijfsNaam" },
+        { "name": "profielstatus" },
+        { "name": "contractvorm" },
+        { "type": "RELATION", "relatedClass": "mkbase.regioSite" }
       ],
       "filter": []
     }

@@ -53,11 +53,11 @@
             "relationView": true,
             "defaultSort": "product,order",
             "values": [
-                "northwindModel.product",
-                "northwindModel.order",
-                "unitPrice",
-                "quantity",
-                "discount"
+                { "type": "RELATION", "relatedClass": "northwindModel.product" },
+                { "type": "RELATION", "relatedClass": "northwindModel.order" },
+                { "name": "unitPrice" },
+                { "name": "quantity" },
+                { "name": "discount" }
             ]
         }
     ]
