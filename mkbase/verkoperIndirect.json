@@ -6,8 +6,12 @@
     "type" : "mkbase.intermediair",
     "required" : false,
     "multiple" : false,
-    "cascadeDelete" : false
+    "cascadeDelete" : false,
+    "inherit" : null
   } ],
-  "formulas" : [ ],
+  "formulas" : [ {
+    "valueType" : "objectLabel",
+    "formula" : "verkoperIndirect"
+  } ],
   "inherits" : "mkbase.verkoper"
 }

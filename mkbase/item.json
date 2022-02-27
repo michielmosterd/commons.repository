@@ -14,390 +14,1244 @@
     "enabled" : true,
     "required" : false,
     "list" : null
+  }, {
+    "name" : "objectLabel",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.objectLabels"
   } ],
   "relations" : [ ],
   "formulas" : [ ],
   "lists" : [ {
+    "name" : "mkbase.objectLabels",
+    "items" : [ {
+      "key" : "koperDirect",
+      "color" : null,
+      "backgroundColor" : "#A0A0A0"
+    }, {
+      "key" : "koperIndirect",
+      "color" : null,
+      "backgroundColor" : "#A0A0A0"
+    }, {
+      "key" : "verkoperDirect",
+      "color" : null,
+      "backgroundColor" : "#A0A0A0"
+    }, {
+      "key" : "verkoperIndirect",
+      "color" : null,
+      "backgroundColor" : "#A0A0A0"
+    }, {
+      "key" : "ventureCapitalist",
+      "color" : null,
+      "backgroundColor" : "#A0A0A0"
+    }, {
+      "key" : "adviseur",
+      "color" : null,
+      "backgroundColor" : "#A0A0A0"
+    }, {
+      "key" : "onroerendGoed",
+      "color" : null,
+      "backgroundColor" : "#A0A0A0"
+    }, {
+      "key" : "contactpersoon",
+      "color" : null,
+      "backgroundColor" : "#A0A0A0"
+    }, {
+      "key" : "mogelijkeMatch",
+      "color" : null,
+      "backgroundColor" : "#A0A0A0"
+    }, {
+      "key" : "match",
+      "color" : null,
+      "backgroundColor" : "#A0A0A0"
+    } ]
+  }, {
     "name" : "mkbase.contract",
-    "items" : {
-      "001" : "Potentieel",
-      "002" : "Aangesloten",
-      "003" : "Verwijderd"
-    }
+    "items" : [ {
+      "key" : "001",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "002",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "003",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.geslacht",
-    "items" : {
-      "Man" : "De heer",
-      "Vrouw" : "Mevrouw"
-    }
+    "items" : [ {
+      "key" : "Man",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Vrouw",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.land",
-    "items" : {
-      "B" : "Belgie",
-      "BEn" : "Benelux",
-      "DLD" : "Duitsland",
-      "FR" : "Frankrijk",
-      "Int" : "Internationaal",
-      "LUX" : "Luxemburg",
-      "NED-ANT" : "Nederlandse Antillen",
-      "NL" : "Nederland"
-    }
+    "items" : [ {
+      "key" : "Int",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "B",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "FR",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "LUX",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "NED-ANT",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEn",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "DLD",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "NL",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.mbiWeek",
-    "items" : {
-      "1" : "Week 1",
-      "2" : "Week 2",
-      "3" : "Week 3",
-      "4" : "Week 4"
-    }
+    "items" : [ {
+      "key" : "1",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "2",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "3",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "4",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.branche",
-    "items" : {
-      "A METAAL" : "Metaalindustrie",
-      "B AUTO" : "Automotive",
-      "C PAPGRA" : "Papier Grafische industrie",
-      "D OVINDUS" : "Overige Industrie",
-      "E BOUW" : "Bouwnijverheid",
-      "F OG" : "Onroerend Goed",
-      "G TRANS" : "Transport en Vervoer",
-      "H ICT" : "Automatisering / ICT",
-      "I DIENST" : "Dienstverlening",
-      "J GRH" : "Groothandel",
-      "K ZDET FOOD" : "Detailhandel Food",
-      "L ZDET DOE" : "Detailhandel doe het zelf",
-      "M DETAILMO" : "Detailhandel mode",
-      "N DET WON" : "Detailhandel wonen",
-      "P DET OVERIG" : "Detailhandel Overig",
-      "Q HRC" : "Horeca / Recreatie",
-      "o ZDET GROEN" : "Detailhandel Groen- en Tuincentra"
-    }
+    "items" : [ {
+      "key" : "I DIENST",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "M DETAILMO",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "J GRH",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Q HRC",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "A METAAL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "D OVINDUS",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "C PAPGRA",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "L ZDET DOE",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "K ZDET FOOD",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "o ZDET GROEN",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "P DET OVERIG",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "N DET WON",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "H ICT",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "B AUTO",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "G TRANS",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "F OG",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "E BOUW",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.provincie",
-    "items" : {
-      "BEL" : "Heel Belgie",
-      "BEL-AA" : "Heel Vlaanderen",
-      "BEL-AB" : "Heel Wallonie",
-      "BEL-ANT" : "Antwerpen",
-      "BEL-BRU" : "Brussel",
-      "BEL-HEN" : "Henegouwen",
-      "BEL-LIM" : "Limburg (Belgie)",
-      "BEL-LUIK" : "Luik",
-      "BEL-LUX" : "Groothertogdom (LUX)",
-      "BEL-LUX1" : "Luxemburg",
-      "BEL-NAM" : "Namen",
-      "BEL-OVLA" : "Oost Vlaanderen",
-      "BEL-VLABRA" : "Vlaams Brabant",
-      "BEL-WABRA" : "Waals Brabant",
-      "BEL-WEVLA" : "West Vlaanderen",
-      "BEn" : "Benelux",
-      "Benelux" : "Andere naam",
-      "DRE" : "Drenthe",
-      "FLEV" : "Flevoland",
-      "FR" : "Friesland",
-      "GELD" : "Gelderland",
-      "GRO" : "Groningen",
-      "HEEL NED" : "Heel Nederland",
-      "Heel Frankrijk" : "Frankrijk",
-      "INT" : "Internationaal",
-      "LIM" : "Limburg",
-      "NBR" : "Noord-Brabant",
-      "NHOL" : "Noord-Holland",
-      "OV" : "Overijssel",
-      "UT" : "Utrecht",
-      "ZEE" : "Zeeland",
-      "ZHOL" : "Zuid-Holland"
-    }
+    "items" : [ {
+      "key" : "Heel Frankrijk",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-NAM",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-OVLA",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-VLABRA",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-WABRA",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-WEVLA",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-ANT",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-BRU",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-LUX",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-HEN",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-LIM",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-LUIK",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-LUX1",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "HEEL NED",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-AA",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEL-AB",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Benelux",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "INT",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BEn",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "NBR",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "ZEE",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "ZHOL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "NHOL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "UT",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "FR",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "GRO",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "DRE",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "OV",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "GELD",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "FLEV",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "LIM",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.soortFranchise",
-    "items" : {
-      "Hard" : "Hard franchise",
-      "Soft" : "Soft franchise"
-    }
+    "items" : [ {
+      "key" : "Hard",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Soft",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.specialisatieMakelaar",
-    "items" : {
-      "BEDPAND" : "Bedrijfspanden",
-      "HALLEN" : "Bedrijfshallen",
-      "WINKELS" : "Winkels",
-      "WONING" : "Woning"
-    }
+    "items" : [ {
+      "key" : "BEDPAND",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "WINKELS",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "HALLEN",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "WONING",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.huurKoopOg",
-    "items" : {
-      "H/K" : "Huur en Koop",
-      "HUUR" : "Huur",
-      "KOOP" : "Koop"
-    }
+    "items" : [ {
+      "key" : "HUUR",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "KOOP",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "H/K",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.prijsVanContract",
-    "items" : {
-      "EENMALIG" : "Eenmalig",
-      "GRATIS" : "Gratis",
-      "MBI" : "MBI",
-      "MBI+" : "MBI+",
-      "RETAIL" : "Retail",
-      "STANDAARD K" : "Standaard Koop",
-      "STANDAARD V" : "Standaard Verkoop"
-    }
+    "items" : [ {
+      "key" : "MBI",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "MBI+",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "GRATIS",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "STANDAARD V",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "STANDAARD K",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "RETAIL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "EENMALIG",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.regio",
-    "items" : {
-      "ACHT" : "Achterhoek",
-      "BRU" : "Brussel",
-      "Ben" : "Benelux",
-      "Frankrijk" : "Frankrijk",
-      "Int" : "Internationaal",
-      "MIDNL" : "Midden Nederland",
-      "NL" : "Heel Nederland",
-      "NONL" : "Noord Nederland",
-      "ONL" : "Oost Nederland",
-      "RAND" : "Randstad",
-      "TW" : "Twente",
-      "VLA" : "Vlaanderen",
-      "WA" : "Wallonië",
-      "WNL" : "West Nederland",
-      "ZNED" : "Zuid Nederland"
-    }
+    "items" : [ {
+      "key" : "Int",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Frankrijk",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "MIDNL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "NONL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "NL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "ZNED",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "WNL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "RAND",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "ONL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "TW",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "ACHT",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "VLA",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "WA",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BRU",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Ben",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.jaNee",
-    "items" : {
-      "Ja" : "Ja",
-      "Nee" : "Nee"
-    }
+    "items" : [ {
+      "key" : "Ja",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Nee",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.profielstatus",
-    "items" : {
-      "AC" : "Actief",
-      "DOORS" : "Doorstart",
-      "Exclusief" : "Exclusief",
-      "FRAN" : "Franchise",
-      "On H" : "On hold",
-      "STIL" : "Stil",
-      "Verwijderd" : "Verwijderd",
-      "eg" : "Eenmalige geheimhouding"
-    }
+    "items" : [ {
+      "key" : "Verwijderd",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "eg",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "AC",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "On H",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "STIL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "DOORS",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "FRAN",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Exclusief",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.typeOvername",
-    "items" : {
-      "ACTIVA" : "Activa",
-      "DOOR" : "Doorstart",
-      "MBI" : "Management Buy In",
-      "Onbekend" : "Onbekend",
-      "PART" : "Participatie",
-      "STRA" : "Strategisch"
-    }
+    "items" : [ {
+      "key" : "MBI",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Onbekend",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "STRA",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "PART",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "ACTIVA",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "DOOR",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.typeOverdracht",
-    "items" : {
-      "AAN" : "Aandelenoverdracht",
-      "ACT" : "Activa / Passiva",
-      "PART" : "Participatie"
-    }
+    "items" : [ {
+      "key" : "ACT",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "AAN",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "PART",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.soortAdviseur",
-    "items" : {
-      "ACC" : "Accountant",
-      "BANK" : "Bank",
-      "F&O" : "Fusie en Overname specialist",
-      "FIS" : "Fiscalist",
-      "JUR" : "Jurist / advocaat",
-      "OVERIG" : "Overig"
-    }
+    "items" : [ {
+      "key" : "ACC",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "FIS",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "JUR",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "BANK",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "F&O",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "OVERIG",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.soortVc",
-    "items" : {
-      "FONDS" : "Fonds",
-      "INF" : "Informal investor",
-      "OGBEL" : "Belegger OG",
-      "OV" : "Overig",
-      "PPM" : "Participatiemaatschappij"
-    }
+    "items" : [ {
+      "key" : "INF",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "PPM",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "FONDS",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "OGBEL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "OV",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.typeFinanciering",
-    "items" : {
-      "GROEI" : "Groei kapitaal",
-      "OV" : "Overig",
-      "SEED" : "Seed Capital",
-      "TOT" : "Totale overname",
-      "TURN" : "Turn-around"
-    }
+    "items" : [ {
+      "key" : "TURN",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "SEED",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "GROEI",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "TOT",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "OV",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.faseVanContact",
-    "items" : {
-      "Fase 1" : "Match doorgegeven",
-      "Fase 2" : "Eerste Contact is gelegd",
-      "Fase 3" : "Eerste contact heeft tot verdere afspraken geleid",
-      "Fase 4" : "Exclusiviteit",
-      "Fase 5" : "Verkocht",
-      "Fase 6" : "Stukgelopen/ Teruggetrokken",
-      "Fase 7" : "Verkocht aan derden",
-      "Fase 8" : "On Hold"
-    }
+    "items" : [ {
+      "key" : "Fase 1",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Fase 2",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Fase 3",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Fase 4",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Fase 5",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Fase 6",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Fase 7",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Fase 8",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.mogelijkeMatch",
-    "items" : {
-      "1" : "Mogelijke interesse",
-      "2" : "Koper geen interesse",
-      "3" : "Verkoper geen interesse"
-    }
+    "items" : [ {
+      "key" : "1",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "3",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "2",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.teOnderzoekenMatch",
-    "items" : {
-      "1" : "Nog te onderzoeken",
-      "2" : "Doorgegeven",
-      "3" : "Niet interessant"
-    }
+    "items" : [ {
+      "key" : "1",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "2",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "3",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.ingevoerdDoor",
-    "items" : {
-      "IT" : "Italie",
-      "NL" : "Nederland",
-      "VL" : "Vlaanderen",
-      "WA" : "Wallonie"
-    }
+    "items" : [ {
+      "key" : "NL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "VL",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "WA",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "IT",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.sector",
-    "items" : {
-      "1" : "Land- en tuinbouw, visteelt",
-      "10" : "Vastgoed",
-      "11" : "Automotive",
-      "2" : "Mijnbouw",
-      "3" : "Industrie",
-      "4" : "Bouwnijverheid",
-      "5" : "Papier Grafische Industrie",
-      "6" : "Groothandel",
-      "7" : "Dienstverlening",
-      "8" : "Automatisering/ ICT",
-      "81" : "Horeca",
-      "9" : "Detailhandel"
-    }
+    "items" : [ {
+      "key" : "11",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "1",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "2",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "10",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "3",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "4",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "5",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "6",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "7",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "8",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "81",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "9",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.subsector",
-    "items" : {
-      "10-c" : "Onroerend goed / allen",
-      "10a" : "Onroerend goed / algemeen",
-      "10b" : "Onroerend goed / Te ontwikkelen",
-      "11-a" : "Automotive / handel, onderhoud en reparatie",
-      "11-b" : "Automotive / handel auto-onderdelen",
-      "11-c" : "Automotive/ allen",
-      "12-a" : "Detailhandel / food",
-      "12-b" : "Detailhandel / doe het zelf",
-      "12-c" : "Detailhandel / groen- en tuincentra",
-      "12-d" : "Detailhandel / wonen",
-      "12-e" : "Detailhandel / mode",
-      "12-f" : "Detailhandel / overig",
-      "12-g" : "Detailhandel/ allen",
-      "3-a" : "Industrie / voedingsindustrie",
-      "3-b" : "Industrie / textiel",
-      "3-c" : "Industrie / chemisch, kunststof, plastic",
-      "3-d" : "Industrie / metaal",
-      "3-e" : "Industrie / machinebouw",
-      "3-f" : "Industrie / meubelindustrie",
-      "3-g" : "Industrie / papier, karton en verpakkingen",
-      "3-h" : "Industrie / overig",
-      "3-i" : "Industrie/ allen",
-      "4-a" : "Bouwnijverheid / algemeen bouwen, aannemers",
-      "4-b" : "Bouwnijverheid / installatiebranche, dakbedekking",
-      "4-c" : "Bouwnijverheid / grond-, weg-, en waterbouw",
-      "4-e" : "Bouwnijverheid/ afwerking",
-      "4-f" : "Bouwnijverheid / divers, overig",
-      "4-g" : "Bouwnijverheid/ allen",
-      "5-a" : "Papier Grafisch / Uitgeverij",
-      "5-b" : "Papier Grafisch / Drukkerij",
-      "5-c" : "Papier Grafisch/ allen",
-      "6-a" : "Groothandel / food",
-      "6-b" : "Groothandel / consumentengoederen non food",
-      "6-c" : "Groothandel / technisch",
-      "6-d" : "Groothandel/overig",
-      "6-e" : "Groothandel / allen",
-      "7-a" : "Dienstverlening / transport en logistiek",
-      "7-b" : "Dienstverlening / financieel, OG en verzekeringen",
-      "7-c" : "Dienstverlening / verhuur roerende zaken",
-      "7-d" : "Dienstverlening / gezondheidszorg",
-      "7-e" : "Dienstverlening / advisering",
-      "7-f" : "Dienstverlening / facilitaire dienstverlening",
-      "7-g" : "Dienstverlening/ uitzend en detachering",
-      "7-h" : "Dienstverlening / overig",
-      "7-i" : "Dienstverlening/ allen",
-      "8-a" : "ICT / software",
-      "8-b" : "ICT / internet en hosting",
-      "8-c" : "ICT / netwerkbeheer",
-      "8-d" : "ICT/ advies",
-      "8-e" : "ICT / overig",
-      "8-f" : "ICT/ allen",
-      "8-g" : "ICT/ E commerce",
-      "9-a" : "Horeca / recreatie, camping",
-      "9-b" : "Horeca / hotels",
-      "9-c" : "Horeca/ restaurants",
-      "9-d" : "Horeca / café, snackbar",
-      "9-e" : "Horeca/ allen"
-    }
+    "items" : [ {
+      "key" : "3-i",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "7-i",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "8-f",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "5-a",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "4-e",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "10a",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "3-b",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "3-c",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "3-d",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "3-e",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "3-f",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "3-g",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "3-h",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "4-a",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "4-b",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "4-c",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "4-f",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "7-a",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "7-b",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "7-c",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "3-a",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "7-d",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "7-e",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "7-f",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "7-h",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "8-a",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "8-b",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "8-c",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "8-e",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "9-a",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "9-b",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "9-c",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "9-d",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "12-a",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "12-b",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "12-c",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "12-d",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "12-e",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "12-f",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "8-g",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "10-c",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "10b",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "11-b",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "11-c",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "4-g",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "9-e",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "12-g",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "6-c",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "6-a",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "6-b",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "5-b",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "7-g",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "8-d",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "5-c",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "6-d",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "6-e",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "11-a",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.resultaatContact",
-    "items" : {
-      "Afs" : "Afspraak",
-      "Afwij" : "Afwijkend contract gestuurd",
-      "Beld" : "Belde ongelegen",
-      "Beri" : "Bericht achtergelaten",
-      "Besrp" : "Besproken op profielvergadering",
-      "Bev" : "Bevestiging overname contract",
-      "Bin" : "Binnen + informatie intern",
-      "Deal" : "Deal via ons",
-      "Excl" : "Op exclusief gezet",
-      "F" : "F verstuurd + informatie intern",
-      "Fax" : "Fax overzicht ontvangen",
-      "GG" : "Geen gehoor",
-      "Gew" : "Gewijzigd",
-      "I" : "I verstuurd + informatie intern",
-      "Infi" : "Informatie intern",
-      "Informatie Nederland" : "Informatie Nederland",
-      "K" : "K verstuurd + informatie intern",
-      "Kwaliteit MBI" : "Kwaliteit MBI",
-      "Lees" : "Lees eerst deze memo",
-      "NF" : "Nieuw profiel",
-      "Niet" : "Extra informatie niet vrijgeven",
-      "Nu b" : "Nu wel betaald",
-      "Onh" : "On hold gezet",
-      "Opge" : "Opgezegd",
-      "Pers" : "Persoonsgegevens gewijzigd",
-      "Pot" : "Potentieel",
-      "Pot2" : "Potentieel 2",
-      "Pot3" : "Potentieel 3",
-      "Pr na" : "Profiel doorgegeven na contact gehad",
-      "Prof" : "Profiel doorgegeven",
-      "Rea" : "Reactie op dienstverlening",
-      "Rea1" : "Reactie op profiel",
-      "Status" : "Status contacten besproken",
-      "Transeo" : "Transeo",
-      "Uit" : "Uitbesteed",
-      "V" : "V verstuurd + informatie intern",
-      "VC" : "VC verstuurd + informatie intern",
-      "VM" : "Voicemail",
-      "Ver" : "Verwijderd + reden",
-      "Verd" : "Verdeling profiel",
-      "Vr" : "Vragen over (interne) financien",
-      "Woor" : "Woordenboek",
-      "Zw" : "Zwarte lijst",
-      "branche" : "Informatie branche",
-      "deal" : "Deal informatie",
-      "extra" : "Extra informatie",
-      "inf B" : "Informatie Belgie",
-      "inf w" : "Information Wallon",
-      "opac" : "Op actief gezet"
-    }
+    "items" : [ {
+      "key" : "Rea",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Afs",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Pot2",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Afwij",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Lees",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Woor",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Pers",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Fax",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "opac",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Pot3",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Ver",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Gew",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Onh",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Excl",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Deal",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Informatie Nederland",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Kwaliteit MBI",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "inf w",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "inf B",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "extra",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Niet",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Rea1",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "K",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "V",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "I",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "VC",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "F",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Bev",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Infi",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "NF",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Bin",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "branche",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "VM",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Beri",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Beld",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Status",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Besrp",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Prof",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Pot",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Pr na",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Vr",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Uit",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Nu b",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Opge",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Verd",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Zw",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "GG",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "Transeo",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "deal",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   }, {
     "name" : "mkbase.rangeOvernamesom",
-    "items" : {
-      "1" : "€ 0 - € 250.000",
-      "2" : "€ 250.001 - € 500.000",
-      "3" : "€ 500.001 - € 1.000.000",
-      "4" : "€ 1.000.001 - € 2.500.000",
-      "5" : "€ 2.500.001 - € 5.000.000",
-      "6" : "€ 5.000.001 - € 10.000.000",
-      "7" : "€ 10.000.001 - € 25.000.000",
-      "8" : "€ 25.000.001 - € 50.000.000",
-      "9" : "> € 50.000.000"
-    }
+    "items" : [ {
+      "key" : "5",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "2",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "6",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "1",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "9",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "8",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "7",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "4",
+      "color" : null,
+      "backgroundColor" : null
+    }, {
+      "key" : "3",
+      "color" : null,
+      "backgroundColor" : null
+    } ]
   } ],
   "extends" : "commons.item"
 }

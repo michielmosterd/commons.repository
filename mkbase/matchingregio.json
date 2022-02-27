@@ -6,7 +6,8 @@
     "type" : "mkbase.regioSite",
     "required" : true,
     "multiple" : true,
-    "cascadeDelete" : false
+    "cascadeDelete" : false,
+    "inherit" : null
   } ],
   "formulas" : [ ],
   "inherits" : "mkbase.regioSite"

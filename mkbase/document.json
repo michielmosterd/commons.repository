@@ -24,7 +24,8 @@
     "type" : "mkbase.entiteit",
     "required" : false,
     "multiple" : false,
-    "cascadeDelete" : false
+    "cascadeDelete" : false,
+    "inherit" : null
   } ],
   "formulas" : [ {
     "valueType" : "name",

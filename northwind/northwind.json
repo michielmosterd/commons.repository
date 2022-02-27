@@ -79,6 +79,18 @@
       ]
     },
     {
+      "type": "GENERAL_DASHBOARD",
+      "labelKey": "LABEL:search",
+      "tabPage": true,
+      "items": [
+        {
+          "type": "SEARCH",
+          "class": "northwindModel.item",
+          "showTitle": false
+        }
+      ]
+    },
+    {
       "type": "NAVIGATION_PANE",
       "items": [
         {
@@ -113,6 +125,7 @@
     {
       "language": "en",
       "generalLabels": {
+        "search": "search database",
         "welcomeText": "The Northwind database is a sample database to demonstrate the features of this product. The database contains the sales data for <b onerror=\"alert(1)\" style=\"color: darkblue;\">Northwind Traders</b>, a fictitious specialty foods exportimport company."
       }
     }

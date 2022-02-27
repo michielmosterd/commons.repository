@@ -42,14 +42,19 @@
     "type" : "mkbase.koper",
     "required" : true,
     "multiple" : false,
-    "cascadeDelete" : false
+    "cascadeDelete" : false,
+    "inherit" : null
   }, {
     "type" : "mkbase.verkoper",
     "required" : true,
     "multiple" : false,
-    "cascadeDelete" : false
+    "cascadeDelete" : false,
+    "inherit" : null
   } ],
   "formulas" : [ {
+    "valueType" : "objectLabel",
+    "formula" : "match"
+  }, {
     "valueType" : "name",
     "formula" : "{{faseVanContact}}"
   } ],

@@ -28,6 +28,10 @@
                 {
                     "type": "NAVIGATE",
                     "class": "mkbase.verkoperIndirect"
+                },
+                {
+                    "type": "SEARCH",
+                    "class": "mkbase.entiteit"
                 }
             ]
         }

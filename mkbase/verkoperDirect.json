@@ -57,6 +57,9 @@
     "list" : "mkbase.prijsVanContract"
   } ],
   "relations" : [ ],
-  "formulas" : [ ],
+  "formulas" : [ {
+    "valueType" : "objectLabel",
+    "formula" : "verkoperDirect"
+  } ],
   "inherits" : "mkbase.verkoper"
 }

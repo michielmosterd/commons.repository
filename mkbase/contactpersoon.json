@@ -60,9 +60,13 @@
     "type" : "mkbase.entiteit",
     "required" : false,
     "multiple" : false,
-    "cascadeDelete" : false
+    "cascadeDelete" : false,
+    "inherit" : null
   } ],
   "formulas" : [ {
+    "valueType" : "objectLabel",
+    "formula" : "contactpersoon"
+  }, {
     "valueType" : "name",
     "formula" : "{{geslacht}} {{voorletters}} {{achternaam}}"
   }, {

@@ -10,6 +10,9 @@
   } ],
   "relations" : [ ],
   "formulas" : [ {
+    "valueType" : "objectLabel",
+    "formula" : "onroerendGoed"
+  }, {
     "valueType" : "name",
     "formula" : "Onroerend goed"
   } ],

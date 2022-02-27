@@ -4,7 +4,6 @@
     "extends": "mkbase.memo",
     "views": [
         {
-            "name": "Overview",
             "defaultView": true,
             "relationView": true,
             "defaultSort": "datum,desc",

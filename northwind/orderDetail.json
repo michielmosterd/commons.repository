@@ -48,7 +48,6 @@
     ],
     "views": [
         {
-            "name": "Overview",
             "defaultView": true,
             "relationView": true,
             "defaultSort": "product,order",

@@ -78,7 +78,8 @@
     "type" : "mkbase.regioSite",
     "required" : true,
     "multiple" : false,
-    "cascadeDelete" : false
+    "cascadeDelete" : false,
+    "inherit" : null
   } ],
   "formulas" : [ {
     "valueType" : "name",

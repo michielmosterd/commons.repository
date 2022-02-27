@@ -63,6 +63,9 @@
     "list" : "mkbase.mbiWeek"
   } ],
   "relations" : [ ],
-  "formulas" : [ ],
+  "formulas" : [ {
+    "valueType" : "objectLabel",
+    "formula" : "koperDirect"
+  } ],
   "inherits" : "mkbase.koper"
 }
