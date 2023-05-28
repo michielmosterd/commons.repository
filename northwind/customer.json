@@ -56,6 +56,5 @@
             "valueType": "name",
             "formula": "{{companyName}}"
         }
-    ],
-    "relations": []
+    ]
 }
