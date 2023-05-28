@@ -49,10 +49,6 @@
         {
             "name": "fax",
             "dataType": "TEXT"
-        },
-        {
-            "name": "email",
-            "dataType": "TEXT"
         }
     ],
     "formulas": [
