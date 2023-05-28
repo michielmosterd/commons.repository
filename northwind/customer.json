@@ -45,6 +45,10 @@
         {
             "name": "phone",
             "dataType": "TEXT"
+        },
+        {
+            "name": "fax",
+            "dataType": "TEXT"
         }
     ],
     "formulas": [
