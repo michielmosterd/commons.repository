@@ -1,0 +1,10 @@
+{
+    "class": "development.story",
+    "inherits": "development.devitem",
+    "type": "BASIC",
+    "relations": [{
+            "type": "development.epic",
+            "required": true
+        }
+    ]
+}

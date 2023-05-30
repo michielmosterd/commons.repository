@@ -1,0 +1,8 @@
+{
+    "class": "development.index",
+    "type": "NONE",
+
+    "imports": [
+        "development.story"
+    ]
+}

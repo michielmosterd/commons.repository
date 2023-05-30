@@ -1,0 +1,13 @@
+{
+    "class": "development.devitem",
+    "inherits": "commons.item",
+    "type": "ABSTRACT",
+    
+    "valueTypes": [
+        {
+            "name": "description",
+            "dataType": "TEXTBLOCK",
+            "required": true
+        }
+    ]
+}

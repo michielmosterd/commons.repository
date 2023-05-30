@@ -1,0 +1,10 @@
+{
+    "class": "development.epic",
+    "inherits": "development.devitem",
+    "type": "BASIC",
+    "relations": [{
+            "type": "development.project",
+            "required": true
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "class": "development.project",
+    "inherits": "development.devitem",
+    "type": "BASIC"
+}
