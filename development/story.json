@@ -10,9 +10,9 @@
   ],
   "valueTypes": [
     {
-      "name": "list",
+      "name": "priority",
       "dataType": "LIST",
-      "list": "commons.testList",
+      "list": "development.priority",
       "required": true
     }
   ],
@@ -38,6 +38,7 @@
     {
       "language": "nl",
       "valueTypeLabels": {
+        "priority": "prioriteit",
         "development.priority:1-high": "HOOG",
         "development.priority:3-medium": "GEMIDDELD",
         "development.priority:5-low": "LAAG"
