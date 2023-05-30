@@ -44,5 +44,16 @@
         "development.priority:5-low": "LAAG"
       }
     }
+  ],
+  "views": [
+    {
+      "defaultView": true,
+      "defaultSort": "priority",
+      "values": [
+        { "type": "RELATION", "relatedClass": "development.epic" },
+        { "name": "name" },
+        { "name": "priority" }
+      ]
+    }
   ]
 }
