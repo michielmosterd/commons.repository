@@ -6,8 +6,7 @@
     "valueTypes": [
         {
             "name": "description",
-            "dataType": "TEXTBLOCK",
-            "required": true
+            "dataType": "TEXTBLOCK"
         }
     ]
 }
