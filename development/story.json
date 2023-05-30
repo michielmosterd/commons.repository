@@ -20,9 +20,9 @@
     {
       "name": "development.priority",
       "items": [
-        { "key": "1-high", "backgroundColor": "#FF0000" },
-        { "key": "3-medium", "backgroundColor": "#FFA500" },
-        { "key": "5-low", "backgroundColor": "#00FF00" }
+        { "key": "1-high", "backgroundColor": "#FF0000", "color": "white" },
+        { "key": "3-medium", "backgroundColor": "#FFA500", "color": "white" },
+        { "key": "5-low", "backgroundColor": "#005500", "color": "white" }
       ]
     }
   ],
