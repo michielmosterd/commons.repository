@@ -52,6 +52,7 @@
   "views": [
     {
       "defaultView": true,
+      "relationView": true,
       "defaultSort": "priority",
       "values": [
         { "type": "RELATION", "relatedClass": "development.epic" },
