@@ -25,7 +25,7 @@
     "formulas": [
         { 
             "valueType": "name",
-            "formula": "{{territoryDescription}}"
+            "template": "{{territoryDescription}}"
         }
     ]
 }

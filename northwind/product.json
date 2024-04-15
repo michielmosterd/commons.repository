@@ -43,7 +43,7 @@
     "formulas": [
         { 
             "valueType": "name",
-            "formula": "{{productName}}"
+            "template": "{{productName}}"
         }
     ],
     "relations": [

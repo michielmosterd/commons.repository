@@ -27,7 +27,7 @@
     "formulas": [
         { 
             "valueType": "name",
-            "formula": "{{categoryName}}"
+            "template": "{{categoryName}}"
         }
     ],
     "relations": []

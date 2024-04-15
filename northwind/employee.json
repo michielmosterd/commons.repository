@@ -80,7 +80,7 @@
     "formulas": [
         { 
             "valueType": "name",
-            "formula": "{{firstName}} {{lastName}}"
+            "template": "{{firstName}} {{lastName}}"
         }
     ],
     "relations": [{

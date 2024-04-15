@@ -27,11 +27,11 @@
     "formulas": [
         {
             "valueType": "name",
-            "formula": "{{orderID}}"
+            "template": "{{orderID}}"
         },
         {
             "valueType": "total",
-            "formula": "{{quantity}} * {{unitPrice}} * (1 - {{discount}})"
+            "template": "{{quantity}} * {{unitPrice}} * (1 - {{discount}})"
         }
     ],
     "relations": [

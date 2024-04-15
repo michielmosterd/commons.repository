@@ -53,7 +53,7 @@
     "formulas": [
         { 
             "valueType": "name",
-            "formula": "Order #{{orderID}}"
+            "template": "Order #{{orderID}}"
         }
     ],
     "relations": [

@@ -58,7 +58,7 @@
     "formulas": [
         { 
             "valueType": "name",
-            "formula": "{{companyName}}"
+            "template": "{{companyName}}"
         }
     ],
     "relations": []
