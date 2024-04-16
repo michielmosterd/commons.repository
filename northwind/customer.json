@@ -49,12 +49,20 @@
         {
             "name": "fax",
             "dataType": "TEXT"
+        },
+        {
+            "name": "totalPurchase",
+            "dataType": "CURRENCY"
         }
     ],
     "formulas": [
         { 
             "valueType": "name",
             "template": "{{companyName}}"
+        },
+        {
+            "valueType": "totalPurchase",
+            "formula": "sum(orders.total)"
         }
     ]
 }

@@ -74,12 +74,20 @@
         {
             "name": "photo",
             "dataType": "IMAGE"
+        },
+        {
+            "name": "totalSales",
+            "dataType": "CURRENCY"
         }
     ],
     "formulas": [
         { 
             "valueType": "name",
             "template": "{{firstName}} {{lastName}}"
+        },
+        {
+            "valueType": "totalSales",
+            "formula": "sum(orders.total)"
         }
     ],
     "relations": [{
