@@ -11,7 +11,8 @@
     "northwindModel.order",
     "northwindModel.product",
     "northwindModel.shipper",
-    "northwindModel.territory"
+    "northwindModel.territory",
+    "northwindModel.migration"
   ],
   "assets": [
     {

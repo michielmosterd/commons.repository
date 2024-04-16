@@ -1,0 +1,450 @@
+{
+    "class": "northwindModel.migration",
+    "type": "NONE",
+    "migration": {
+        "migrationType": "odata",
+        "parameters": [
+            {
+                "name": "url",
+                "type": "HYPERLINK",
+                "enabled": true,
+                "required": true,
+                "list": null
+            }
+        ],
+        "steps": [
+            {
+                "source": "Categories",
+                "target": "northwindModel.category",
+                "fields": [
+                    {
+                        "source": "CategoryID",
+                        "target": "categoryID",
+                        "type": "INTEGER",
+                        "key": true
+                    },
+                    {
+                        "source": "CategoryName",
+                        "target": "categoryName",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Description",
+                        "target": "description",
+                        "type": "TEXT"
+                    }
+                ],
+                "relations": []
+            },
+            {
+                "source": "Customers",
+                "target": "northwindModel.customer",
+                "fields": [
+                    {
+                        "source": "CustomerID",
+                        "target": "customerID",
+                        "type": "TEXT",
+                        "key": true
+                    },
+                    {
+                        "source": "CompanyName",
+                        "target": "companyName",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "ContactName",
+                        "target": "contactName",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "ContactTitle",
+                        "target": "contactTitle",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Address",
+                        "target": "address",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "City",
+                        "target": "city",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Region",
+                        "target": "region",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "PostalCode",
+                        "target": "postalCode",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Country",
+                        "target": "country",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Phone",
+                        "target": "phone",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Fax",
+                        "target": "fax",
+                        "type": "TEXT"
+                    }
+                ],
+                "relations": []
+            },
+            {
+                "source": "Employees",
+                "target": "northwindModel.employee",
+                "fields": [
+                    {
+                        "source": "EmployeeID",
+                        "target": "employeeID",
+                        "type": "INTEGER",
+                        "key": true
+                    },
+                    {
+                        "source": "LastName",
+                        "target": "lastName",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "FirstName",
+                        "target": "firstName",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Title",
+                        "target": "title",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "TitleOfCourtesy",
+                        "target": "titleOfCourtesy",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "BirthDate",
+                        "target": "birthDate",
+                        "type": "DATE"
+                    },
+                    {
+                        "source": "HireDate",
+                        "target": "hireDate",
+                        "type": "DATE"
+                    },
+                    {
+                        "source": "Address",
+                        "target": "address",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "City",
+                        "target": "city",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Region",
+                        "target": "region",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "PostalCode",
+                        "target": "postalCode",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Country",
+                        "target": "country",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "HomePhone",
+                        "target": "homePhone",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Extension",
+                        "target": "extension",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Notes",
+                        "target": "notes",
+                        "type": "TEXT"
+                    }
+                ],
+                "relations": []
+            },
+            {
+                "source": "Shippers",
+                "target": "northwindModel.shipper",
+                "fields": [
+                    {
+                        "source": "ShipperID",
+                        "target": "shipperID",
+                        "type": "INTEGER",
+                        "key": true
+                    },
+                    {
+                        "source": "CompanyName",
+                        "target": "companyName",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Phone",
+                        "target": "phone",
+                        "type": "TEXT"
+                    }
+                ],
+                "relations": []
+            },
+            {
+                "source": "Suppliers",
+                "target": "northwindModel.supplier",
+                "fields": [
+                    {
+                        "source": "SupplierID",
+                        "target": "supplierID",
+                        "type": "INTEGER",
+                        "key": true
+                    },
+                    {
+                        "source": "CompanyName",
+                        "target": "companyName",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "ContactName",
+                        "target": "contactName",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "ContactTitle",
+                        "target": "contactTitle",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Address",
+                        "target": "address",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "City",
+                        "target": "city",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Region",
+                        "target": "region",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "PostalCode",
+                        "target": "postalCode",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Country",
+                        "target": "country",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Phone",
+                        "target": "phone",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "Fax",
+                        "target": "fax",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "HomePage",
+                        "target": "homePage",
+                        "type": "TEXT"
+                    }
+                ],
+                "relations": []
+            },
+            {
+                "source": "Products",
+                "target": "northwindModel.product",
+                "fields": [
+                    {
+                        "source": "ProductID",
+                        "target": "productID",
+                        "type": "INTEGER",
+                        "key": true
+                    },
+                    {
+                        "source": "ProductName",
+                        "target": "productName",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "QuantityPerUnit",
+                        "target": "quantityPerUnit",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "UnitPrice",
+                        "target": "unitPrice",
+                        "type": "CURRENCY"
+                    },
+                    {
+                        "source": "UnitsInStock",
+                        "target": "unitsInStock",
+                        "type": "INTEGER"
+                    },
+                    {
+                        "source": "UnitsOnOrder",
+                        "target": "unitsOnOrder",
+                        "type": "INTEGER"
+                    },
+                    {
+                        "source": "ReorderLevel",
+                        "target": "reorderLevel",
+                        "type": "INTEGER"
+                    },
+                    {
+                        "source": "Discontinued",
+                        "target": "discontinued",
+                        "type": "BOOLEAN"
+                    }
+                ],
+                "relations": [
+                    {
+                        "source": "SupplierID",
+                        "target": "northwindModel.supplier",
+                        "multiple": false
+                    },
+                    {
+                        "source": "CategoryID",
+                        "target": "northwindModel.category",
+                        "multiple": false
+                    }
+                ]
+            },
+            {
+                "source": "Orders",
+                "target": "northwindModel.order",
+                "fields": [
+                    {
+                        "source": "OrderID",
+                        "target": "orderID",
+                        "type": "INTEGER",
+                        "key": true
+                    },
+                    {
+                        "source": "OrderDate",
+                        "target": "orderDate",
+                        "type": "DATE"
+                    },
+                    {
+                        "source": "RequiredDate",
+                        "target": "requiredDate",
+                        "type": "DATE"
+                    },
+                    {
+                        "source": "ShippedDate",
+                        "target": "shippedDate",
+                        "type": "DATE"
+                    },
+                    {
+                        "source": "Freight",
+                        "target": "freight",
+                        "type": "CURRENCY"
+                    },
+                    {
+                        "source": "ShipName",
+                        "target": "shipName",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "ShipAddress",
+                        "target": "shipAddress",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "ShipCity",
+                        "target": "shipCity",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "ShipRegion",
+                        "target": "shipRegion",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "ShipPostalCode",
+                        "target": "shipPostalCode",
+                        "type": "TEXT"
+                    },
+                    {
+                        "source": "ShipCountry",
+                        "target": "shipCountry",
+                        "type": "TEXT"
+                    }
+                ],
+                "relations": [
+                    {
+                        "source": "CustomerID",
+                        "target": "northwindModel.customer",
+                        "multiple": false
+                    },
+                    {
+                        "source": "EmployeeID",
+                        "target": "northwindModel.employee",
+                        "multiple": false
+                    },
+                    {
+                        "source": "ShipVia",
+                        "target": "northwindModel.shipper",
+                        "multiple": false
+                    }
+                ]
+            },
+            {
+                "source": "Order_Details",
+                "target": "northwindModel.orderDetail",
+                "fields": [
+                    {
+                        "source": "UnitPrice",
+                        "target": "unitPrice",
+                        "type": "CURRENCY"
+                    },
+                    {
+                        "source": "Quantity",
+                        "target": "quantity",
+                        "type": "INTEGER"
+                    },
+                    {
+                        "source": "Discount",
+                        "target": "discount",
+                        "type": "PERCENTAGE"
+                    }
+                ],
+                "relations": [
+                    {
+                        "source": "OrderID",
+                        "target": "northwindModel.order",
+                        "multiple": false
+                    },
+                    {
+                        "source": "ProductID",
+                        "target": "northwindModel.product",
+                        "multiple": false
+                    }
+                ]
+            }
+        ],
+        "valueMap": {}
+    }
+}

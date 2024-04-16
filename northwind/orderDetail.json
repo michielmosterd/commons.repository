@@ -6,12 +6,12 @@
     "valueTypes": [
         {
             "name": "unitPrice",
-            "dataType": "DECIMAL",
+            "dataType": "CURRENCY",
             "required": true
         },
         {
             "name": "total",
-            "dataType": "DECIMAL"
+            "dataType": "CURRENCY"
         },
         {
             "name": "quantity",
@@ -20,7 +20,7 @@
         },
         {
             "name": "discount",
-            "dataType": "DECIMAL",
+            "dataType": "PERCENTAGE",
             "required": true
         }
     ],
@@ -31,7 +31,7 @@
         },
         {
             "valueType": "total",
-            "template": "{{quantity}} * {{unitPrice}} * (1 - {{discount}})"
+            "formula": "quantity * unitPrice * (1 - discount)"
         }
     ],
     "relations": [
@@ -56,7 +56,8 @@
                 { "type": "RELATION", "relatedClass": "northwindModel.order" },
                 { "name": "unitPrice" },
                 { "name": "quantity" },
-                { "name": "discount" }
+                { "name": "discount" },
+                { "name": "total" }
             ]
         }
     ]

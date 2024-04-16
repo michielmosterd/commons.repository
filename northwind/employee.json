@@ -73,8 +73,7 @@
         },
         {
             "name": "photo",
-            "dataType": "IMAGE",
-            "required": true
+            "dataType": "IMAGE"
         }
     ],
     "formulas": [

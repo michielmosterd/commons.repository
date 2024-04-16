@@ -23,7 +23,7 @@
         },
         {
             "name": "freight",
-            "dataType": "DECIMAL"
+            "dataType": "CURRENCY"
         },
         {
             "name": "shipName",
@@ -48,12 +48,20 @@
         {
             "name": "shipCountry",
             "dataType": "TEXT"
+        },
+        {
+            "name": "total",
+            "dataType": "CURRENCY"
         }
     ],
     "formulas": [
         { 
             "valueType": "name",
             "template": "Order #{{orderID}}"
+        },
+        {
+            "valueType": "total",
+            "formula": "sum(orderDetails.total)"
         }
     ],
     "relations": [
@@ -77,11 +85,12 @@
       {
         "defaultView": true,
         "relationView": true,
-        "defaultSort": "orderID",
+        "defaultSort": "name,desc",
         "values": [
             { "type": "RELATION", "relatedClass": "northwindModel.customer" },
             { "name": "name" },
-            { "name": "orderDate" }
+            { "name": "orderDate" },
+            { "name": "total" }
         ]
       }
     ]

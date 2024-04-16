@@ -20,7 +20,7 @@
         },
         {
             "name": "unitPrice",
-            "dataType": "DECIMAL"
+            "dataType": "CURRENCY"
         },
         {
             "name": "unitsInStock",
