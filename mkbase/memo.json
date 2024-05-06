@@ -2,6 +2,36 @@
   "class" : "mkbase.memo",
   "type" : "BASIC",
   "valueTypes" : [ {
+    "name" : "resultaatContact",
+    "dataType" : "LIST",
+    "enabled" : true,
+    "required" : false,
+    "list" : "mkbase.resultaatContact"
+  }, {
+    "name" : "datum",
+    "dataType" : "DATE",
+    "enabled" : true,
+    "required" : true,
+    "list" : null
+  }, {
+    "name" : "schrijverMemo",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "kernwoord",
+    "dataType" : "TEXT",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
+    "name" : "opmerking",
+    "dataType" : "TEXTBLOCK",
+    "enabled" : true,
+    "required" : false,
+    "list" : null
+  }, {
     "name" : "followUp",
     "dataType" : "DATE",
     "enabled" : true,
@@ -17,7 +47,7 @@
   } ],
   "formulas" : [ {
     "valueType" : "name",
-    "formula" : "{<4.2><129>}"
+    "template" : "Memo {{entiteit.profielnummer}} {{datum}}"
   } ],
-  "inherits" : "mkbase.alleMemoS"
+  "inherits" : "commons.item"
 }

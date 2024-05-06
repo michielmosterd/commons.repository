@@ -23,10 +23,10 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "objectLabel",
-    "formula" : "adviseur"
+    "template" : "adviseur"
   }, {
     "valueType" : "summary",
-    "formula" : "Adviseur {{contractvorm}}"
+    "template" : "Adviseur {{contractvorm}}"
   } ],
   "inherits" : "mkbase.intermediair"
 }

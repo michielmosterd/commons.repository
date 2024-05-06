@@ -1962,7 +1962,7 @@
       "relations" : [ ]
     }, {
       "source" : "31",
-      "target" : "mkbase.gearchiveerdeMemo",
+      "target" : "mkbase.memo",
       "fields" : [ {
         "source" : "Resultaatcontact",
         "target" : "resultaatContact",

@@ -11,10 +11,10 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "objectLabel",
-    "formula" : "onroerendGoed"
+    "template" : "onroerendGoed"
   }, {
     "valueType" : "name",
-    "formula" : "Onroerend goed"
+    "template" : "Onroerend goed"
   } ],
   "inherits" : "commons.item"
 }

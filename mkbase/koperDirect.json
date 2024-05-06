@@ -65,7 +65,7 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "objectLabel",
-    "formula" : "koperDirect"
+    "template" : "koperDirect"
   } ],
   "inherits" : "mkbase.koper"
 }

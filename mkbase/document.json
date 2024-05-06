@@ -29,7 +29,7 @@
   } ],
   "formulas" : [ {
     "valueType" : "name",
-    "formula" : "{{titel}}"
+    "formula" : "titel"
   } ],
   "inherits" : "commons.item"
 }

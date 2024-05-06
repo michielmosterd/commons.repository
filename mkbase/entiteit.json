@@ -83,7 +83,7 @@
   } ],
   "formulas" : [ {
     "valueType" : "name",
-    "formula" : "{{profielnummer}} {{BedrijfsNaam}} {!Contract}"
+    "template" : "{{profielnummer}} {{BedrijfsNaam}} {!Contract}"
   } ],
   "inherits" : "commons.item"
 }

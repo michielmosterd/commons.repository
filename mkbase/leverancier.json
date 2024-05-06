@@ -5,7 +5,7 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "name",
-    "formula" : "Leverancier"
+    "template" : "Leverancier"
   } ],
   "inherits" : "mkbase.entiteit"
 }

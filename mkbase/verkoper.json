@@ -239,13 +239,13 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "profielnummer",
-    "formula" : "S{{identifier \"VerkoperReeks\"}}"
+    "template" : "S{{identifier \"VerkoperReeks\"}}"
   }, {
     "valueType" : "name",
-    "formula" : "{{profielnummer}} {{BedrijfsNaam}} {{profielstatus}} {{contractvorm}}"
+    "template" : "{{profielnummer}} {{BedrijfsNaam}} {{profielstatus}} {{contractvorm}}"
   }, {
     "valueType" : "summary",
-    "formula" : "{{interesse}}"
+    "template" : "{{interesse}}"
   } ],
   "inherits" : "mkbase.entiteit"
 }

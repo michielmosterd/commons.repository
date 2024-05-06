@@ -101,10 +101,10 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "profielnummer",
-    "formula" : "I{{identifier \"IntermediairReeks\"}}"
+    "template" : "I{{identifier \"IntermediairReeks\"}}"
   }, {
     "valueType" : "name",
-    "formula" : "{{profielnummer}} {{BedrijfsNaam}} {{contractvorm}}"
+    "template" : "{{profielnummer}} {{BedrijfsNaam}} {{contractvorm}}"
   } ],
   "inherits" : "mkbase.entiteit"
 }

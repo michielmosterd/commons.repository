@@ -29,13 +29,13 @@
   } ],
   "formulas" : [ {
     "valueType" : "objectLabel",
-    "formula" : "mogelijkeMatch"
+    "template" : "mogelijkeMatch"
   }, {
     "valueType" : "name",
-    "formula" : "{{mogelijkeMatch}}"
+    "template" : "{{mogelijkeMatch}}"
   }, {
     "valueType" : "summary",
-    "formula" : "{{mogelijkeMatch}}"
+    "template" : "{{mogelijkeMatch}}"
   } ],
   "inherits" : "mkbase.mappensysteem"
 }

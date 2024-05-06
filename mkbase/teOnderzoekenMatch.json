@@ -29,10 +29,10 @@
   } ],
   "formulas" : [ {
     "valueType" : "name",
-    "formula" : "{{teOnderzoekenMatch}}"
+    "template" : "{{teOnderzoekenMatch}}"
   }, {
     "valueType" : "summary",
-    "formula" : "Te onderzoeken match"
+    "template" : "Te onderzoeken match"
   } ],
   "inherits" : "mkbase.mappensysteem"
 }

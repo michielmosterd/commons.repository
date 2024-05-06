@@ -59,7 +59,7 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "objectLabel",
-    "formula" : "verkoperDirect"
+    "template" : "verkoperDirect"
   } ],
   "inherits" : "mkbase.verkoper"
 }

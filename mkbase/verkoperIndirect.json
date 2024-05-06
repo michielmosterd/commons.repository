@@ -11,7 +11,7 @@
   } ],
   "formulas" : [ {
     "valueType" : "objectLabel",
-    "formula" : "verkoperIndirect"
+    "template" : "verkoperIndirect"
   } ],
   "inherits" : "mkbase.verkoper"
 }

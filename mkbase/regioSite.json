@@ -23,7 +23,7 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "name",
-    "formula" : "{{regioNl}}"
+    "template" : "{{regioNl}}"
   } ],
   "inherits" : "commons.item"
 }

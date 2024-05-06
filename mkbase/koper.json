@@ -161,13 +161,13 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "profielnummer",
-    "formula" : "B{{identifier \"KoperReeks\"}}"
+    "template" : "B{{identifier \"KoperReeks\"}}"
   }, {
     "valueType" : "name",
-    "formula" : "{{profielnummer}} {{BedrijfsNaam}} {{profielstatus}} {{contractvorm}}"
+    "template" : "{{profielnummer}} {{BedrijfsNaam}} {{profielstatus}} {{contractvorm}}"
   }, {
     "valueType" : "summary",
-    "formula" : "{{interesse}}"
+    "template" : "{{interesse}}"
   } ],
   "inherits" : "mkbase.entiteit"
 }

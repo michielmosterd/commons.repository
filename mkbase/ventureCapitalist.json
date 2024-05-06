@@ -71,7 +71,7 @@
   "relations" : [ ],
   "formulas" : [ {
     "valueType" : "objectLabel",
-    "formula" : "ventureCapitalist"
+    "template" : "ventureCapitalist"
   } ],
   "inherits" : "mkbase.intermediair"
 }

@@ -53,10 +53,10 @@
   } ],
   "formulas" : [ {
     "valueType" : "objectLabel",
-    "formula" : "match"
+    "template" : "match"
   }, {
     "valueType" : "name",
-    "formula" : "{{faseVanContact}}"
+    "template" : "{{faseVanContact}}"
   } ],
   "inherits" : "mkbase.mappensysteem"
 }
